@@ -1,0 +1,27 @@
+image: node:20
+
+stages:
+  - check
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - when: never
+
+check_drafts:
+  stage: check
+  before_script:
+    - npm ci
+  script:
+    - npm run check-once
+    - |
+      if git status --short data/state.json | grep -q .; then
+        git config user.email "draft-watcher@example.invalid"
+        git config user.name "Sabatini Draft Watcher"
+        git add data/state.json
+        git commit -m "Update Sabatini draft snapshot [skip ci]"
+        git push "https://oauth2:${GITLAB_STATE_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_COMMIT_REF_NAME}"
+      else
+        echo "No state change to commit."
+      fi
