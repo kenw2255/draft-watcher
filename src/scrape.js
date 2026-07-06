@@ -4,7 +4,12 @@ import * as cheerio from 'cheerio';
 export async function scrapeDraftMenu(sourceUrl) {
   const response = await fetch(sourceUrl, {
     headers: {
-      'user-agent': 'sabatini-gitlab-draft-watcher/0.1 (+https://www.sabatinis.com/bottleshop)',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'accept-language': 'en-US,en;q=0.9',
+      referer: 'https://www.sabatinis.com/bottleshop',
+      'user-agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
     },
   });
 
@@ -21,6 +26,24 @@ export async function scrapeDraftMenu(sourceUrl) {
     .map((_, element) => parseItem($, element))
     .get()
     .filter((item) => item.name);
+
+  if (items.length === 0) {
+    console.log(
+      JSON.stringify(
+        {
+          diagnostic: 'Parsed zero menu items',
+          sourceUrl,
+          htmlLength: html.length,
+          containsMenuItemClass: html.includes('menu-item'),
+          containsUntappd: html.toLowerCase().includes('untappd'),
+          titleTag: cleanText($('title').first().text()),
+          bodyPreview: cleanText($('body').text()).slice(0, 500),
+        },
+        null,
+        2
+      )
+    );
+  }
 
   const lines = items.map(formatItemLine);
   const canonical = JSON.stringify({ title, updatedAt, sectionName, lines });
