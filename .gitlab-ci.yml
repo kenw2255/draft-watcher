@@ -12,7 +12,7 @@ workflow:
 check_drafts:
   stage: check
   before_script:
-    - npm ci
+    - npm install
   script:
     - npm run check-once
     - |
