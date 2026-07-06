@@ -11,6 +11,8 @@ This version runs from a GitLab scheduled pipeline. It does not need a server, a
 5. If the list changed, it posts a GitHub-style diff to Discord using a webhook.
 6. It commits the new `data/state.json` snapshot back to the GitLab repo.
 
+The Sabatini embed is a small JavaScript preloader, so the CI job uses a Playwright container to render the page before parsing the menu rows.
+
 ## Files
 
 - `.gitlab-ci.yml`: GitLab scheduled pipeline job.
@@ -87,3 +89,5 @@ For a no-post local parse test:
 npm install
 npm run check
 ```
+
+The GitLab job uses `npm install` so the project can run without a committed `package-lock.json`. It also sets `PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1` because the GitLab image already includes Chromium. If you prefer stricter dependency pinning later, run `npm install` locally, commit the generated `package-lock.json`, and change `.gitlab-ci.yml` back to `npm ci`.

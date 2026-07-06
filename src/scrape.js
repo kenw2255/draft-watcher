@@ -2,6 +2,41 @@ import { createHash } from 'node:crypto';
 import * as cheerio from 'cheerio';
 
 export async function scrapeDraftMenu(sourceUrl) {
+  let html = await fetchMenuHtml(sourceUrl);
+  let parsed = parseMenuHtml(html);
+
+  if (parsed.items.length === 0 && html.includes('PreloadEmbedMenu')) {
+    console.log('Detected Untappd preloader page; rendering with Playwright.');
+    html = await renderMenuHtml(sourceUrl);
+    parsed = parseMenuHtml(html);
+  }
+
+  if (parsed.items.length === 0) {
+    logZeroItemsDiagnostic(sourceUrl, html);
+  }
+
+  const lines = parsed.items.map(formatItemLine);
+  const canonical = JSON.stringify({
+    title: parsed.title,
+    updatedAt: parsed.updatedAt,
+    sectionName: parsed.sectionName,
+    lines,
+  });
+  const hash = createHash('sha256').update(canonical).digest('hex');
+
+  return {
+    sourceUrl,
+    fetchedAt: new Date().toISOString(),
+    title: parsed.title,
+    updatedAt: parsed.updatedAt,
+    sectionName: parsed.sectionName,
+    items: parsed.items,
+    lines,
+    hash,
+  };
+}
+
+async function fetchMenuHtml(sourceUrl) {
   const response = await fetch(sourceUrl, {
     headers: {
       accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -17,7 +52,30 @@ export async function scrapeDraftMenu(sourceUrl) {
     throw new Error(`Failed to fetch draft menu: ${response.status} ${response.statusText}`);
   }
 
-  const html = await response.text();
+  return response.text();
+}
+
+async function renderMenuHtml(sourceUrl) {
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch({
+    args: ['--disable-dev-shm-usage'],
+  });
+
+  try {
+    const page = await browser.newPage({
+      extraHTTPHeaders: {
+        referer: 'https://www.sabatinis.com/bottleshop',
+      },
+    });
+    await page.goto(sourceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForSelector('.menu-item', { timeout: 30000 });
+    return await page.content();
+  } finally {
+    await browser.close();
+  }
+}
+
+function parseMenuHtml(html) {
   const $ = cheerio.load(html);
   const title = cleanText($('.menu-title').first().text()) || 'Beers on Draft';
   const updatedAt = cleanText($('.date-time time').first().text());
@@ -27,38 +85,27 @@ export async function scrapeDraftMenu(sourceUrl) {
     .get()
     .filter((item) => item.name);
 
-  if (items.length === 0) {
-    console.log(
-      JSON.stringify(
-        {
-          diagnostic: 'Parsed zero menu items',
-          sourceUrl,
-          htmlLength: html.length,
-          containsMenuItemClass: html.includes('menu-item'),
-          containsUntappd: html.toLowerCase().includes('untappd'),
-          titleTag: cleanText($('title').first().text()),
-          bodyPreview: cleanText($('body').text()).slice(0, 500),
-        },
-        null,
-        2
-      )
-    );
-  }
+  return { title, updatedAt, sectionName, items };
+}
 
-  const lines = items.map(formatItemLine);
-  const canonical = JSON.stringify({ title, updatedAt, sectionName, lines });
-  const hash = createHash('sha256').update(canonical).digest('hex');
-
-  return {
-    sourceUrl,
-    fetchedAt: new Date().toISOString(),
-    title,
-    updatedAt,
-    sectionName,
-    items,
-    lines,
-    hash,
-  };
+function logZeroItemsDiagnostic(sourceUrl, html) {
+  const $ = cheerio.load(html);
+  console.log(
+    JSON.stringify(
+      {
+        diagnostic: 'Parsed zero menu items',
+        sourceUrl,
+        htmlLength: html.length,
+        containsMenuItemClass: html.includes('menu-item'),
+        containsPreloadEmbedMenu: html.includes('PreloadEmbedMenu'),
+        containsUntappd: html.toLowerCase().includes('untappd'),
+        titleTag: cleanText($('title').first().text()),
+        bodyPreview: cleanText($('body').text()).slice(0, 500),
+      },
+      null,
+      2
+    )
+  );
 }
 
 function parseItem($, element) {
