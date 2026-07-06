@@ -18,6 +18,13 @@ if (!config.discordWebhookUrl) {
 const previous = await loadState(config.stateFile);
 const current = await scrapeDraftMenu(config.untappdEmbedUrl);
 
+if (current.items.length === 0) {
+  throw new Error(
+    `Parsed 0 draft items from ${config.untappdEmbedUrl}. ` +
+      'Check UNTAPPD_EMBED_URL; it should be the direct filesusr.com Untappd embed URL, not the Sabatini bottleshop page.'
+  );
+}
+
 if (!previous) {
   await saveState(config.stateFile, current);
   console.log(`Saved initial snapshot with ${current.items.length} drafts.`);
