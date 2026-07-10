@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-10T16:10:21.092Z",
+  "fetchedAt": "2026-07-10T23:09:54.784Z",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 10, 11:27 AM EDT",
+  "updatedAt": "Jul 10, 6:40 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
   "items": [
     {
@@ -138,12 +138,12 @@
       ]
     },
     {
-      "name": "Proving Grounds",
-      "style": "IPA - Imperial",
-      "abv": "8% ABV",
+      "name": "An Alien Named Sue",
+      "style": "IPA - New England",
+      "abv": "7% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Tired Hands Brewing Company",
+      "location": "Ardmore, PA",
       "containers": [
         {
           "type": "4oz Draft",
@@ -639,7 +639,7 @@
     "Milkshake IPA (Orange Creamsicle) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE | 4oz Draft $4.00, 10oz Draft $6.95, 16oz Draft $8.95",
     "PUNGE | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
-    "Proving Grounds | IPA - Imperial | 8% ABV | New Trail Brewing Co. | Williamsport, PA | 4oz Draft $3.00, 10oz Draft $4.95, 16oz Draft $5.95",
+    "An Alien Named Sue | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA | 4oz Draft $3.00, 10oz Draft $4.95, 16oz Draft $5.95",
     "Scatter | Brown Ale - American | 6.4% ABV | Fox Farm Brewery | Salem, CT | 4oz Draft $3.00, 10oz Draft $4.95, 16oz Draft $5.95",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xul Beer Company | Knoxville, TN | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
@@ -665,5 +665,5 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest | 4oz Draft $3.50, 10oz Draft $7.95",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest | 4oz Draft $3.50, 10oz Draft $6.95"
   ],
-  "hash": "2a0b4647dec1a8ed20b01d6abff6e271e7dcfc6f343a194e1bfc4358549d9634"
+  "hash": "83ee730673d9a5ea086e46bec51a1bb208a5e46d09249dec804ca4a0c3f18adc"
 }
