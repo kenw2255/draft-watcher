@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-06T20:01:43.424Z",
+  "fetchedAt": "2026-07-10T16:10:21.092Z",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 4, 2:40 PM EDT",
+  "updatedAt": "Jul 10, 11:27 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
   "items": [
     {
@@ -28,24 +28,24 @@
       ]
     },
     {
-      "name": "Aecht Schlenkerla Rauchbier – Urbock",
-      "style": "Rauchbier",
-      "abv": "6.5% ABV",
-      "ibu": "40 IBU",
-      "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
-      "location": "Bamberg, Bayern",
+      "name": "Singha",
+      "style": "Lager - Pale",
+      "abv": "5% ABV",
+      "ibu": "20 IBU",
+      "brewery": "Boon Rawd Brewery",
+      "location": "Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
       "containers": [
         {
           "type": "4oz Draft",
-          "price": "$3.50"
+          "price": "$3.00"
         },
         {
           "type": "10oz Draft",
-          "price": "$5.95"
+          "price": "$4.95"
         },
         {
           "type": "16oz Draft",
-          "price": "$7.95"
+          "price": "$5.95"
         }
       ]
     },
@@ -634,7 +634,7 @@
   ],
   "lines": [
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN | 4oz Draft $3.00, 10oz Draft $4.95, 16oz Draft $5.95",
-    "Aecht Schlenkerla Rauchbier – Urbock | Rauchbier | 6.5% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
+    "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon | 4oz Draft $3.00, 10oz Draft $4.95, 16oz Draft $5.95",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest | 4oz Draft $4.50, 10oz Draft $8.95, 16oz Draft $10.95",
     "Milkshake IPA (Orange Creamsicle) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA | 4oz Draft $3.50, 10oz Draft $5.95, 16oz Draft $7.95",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE | 4oz Draft $4.00, 10oz Draft $6.95, 16oz Draft $8.95",
@@ -665,5 +665,5 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest | 4oz Draft $3.50, 10oz Draft $7.95",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest | 4oz Draft $3.50, 10oz Draft $6.95"
   ],
-  "hash": "2d57e15ef19bc7e78acbf178f72894496a56875c7367a9fce60ce2fe683762b3"
+  "hash": "2a0b4647dec1a8ed20b01d6abff6e271e7dcfc6f343a194e1bfc4358549d9634"
 }
