@@ -260,7 +260,7 @@ def build_change_messages(previous, current):
         if line.startswith(("- ", "+ "))
     ]
     content = [
-        "Sabatini draft list changed",
+        "Sabatini's Draft List Changed",
         f"Updated: {current.updated_at or 'unknown'}",
         "",
         *diff,
@@ -270,7 +270,7 @@ def build_change_messages(previous, current):
 
 def build_initial_messages(current):
     content = [
-        "Sabatini draft list snapshot",
+        "Sabatini's Draft List Snapshot",
         f"Updated: {current.updated_at or 'unknown'}",
         "",
         *(f"+ {line}" for line in current.lines),
