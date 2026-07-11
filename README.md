@@ -1,93 +1,77 @@
-# Sabatini GitLab Draft Watcher
+# Sabatini Python Draft Watcher
 
-This version runs from a GitLab scheduled pipeline. It does not need a server, a Discord bot process, or a computer left on.
+A small, readable GitLab scheduled-pipeline version. It renders Sabatini's JavaScript-powered Untappd embed with Playwright, parses the menu with Beautiful Soup, compares it with `data/state.json`, and posts a `diff` code block to Discord when the draft list changes.
 
-## How It Works
+The code is intentionally kept in one file, `watch.py`, but is divided into a few clear pieces:
 
-1. GitLab starts a scheduled pipeline.
-2. The job fetches Sabatini's Untappd Business embed.
-3. The script parses and normalizes the draft list.
-4. It compares the current list to `data/state.json`.
-5. If the list changed, it posts a GitHub-style diff to Discord using a webhook.
-6. It commits the new `data/state.json` snapshot back to the GitLab repo.
+- `Settings`, `DraftBeer`, and `MenuSnapshot` describe the data.
+- `render_menu_page` loads the dynamic menu in Chromium.
+- `parse_menu_html` and `parse_beer` turn the HTML into Python objects.
+- The state, diff, and Discord functions handle the notification workflow.
 
-The Sabatini embed is a small JavaScript preloader, so the CI job uses a Playwright container to render the page before parsing the menu rows.
+## Discord output settings
 
-## Files
+Near the top of `watch.py`, set any optional beer detail to `True` or `False`:
 
-- `.gitlab-ci.yml`: GitLab scheduled pipeline job.
-- `src/check-once.js`: One-shot script used by the pipeline.
-- `src/scrape.js`: Parses the Untappd Business menu HTML.
-- `src/diff.js`: Builds Discord-safe diff code blocks.
-- `data/state.json`: Created by the first successful run.
-
-## GitLab Setup
-
-### 1. Create A New GitLab Project
-
-Create an empty project, then push this folder's contents to it.
-
-### 2. Create A Discord Webhook
-
-In Discord:
-
-1. Open the target channel settings.
-2. Go to Integrations.
-3. Create a webhook.
-4. Copy the webhook URL.
-
-### 3. Create A GitLab Project Access Token
-
-In GitLab:
-
-1. Go to your project.
-2. Open Settings > Access Tokens.
-3. Create a project access token with `write_repository`.
-4. Copy the token.
-
-This lets the scheduled pipeline commit `data/state.json` after a detected change.
-
-### 4. Add GitLab CI/CD Variables
-
-In GitLab, go to Settings > CI/CD > Variables and add:
-
-| Key | Value |
-| --- | --- |
-| `DISCORD_WEBHOOK_URL` | Your Discord webhook URL |
-| `GITLAB_STATE_PUSH_TOKEN` | The project access token |
-| `UNTAPPD_EMBED_URL` | Optional; defaults to the current Sabatini embed |
-| `POST_INITIAL_SNAPSHOT` | Optional; set to `true` to post the first snapshot |
-
-Keep the webhook and token masked/hidden when GitLab allows it.
-
-### 5. Create The Schedule
-
-In GitLab:
-
-1. Go to Build > Pipeline schedules.
-2. Select New schedule.
-3. Use a cron interval like `17,47 * * * *` for twice an hour.
-4. Set the target branch to your default branch.
-5. Save it.
-
-Use a non-round minute like `17` or `47` so the job is less likely to start at the same moment as everyone else's scheduled jobs.
-
-### 6. Run It Once Manually
-
-From Build > Pipeline schedules, select Run on your new schedule. The first run creates `data/state.json`. If `POST_INITIAL_SNAPSHOT=false`, it saves state but does not post to Discord until the next actual change.
-
-## Local Test
-
-```bash
-npm install
-DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..." npm run check-once
+```python
+SHOW_STYLE = True
+SHOW_ABV = True
+SHOW_IBU = True
+SHOW_BREWERY = True
+SHOW_LOCATION = True
+SHOW_SIZES_AND_PRICES = False
 ```
 
-For a no-post local parse test:
+The beer name is always included. Changing one of these settings changes the normalized snapshot, so the next run may post one diff reflecting the new format.
 
-```bash
-npm install
-npm run check
+These settings affect only the normalized `lines` used for Discord messages. Every parsed field is still stored under `items` in `data/state.json`. If a hidden field changes, the pipeline updates and commits the full JSON snapshot without posting anything to Discord.
+
+GitLab CI/CD variables:
+
+- `DISCORD_WEBHOOK_URL`
+- `GITLAB_STATE_PUSH_TOKEN`
+- optional `UNTAPPD_EMBED_URL`
+
+Run from GitLab with the same hourly schedule, for example:
+
+```cron
+17 * * * *
 ```
 
-The GitLab job uses `npm install` so the project can run without a committed `package-lock.json`. It also sets `PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1` because the GitLab image already includes Chromium. If you prefer stricter dependency pinning later, run `npm install` locally, commit the generated `package-lock.json`, and change `.gitlab-ci.yml` back to `npm ci`.
+The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only removed and added beer lines, with no unchanged menu items included. A missing, blank, or empty state file counts as a first run.
+
+The website's `Updated` timestamp is also part of the Discord comparison. If Untappd changes only that timestamp, Discord receives a small diff containing the old and new timestamps even when every beer is unchanged.
+
+Discord messages include the menu title and current website timestamp, but omit the fixed source URL. The URL remains stored in `data/state.json`.
+
+For consistent Discord mobile highlighting, internal ASCII hyphens are displayed as en dashes. The real leading `- ` on a removed beer remains an ASCII diff marker, so genuine removals still color the full line red. This formatting happens only in Discord output; JSON retains the original Untappd text.
+
+## Separate state branch
+
+Code lives on `main`. Snapshot commits live on the orphan `watcher-state` branch, which is used as storage and is never merged into `main`.
+
+The CI helpers handle this automatically:
+
+1. `ci/load-state.sh` loads `data/state.json` from `watcher-state` before the watcher runs.
+2. `watch.py` checks the current menu and updates the local state when needed.
+3. `ci/save-state.sh` creates the orphan branch if necessary and commits only `data/state.json` to it.
+
+The `resource_group` setting prevents two scheduled jobs from updating the state branch at the same time.
+
+### Migrating an existing repository
+
+1. Push these updated files to `main`, but leave any currently tracked `data/state.json` in place temporarily.
+2. Confirm `GITLAB_STATE_PUSH_TOKEN` still has `write_repository` permission and can create/push `watcher-state`.
+3. Run the scheduled pipeline manually once. It uses the existing state as its baseline and creates the orphan branch without reposting the full menu unnecessarily.
+4. In GitLab, open **Code > Branches** and verify that `watcher-state` contains only `data/state.json`.
+5. Remove the old snapshot from `main`, commit that deletion, and push. It stays out because `.gitignore` now excludes it.
+
+For step 5 from a local clone:
+
+```bash
+git rm --cached data/state.json
+git commit -m "Move draft state to watcher-state branch"
+git push
+```
+
+If `data/state.json` was not already tracked on `main`, skip the migration-specific removal. The first scheduled run creates `watcher-state` and posts the full initial menu.

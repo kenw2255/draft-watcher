@@ -1,7 +1,9 @@
-image: mcr.microsoft.com/playwright:v1.54.1-noble
+image: mcr.microsoft.com/playwright/python:v1.54.0-noble
 
 variables:
   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+  STATE_BRANCH: "watcher-state"
+  STATE_FILE: "data/state.json"
 
 stages:
   - check
@@ -14,17 +16,10 @@ workflow:
 
 check_drafts:
   stage: check
+  resource_group: sabatini-draft-watcher
   before_script:
-    - npm install
+    - python -m pip install -r requirements.txt
+    - bash ci/load-state.sh
   script:
-    - npm run check-once
-    - |
-      if git status --short data/state.json | grep -q .; then
-        git config user.email "draft-watcher@example.invalid"
-        git config user.name "Sabatini Draft Watcher"
-        git add data/state.json
-        git commit -m "Update Sabatini draft snapshot [skip ci]"
-        git push "https://oauth2:${GITLAB_STATE_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_COMMIT_REF_NAME}"
-      else
-        echo "No state change to commit."
-      fi
+    - python watch.py
+    - bash ci/save-state.sh
