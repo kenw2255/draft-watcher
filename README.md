@@ -38,7 +38,7 @@ Run from GitLab with the same hourly schedule, for example:
 17 * * * *
 ```
 
-The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only removed and added beer lines, with no unchanged menu items included. A missing, blank, or empty state file counts as a first run.
+The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only removed and added beer lines, with no unchanged menu items included. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
 
 The website's `Updated` timestamp is also part of the Discord comparison. If Untappd changes only that timestamp, Discord receives a small diff containing the old and new timestamps even when every beer is unchanged.
 
