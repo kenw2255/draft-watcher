@@ -46,6 +46,8 @@ Discord messages include the menu title and current website timestamp, but omit 
 
 For consistent Discord mobile highlighting, internal ASCII hyphens are displayed as en dashes. The real leading `- ` on a removed beer remains an ASCII diff marker, so genuine removals still color the full line red. This formatting happens only in Discord output; JSON retains the original Untappd text.
 
+Webhook requests use Discord's required `DiscordBot (URL, version)` User-Agent format. In GitLab, the URL comes from the predefined `CI_PROJECT_URL` variable; this avoids Cloudflare error 1010 blocking Python's default `urllib` signature.
+
 ## Separate state branch
 
 Code lives on `main`. Snapshot commits live on the orphan `watcher-state` branch, which is used as storage and is never merged into `main`.

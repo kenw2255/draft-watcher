@@ -309,11 +309,18 @@ def protect_internal_hyphens(line):
 
 
 def post_to_discord(webhook_url, messages):
+    project_url = os.getenv("CI_PROJECT_URL", "https://gitlab.com")
+    user_agent = f"DiscordBot ({project_url}, 1.0)"
+
     for message in messages:
         request = Request(
             webhook_url,
             data=json.dumps({"content": message}).encode(),
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "User-Agent": user_agent,
+            },
             method="POST",
         )
 
