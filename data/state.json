@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-17T16:08:39.543839+00:00",
+  "fetchedAt": "2026-07-17T21:04:40.732192+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 17, 11:42 AM EDT",
+  "updatedAt": "Jul 17, 4:20 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
   "items": [
     {
@@ -136,9 +136,9 @@
       ]
     },
     {
-      "name": "Rove",
+      "name": "Barrel-Aged Xenia",
       "style": "Farmhouse Ale - Saison",
-      "abv": "5% ABV",
+      "abv": "6.3% ABV",
       "ibu": "",
       "brewery": "Fox Farm Brewery",
       "location": "Salem, CT",
@@ -406,7 +406,7 @@
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Rove | Farmhouse Ale - Saison | 5% ABV | Fox Farm Brewery | Salem, CT",
+    "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Spiced | 4.5% ABV | Trillium Brewing Company | Canton, MA",
     "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
     "Bourbon Barrel-Aged Framinghammer | Porter - Imperial | 10% ABV | 45 IBU | Jack’s Abby Craft Lagers | Framingham, MA",
@@ -428,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "d9cf9938d9b4633e16c77e6aa0b6b6af74158a253afcfdc5c49baa66013ed93c",
-  "dataHash": "d79a820d03a61ebb7d19fdba9aa82813a2d6fbeb6c0b0f9905b8a00f097929b1"
+  "hash": "c57fd2af7bc095b0722df2fd3c54af56dfa2b5fb2789ef2fbe74de6e5aa1326d",
+  "dataHash": "6563a9672e4c291c60402094137e9fa869a230eb2798614ed1ba4ce93525d8c1"
 }
