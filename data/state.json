@@ -1,36 +1,10 @@
 {
   "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-17T12:10:48.337110+00:00",
+  "fetchedAt": "2026-07-17T16:08:39.543839+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 15, 4:32 PM EDT",
+  "updatedAt": "Jul 17, 11:42 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
   "items": [
-    {
-      "name": "Flamingo Dreams Nitro",
-      "style": "Blonde",
-      "abv": "4.7% ABV",
-      "ibu": "11 IBU",
-      "brewery": "Left Hand Brewing Company",
-      "location": "Longmont, CO",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
-      ]
-    },
-    {
-      "name": "PB Cup",
-      "style": "Porter - Other",
-      "abv": "5.5% ABV",
-      "ibu": "15 IBU",
-      "brewery": "Stevens Point Brewery",
-      "location": "Stevens Point, WI",
-      "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
-      ]
-    },
     {
       "name": "Calumet Queen",
       "style": "Kölsch",
@@ -123,12 +97,12 @@
       ]
     },
     {
-      "name": "Scatter",
-      "style": "Brown Ale - American",
-      "abv": "6.4% ABV",
+      "name": "Icelandic Arctic Berry Ale",
+      "style": "Wheat Beer - Fruited",
+      "abv": "5.2% ABV",
       "ibu": "",
-      "brewery": "Fox Farm Brewery",
-      "location": "Salem, CT",
+      "brewery": "Einstök Ölgerð",
+      "location": "Akureyri, Akureyrarbær",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -211,6 +185,32 @@
         "4oz Draft $4.00",
         "10oz Draft $6.95",
         "16oz Draft $8.95"
+      ]
+    },
+    {
+      "name": "PB Cup",
+      "style": "Porter - Other",
+      "abv": "5.5% ABV",
+      "ibu": "15 IBU",
+      "brewery": "Stevens Point Brewery",
+      "location": "Stevens Point, WI",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
+      ]
+    },
+    {
+      "name": "Flamingo Dreams Nitro",
+      "style": "Blonde",
+      "abv": "4.7% ABV",
+      "ibu": "11 IBU",
+      "brewery": "Left Hand Brewing Company",
+      "location": "Longmont, CO",
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -396,8 +396,6 @@
     }
   ],
   "lines": [
-    "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
-    "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
@@ -405,13 +403,15 @@
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "PUNGE | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "An Alien Named Sue | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
-    "Scatter | Brown Ale - American | 6.4% ABV | Fox Farm Brewery | Salem, CT",
+    "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Rove | Farmhouse Ale - Saison | 5% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Spiced | 4.5% ABV | Trillium Brewing Company | Canton, MA",
     "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
     "Bourbon Barrel-Aged Framinghammer | Porter - Imperial | 10% ABV | 45 IBU | Jack’s Abby Craft Lagers | Framingham, MA",
+    "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
+    "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -428,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "74031299642f4896a6b8bd913106aa0e9a540a52a713eeb0c28ebaa7ba39c1dc",
-  "dataHash": "71719045133604d210a50c4224fc40d05f09b4ccca4ca6bf5f1056a909b6dc0f"
+  "hash": "d9cf9938d9b4633e16c77e6aa0b6b6af74158a253afcfdc5c49baa66013ed93c",
+  "dataHash": "d79a820d03a61ebb7d19fdba9aa82813a2d6fbeb6c0b0f9905b8a00f097929b1"
 }
