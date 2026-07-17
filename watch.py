@@ -17,6 +17,7 @@ DEFAULT_MENU_URL = (
     "78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html"
 )
 MAX_DISCORD_BLOCK_LENGTH = 1850
+DIFF_STAT_BLOCKS = 5
 
 # Discord output settings. The beer name is always included.
 SHOW_STYLE = True
@@ -24,7 +25,7 @@ SHOW_ABV = True
 SHOW_IBU = True
 SHOW_BREWERY = True
 SHOW_LOCATION = True
-SHOW_SIZES_AND_PRICES = False
+SHOW_SIZES_AND_PRICES = True
 
 
 @dataclass(frozen=True)
@@ -244,33 +245,44 @@ def save_state(path, snapshot):
 
 
 def build_change_messages(previous, current):
-    previous_display = [
-        f"Updated: {previous.get('updatedAt') or 'unknown'}",
-        *previous.get("lines", []),
-    ]
-    current_display = [
-        f"Updated: {current.updated_at or 'unknown'}",
-        *current.lines,
-    ]
-
-    # ndiff identifies sequence changes; filtering removes all unchanged context.
-    diff = [
+    # ndiff identifies beer changes; filtering removes all unchanged context.
+    beer_diff = [
         line
-        for line in difflib.ndiff(previous_display, current_display)
+        for line in difflib.ndiff(previous.get("lines", []), current.lines)
         if line.startswith(("- ", "+ "))
     ]
     content = [
-        "Sabatini's Draft List Changed",
+        f"Sabatini's Draft List Changed [{build_diff_stat(beer_diff)}]",
         f"Updated: {current.updated_at or 'unknown'}",
         "",
-        *diff,
+        *beer_diff,
     ]
     return make_diff_blocks("\n".join(content))
 
 
+def build_diff_stat(beer_diff):
+    additions = sum(line.startswith("+ ") for line in beer_diff)
+    deletions = sum(line.startswith("- ") for line in beer_diff)
+    total = additions + deletions
+
+    if total == 0:
+        bar = "\u2b1b" * DIFF_STAT_BLOCKS
+    else:
+        added_blocks = (additions * DIFF_STAT_BLOCKS + total // 2) // total
+
+        # Keep both colors visible when the change contains additions and removals.
+        if additions and deletions:
+            added_blocks = min(max(added_blocks, 1), DIFF_STAT_BLOCKS - 1)
+
+        removed_blocks = DIFF_STAT_BLOCKS - added_blocks
+        bar = "\U0001f7e9" * added_blocks + "\U0001f7e5" * removed_blocks
+
+    return f"+{additions} \u2212{deletions} {bar}"
+
+
 def build_initial_messages(current):
     content = [
-        "Sabatini's Draft List Snapshot",
+        "Sabatini draft list snapshot",
         f"Updated: {current.updated_at or 'unknown'}",
         "",
         *(f"+ {line}" for line in current.lines),
