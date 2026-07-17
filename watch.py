@@ -25,7 +25,7 @@ SHOW_ABV = True
 SHOW_IBU = True
 SHOW_BREWERY = True
 SHOW_LOCATION = True
-SHOW_SIZES_AND_PRICES = True
+SHOW_SIZES_AND_PRICES = False
 
 
 @dataclass(frozen=True)
@@ -282,7 +282,7 @@ def build_diff_stat(beer_diff):
 
 def build_initial_messages(current):
     content = [
-        "Sabatini draft list snapshot",
+        "Sabatini's Draft List Snapshot",
         f"Updated: {current.updated_at or 'unknown'}",
         "",
         *(f"+ {line}" for line in current.lines),
