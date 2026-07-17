@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-15T21:07:54.635459+00:00",
+  "fetchedAt": "2026-07-17T12:10:48.337110+00:00",
   "title": "Beers on Draft",
   "updatedAt": "Jul 15, 4:32 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
@@ -140,7 +140,7 @@
       "style": "Sour - Fruited",
       "abv": "6.5% ABV",
       "ibu": "",
-      "brewery": "Xul Beer Company",
+      "brewery": "Xül Beer Company",
       "location": "Knoxville, TN",
       "serving_options": [
         "4oz Draft $3.50",
@@ -406,7 +406,7 @@
     "PUNGE | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "An Alien Named Sue | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Scatter | Brown Ale - American | 6.4% ABV | Fox Farm Brewery | Salem, CT",
-    "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xul Beer Company | Knoxville, TN",
+    "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Rove | Farmhouse Ale - Saison | 5% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Spiced | 4.5% ABV | Trillium Brewing Company | Canton, MA",
@@ -428,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "595ce95f79e2da365925d4d42d464799b018ae66d4fe34d8790964a0ab35a402",
-  "dataHash": "5e29413fb3bf3411b6d7dd8a82f742c21e0b90176f46dbfedb3c5d800ac743a4"
+  "hash": "74031299642f4896a6b8bd913106aa0e9a540a52a713eeb0c28ebaa7ba39c1dc",
+  "dataHash": "71719045133604d210a50c4224fc40d05f09b4ccca4ca6bf5f1056a909b6dc0f"
 }
