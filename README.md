@@ -38,9 +38,9 @@ Run from GitLab with the same hourly schedule, for example:
 17 * * * *
 ```
 
-The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only removed and added beer lines, with no unchanged menu items included. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
+The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only genuinely removed and added beer lines, with no unchanged menu items included. Moving an existing beer to another draft position is not treated as a removal and addition, although the latest website order is still saved in JSON. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
 
-The website's `Updated` timestamp is also part of the Discord comparison. If Untappd changes only that timestamp, Discord receives a small diff containing the old and new timestamps even when every beer is unchanged.
+The website's `Updated` timestamp can also trigger a notification. It appears once as a plain `Updated:` line and is not included in the beer addition or removal totals. If Untappd changes only that timestamp, Discord receives a small `+0`/`-0` notification with no beer lines.
 
 Discord messages include the menu title and current website timestamp, but omit the fixed source URL. The URL remains stored in `data/state.json`.
 

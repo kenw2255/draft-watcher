@@ -1,7 +1,7 @@
-import difflib
 import hashlib
 import json
 import os
+from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,7 +17,6 @@ DEFAULT_MENU_URL = (
     "78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html"
 )
 MAX_DISCORD_BLOCK_LENGTH = 1850
-DIFF_STAT_BLOCKS = 5
 
 # Discord output settings. The beer name is always included.
 SHOW_STYLE = True
@@ -136,7 +135,9 @@ def main():
         print(f"Posted and saved initial snapshot with {len(current.beers)} drafts.")
         return
 
-    beer_lines_changed = previous.get("lines", []) != current.lines
+    beer_lines_changed = (
+        Counter(previous.get("lines", [])) != Counter(current.lines)
+    )
     timestamp_changed = previous.get("updatedAt", "") != current.updated_at
 
     if not beer_lines_changed and not timestamp_changed:
@@ -245,12 +246,7 @@ def save_state(path, snapshot):
 
 
 def build_change_messages(previous, current):
-    # ndiff identifies beer changes; filtering removes all unchanged context.
-    beer_diff = [
-        line
-        for line in difflib.ndiff(previous.get("lines", []), current.lines)
-        if line.startswith(("- ", "+ "))
-    ]
+    beer_diff = build_beer_diff(previous.get("lines", []), current.lines)
     content = [
         f"Sabatini's Draft List Changed [{build_diff_stat(beer_diff)}]",
         f"Updated: {current.updated_at or 'unknown'}",
@@ -260,24 +256,31 @@ def build_change_messages(previous, current):
     return make_diff_blocks("\n".join(content))
 
 
+def build_beer_diff(previous_lines, current_lines):
+    """Return true additions and removals while ignoring draft-order changes."""
+    removed = Counter(previous_lines) - Counter(current_lines)
+    added = Counter(current_lines) - Counter(previous_lines)
+    diff = []
+
+    for line in previous_lines:
+        if removed[line]:
+            diff.append(f"- {line}")
+            removed[line] -= 1
+
+    for line in current_lines:
+        if added[line]:
+            diff.append(f"+ {line}")
+            added[line] -= 1
+
+    return diff
+
+
 def build_diff_stat(beer_diff):
     additions = sum(line.startswith("+ ") for line in beer_diff)
     deletions = sum(line.startswith("- ") for line in beer_diff)
-    total = additions + deletions
 
-    if total == 0:
-        bar = "\u2b1b" * DIFF_STAT_BLOCKS
-    else:
-        added_blocks = (additions * DIFF_STAT_BLOCKS + total // 2) // total
-
-        # Keep both colors visible when the change contains additions and removals.
-        if additions and deletions:
-            added_blocks = min(max(added_blocks, 1), DIFF_STAT_BLOCKS - 1)
-
-        removed_blocks = DIFF_STAT_BLOCKS - added_blocks
-        bar = "\U0001f7e9" * added_blocks + "\U0001f7e5" * removed_blocks
-
-    return f"+{additions} \u2212{deletions} {bar}"
+    # Unicode signs avoid Discord's inline diff highlighting on mobile.
+    return f"\U0001f7e9\uff0b{additions} \U0001f7e5\u2212{deletions}"
 
 
 def build_initial_messages(current):
