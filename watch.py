@@ -1,4 +1,5 @@
 import argparse
+import gzip
 import hashlib
 import json
 import os
@@ -216,6 +217,7 @@ def fetch_menu_html(source_url):
         source_url,
         headers={
             "Accept": "application/javascript",
+            "Accept-Encoding": "gzip",
             "User-Agent": "SabatiniDraftWatcher/1.0",
         },
     )
@@ -223,10 +225,24 @@ def fetch_menu_html(source_url):
     fetch_started = time.perf_counter()
     with urlopen(request, timeout=30) as response:
         script_bytes = response.read()
+        content_encoding = response.headers.get("Content-Encoding", "").lower()
     fetch_ms = round((time.perf_counter() - fetch_started) * 1000)
-    print(f"{fetch_ms} ms to fetch menu")
 
     decode_started = time.perf_counter()
+    if content_encoding == "gzip":
+        transferred_kb = round(len(script_bytes) / 1024)
+        script_bytes = gzip.decompress(script_bytes)
+        decompressed_kb = round(len(script_bytes) / 1024)
+        print(
+            f"{fetch_ms} ms to download menu "
+            f"({transferred_kb} KB transferred, {decompressed_kb} KB decompressed)"
+        )
+    else:
+        transferred_kb = round(len(script_bytes) / 1024)
+        print(
+            f"{fetch_ms} ms to download menu "
+            f"({transferred_kb} KB, uncompressed response)"
+        )
     script = script_bytes.decode("utf-8")
     html = extract_menu_html(script)
     decode_ms = round((time.perf_counter() - decode_started) * 1000)

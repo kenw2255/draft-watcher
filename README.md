@@ -9,9 +9,9 @@ The code is intentionally kept in one file, `watch.py`, but is divided into a fe
 - `parse_menu_html` and `parse_beer` turn the HTML into Python objects.
 - The state, diff, and Discord functions handle the notification workflow.
 
-The Untappd embed endpoint returns the complete rendered menu inside a JavaScript string. The watcher decodes that string directly, so it does not need Playwright, Chromium, or a browser-rendering service.
+The Untappd embed endpoint returns the complete rendered menu inside a JavaScript string. The watcher requests the response with gzip compression, then decodes that string directly, so it does not need Playwright, Chromium, or a browser-rendering service. If the endpoint returns an uncompressed response, the same parsing path continues normally.
 
-Each check records fetch, HTML decoding, parsing, and total menu-read durations in the GitHub Actions log. Timing information is not sent to Discord or saved in the snapshot.
+Each check records transferred and decompressed response sizes plus fetch, HTML decoding, parsing, and total menu-read durations in the GitHub Actions log. This diagnostic information is not sent to Discord or saved in the snapshot.
 
 ## Discord output settings
 
