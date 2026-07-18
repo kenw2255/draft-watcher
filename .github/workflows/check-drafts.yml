@@ -1,0 +1,65 @@
+name: Check Sabatini drafts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sabatini-draft-watcher
+  cancel-in-progress: false
+
+jobs:
+  check-drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.54.0-noble
+
+    steps:
+      - name: Check configuration
+        id: configuration
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [[ -n "$DISCORD_WEBHOOK_URL" ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::DISCORD_WEBHOOK_URL is not configured; skipping this run."
+          fi
+
+      - name: Check out repository
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Python dependencies
+        if: steps.configuration.outputs.ready == 'true'
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Load previous state
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          STATE_BRANCH: watcher-state
+          STATE_FILE: data/state.json
+        run: bash ci/load-state.sh
+
+      - name: Check draft menu
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          UNTAPPD_EMBED_URL: ${{ vars.UNTAPPD_EMBED_URL }}
+          STATE_FILE: data/state.json
+        run: python watch.py
+
+      - name: Save current state
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          STATE_BRANCH: watcher-state
+          STATE_FILE: data/state.json
+        run: bash ci/save-state.sh
