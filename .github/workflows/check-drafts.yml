@@ -3,7 +3,7 @@ name: Check Sabatini drafts
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "30 * * * *"
 
 permissions:
   contents: write
@@ -53,7 +53,6 @@ jobs:
         if: steps.configuration.outputs.ready == 'true'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          UNTAPPD_EMBED_URL: ${{ vars.UNTAPPD_EMBED_URL }}
           STATE_FILE: data/state.json
         run: python watch.py
 
