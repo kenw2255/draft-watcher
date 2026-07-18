@@ -6,6 +6,7 @@ on:
     - cron: "30 * * * *"
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -16,8 +17,6 @@ jobs:
   check-drafts:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    container:
-      image: mcr.microsoft.com/playwright/python:v1.54.0-noble
 
     steps:
       - name: Check configuration
@@ -38,6 +37,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Python
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
       - name: Install Python dependencies
         if: steps.configuration.outputs.ready == 'true'
         run: python -m pip install --disable-pip-version-check -r requirements.txt
@@ -50,11 +55,31 @@ jobs:
         run: bash ci/load-state.sh
 
       - name: Check draft menu
+        id: check
         if: steps.configuration.outputs.ready == 'true'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           STATE_FILE: data/state.json
-        run: python watch.py
+        run: |
+          set +e
+          python watch.py
+          status=$?
+          if [[ $status -eq 78 ]]; then
+            echo "parse_failure=true" >> "$GITHUB_OUTPUT"
+          fi
+          exit "$status"
+
+      - name: Pause hourly checks after parse failure
+        if: failure() && steps.check.outputs.parse_failure == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail --silent --show-error --request PUT \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            --header "X-GitHub-Api-Version: 2026-03-10" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/check-drafts.yml/disable"
+          echo "Hourly checks paused. Re-enable this workflow after fixing the parser."
 
       - name: Save current state
         if: steps.configuration.outputs.ready == 'true'

@@ -1,13 +1,17 @@
 # Sabatini Python Draft Watcher
 
-A small, readable GitHub Actions watcher for Sabatini's rotating draft menu. It renders the JavaScript-powered Untappd embed with Playwright, parses the menu with Beautiful Soup, compares it with `data/state.json`, and posts a `diff` code block to Discord when the draft list changes.
+A small, readable GitHub Actions watcher for Sabatini's rotating draft menu. It fetches Untappd's public embed script, extracts and parses the menu with Beautiful Soup, compares it with `data/state.json`, and posts a `diff` code block to Discord when the draft list changes.
 
 The code is intentionally kept in one file, `watch.py`, but is divided into a few clear pieces:
 
 - `Settings`, `DraftBeer`, and `MenuSnapshot` describe the data.
-- `render_menu_page` loads the dynamic menu in Chromium.
+- `fetch_menu_html` loads the complete menu without launching a browser.
 - `parse_menu_html` and `parse_beer` turn the HTML into Python objects.
 - The state, diff, and Discord functions handle the notification workflow.
+
+The Untappd embed endpoint returns the complete rendered menu inside a JavaScript string. The watcher decodes that string directly, so it does not need Playwright, Chromium, or a browser-rendering service.
+
+Each check records fetch, HTML decoding, parsing, and total menu-read durations in the GitHub Actions log. Timing information is not sent to Discord or saved in the snapshot.
 
 ## Discord output settings
 
@@ -47,6 +51,8 @@ This manual workflow does not check the Untappd website and does not write anyth
 The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only genuinely removed and added beer lines, with no unchanged menu items included. Moving an existing beer to another draft position is not treated as a removal and addition, although the latest website order is still saved in JSON. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
 
 The website's `Updated` timestamp can also trigger a notification. It appears once as a plain `Updated:` line and is not included in the beer addition or removal totals. If Untappd changes only that timestamp, Discord receives a small `+0`/`-0` notification with no beer lines.
+
+If Untappd's response contains no parseable beers, the watcher posts an error to Discord, leaves the previous snapshot unchanged, and fails with a dedicated parse-error status. The failed run then disables the **Check Sabatini drafts** workflow so the hourly schedule does not repeat the same alert. After fixing or verifying the embed, re-enable the workflow from its GitHub Actions page and run it manually once.
 
 Discord messages include the menu title and current website timestamp, but omit the fixed source URL. The URL remains stored in `data/state.json`.
 

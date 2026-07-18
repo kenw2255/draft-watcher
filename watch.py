@@ -2,6 +2,9 @@ import argparse
 import hashlib
 import json
 import os
+import re
+import time
+import traceback
 from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -9,11 +12,13 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-DEFAULT_MENU_URL = (
-    "https://www-sabatinis-com.filesusr.com/html/"
-    "78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html"
-)
+MENU_SCRIPT_URL = "https://business.untappd.com/locations/139/themes/340/js"
 MAX_DISCORD_BLOCK_LENGTH = 1850
+PARSE_FAILURE_EXIT_CODE = 78
+EMBED_HTML_PATTERN = re.compile(
+    r'container\.innerHTML\s*=\s*("(?:\\.|[^"\\])*")\s*;',
+    re.DOTALL,
+)
 
 # Discord output settings. The beer name is always included.
 SHOW_STYLE = True
@@ -37,10 +42,14 @@ class Settings:
             raise RuntimeError("Missing required DISCORD_WEBHOOK_URL variable.")
 
         return cls(
-            menu_url=os.getenv("UNTAPPD_EMBED_URL", DEFAULT_MENU_URL),
+            menu_url=MENU_SCRIPT_URL,
             state_file=Path(os.getenv("STATE_FILE", "data/state.json")),
             discord_webhook_url=webhook_url,
         )
+
+
+class MenuParseError(RuntimeError):
+    pass
 
 
 @dataclass(frozen=True)
@@ -134,7 +143,12 @@ def main():
         post_saved_snapshot(settings)
         return
 
-    current = read_current_menu(settings.menu_url)
+    try:
+        current = read_current_menu(settings.menu_url)
+    except MenuParseError as error:
+        notify_parse_failure(settings.discord_webhook_url, error)
+        raise
+
     previous = load_state(settings.state_file)
 
     if previous is None:
@@ -182,28 +196,66 @@ def post_saved_snapshot(settings):
 
 
 def read_current_menu(source_url):
-    html = render_menu_page(source_url)
-    return parse_menu_html(html, source_url)
+    total_started = time.perf_counter()
+    html = fetch_menu_html(source_url)
+
+    parse_started = time.perf_counter()
+    snapshot = parse_menu_html(html, source_url)
+    parse_ms = round((time.perf_counter() - parse_started) * 1000)
+    total_ms = round((time.perf_counter() - total_started) * 1000)
+    print(f"{parse_ms} ms to parse menu")
+    print(f"{total_ms} ms total to read menu")
+    return snapshot
 
 
-def render_menu_page(source_url):
-    """Render the JavaScript-powered Untappd embed and return its final HTML."""
-    from playwright.sync_api import sync_playwright
+def fetch_menu_html(source_url):
+    """Fetch Untappd's public embed script and extract its menu HTML."""
+    request = Request(
+        source_url,
+        headers={
+            "Accept": "application/javascript",
+            "User-Agent": "SabatiniDraftWatcher/1.0",
+        },
+    )
 
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(args=["--disable-dev-shm-usage"])
+    fetch_started = time.perf_counter()
+    with urlopen(request, timeout=30) as response:
+        script_bytes = response.read()
+    fetch_ms = round((time.perf_counter() - fetch_started) * 1000)
+    print(f"{fetch_ms} ms to fetch menu")
 
-        try:
-            page = browser.new_page(
-                extra_http_headers={
-                    "referer": "https://www.sabatinis.com/bottleshop"
-                }
+    decode_started = time.perf_counter()
+    script = script_bytes.decode("utf-8")
+    html = extract_menu_html(script)
+    decode_ms = round((time.perf_counter() - decode_started) * 1000)
+    print(f"{decode_ms} ms to decode menu HTML")
+    return html
+
+
+def extract_menu_html(script):
+    match = EMBED_HTML_PATTERN.search(script)
+    if match is None:
+        raise MenuParseError("Untappd's embed response contained no menu HTML.")
+
+    escaped_html = match.group(1)[1:-1]
+    escape_values = {
+        "'": "'",
+        '"': '"',
+        "$": "$",
+        "/": "/",
+        "n": "\n",
+        "\\": "\\",
+    }
+
+    def replace_escape(escape_match):
+        character = escape_match.group(1)
+        if character not in escape_values:
+            raise MenuParseError(
+                f"Untappd's embed response used an unsupported escape: \\{character}"
             )
-            page.goto(source_url, wait_until="domcontentloaded", timeout=30_000)
-            page.wait_for_selector(".menu-item", timeout=30_000)
-            return page.content()
-        finally:
-            browser.close()
+        return escape_values[character]
+
+    return re.sub(r"\\(.)", replace_escape, escaped_html, flags=re.DOTALL)
 
 
 def parse_menu_html(html, source_url):
@@ -214,7 +266,7 @@ def parse_menu_html(html, source_url):
     beers = [beer for beer in beers if beer.name]
 
     if not beers:
-        raise RuntimeError(f"Parsed 0 draft items from {source_url}.")
+        raise MenuParseError("Parsed 0 draft items from Untappd's embed response.")
 
     return MenuSnapshot(
         source_url=source_url,
@@ -323,6 +375,16 @@ def build_snapshot_messages(updated_at, lines):
     return make_diff_blocks("\n".join(content))
 
 
+def notify_parse_failure(webhook_url, error):
+    message = (
+        "**Sabatini's Draft Watcher Error**\n"
+        f"{error}\n"
+        "The saved snapshot was not changed.\n"
+        "Hourly checks are being disabled to prevent repeated alerts."
+    )
+    post_to_discord(webhook_url, [message])
+
+
 def make_diff_blocks(text):
     """Split output into Discord-safe fenced code blocks without breaking lines."""
     chunks = []
@@ -381,5 +443,14 @@ def post_to_discord(webhook_url, messages):
             ) from error
 
 
+def run():
+    try:
+        main()
+    except MenuParseError:
+        traceback.print_exc()
+        return PARSE_FAILURE_EXIT_CODE
+    return 0
+
+
 if __name__ == "__main__":
-    main()
+    raise SystemExit(run())
