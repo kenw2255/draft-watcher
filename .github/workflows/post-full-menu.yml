@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: sabatini-draft-watcher
@@ -33,8 +33,6 @@ jobs:
       - name: Check out repository
         if: steps.configuration.outputs.ready == 'true'
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install Python dependencies
         if: steps.configuration.outputs.ready == 'true'
@@ -50,10 +48,3 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           STATE_FILE: data/state.json
         run: python watch.py
-
-      - name: Save current state
-        if: steps.configuration.outputs.ready == 'true'
-        env:
-          STATE_BRANCH: watcher-state
-          STATE_FILE: data/state.json
-        run: bash ci/save-state.sh
