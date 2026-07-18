@@ -348,9 +348,9 @@ def protect_internal_hyphens(line):
     if line.startswith(("- ", "+ ")):
         diff_prefix = line[:2]
         content = line[2:]
-        return diff_prefix + content.replace("-", "â€“")
+        return diff_prefix + content.replace("-", "\u2013")
 
-    return line.replace("-", "â€“")
+    return line.replace("-", "\u2013")
 
 
 def post_to_discord(webhook_url, messages):
