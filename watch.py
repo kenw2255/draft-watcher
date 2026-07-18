@@ -1,3 +1,4 @@
+import argparse
 import hashlib
 import json
 import os
@@ -7,10 +8,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
-
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
-
 
 DEFAULT_MENU_URL = (
     "https://www-sabatinis-com.filesusr.com/html/"
@@ -124,7 +121,19 @@ class MenuSnapshot:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Watch Sabatini's draft menu.")
+    parser.add_argument(
+        "--post-saved-snapshot",
+        action="store_true",
+        help="Post the full saved state without checking Untappd or saving changes.",
+    )
+    arguments = parser.parse_args()
     settings = Settings.from_environment()
+
+    if arguments.post_saved_snapshot:
+        post_saved_snapshot(settings)
+        return
+
     current = read_current_menu(settings.menu_url)
     previous = load_state(settings.state_file)
 
@@ -159,6 +168,19 @@ def main():
     print(f"Posted update with {len(current.beers)} drafts.")
 
 
+def post_saved_snapshot(settings):
+    snapshot = load_state(settings.state_file)
+    if snapshot is None:
+        raise RuntimeError(f"No saved snapshot found at {settings.state_file}.")
+
+    messages = build_snapshot_messages(
+        snapshot.get("updatedAt", ""),
+        snapshot.get("lines", []),
+    )
+    post_to_discord(settings.discord_webhook_url, messages)
+    print(f"Posted saved snapshot with {len(snapshot['lines'])} drafts.")
+
+
 def read_current_menu(source_url):
     html = render_menu_page(source_url)
     return parse_menu_html(html, source_url)
@@ -166,6 +188,8 @@ def read_current_menu(source_url):
 
 def render_menu_page(source_url):
     """Render the JavaScript-powered Untappd embed and return its final HTML."""
+    from playwright.sync_api import sync_playwright
+
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(args=["--disable-dev-shm-usage"])
 
@@ -183,6 +207,8 @@ def render_menu_page(source_url):
 
 
 def parse_menu_html(html, source_url):
+    from bs4 import BeautifulSoup
+
     soup = BeautifulSoup(html, "html.parser")
     beers = [parse_beer(node) for node in soup.select(".menu-item")]
     beers = [beer for beer in beers if beer.name]
@@ -284,11 +310,15 @@ def build_diff_stat(beer_diff):
 
 
 def build_initial_messages(current):
+    return build_snapshot_messages(current.updated_at, current.lines)
+
+
+def build_snapshot_messages(updated_at, lines):
     content = [
         "Sabatini's Draft List Snapshot",
-        f"Updated: {current.updated_at or 'unknown'}",
+        f"Updated: {updated_at or 'unknown'}",
         "",
-        *(f"+ {line}" for line in current.lines),
+        *(f"+ {line}" for line in lines),
     ]
     return make_diff_blocks("\n".join(content))
 
@@ -318,9 +348,9 @@ def protect_internal_hyphens(line):
     if line.startswith(("- ", "+ ")):
         diff_prefix = line[:2]
         content = line[2:]
-        return diff_prefix + content.replace("-", "–")
+        return diff_prefix + content.replace("-", "â€“")
 
-    return line.replace("-", "–")
+    return line.replace("-", "â€“")
 
 
 def post_to_discord(webhook_url, messages):
