@@ -324,7 +324,9 @@ def protect_internal_hyphens(line):
 
 
 def post_to_discord(webhook_url, messages):
-    project_url = os.getenv("CI_PROJECT_URL", "https://gitlab.com")
+    server_url = os.getenv("GITHUB_SERVER_URL", "https://github.com").rstrip("/")
+    repository = os.getenv("GITHUB_REPOSITORY", "kenw2255/draft-watcher").strip("/")
+    project_url = f"{server_url}/{repository}"
     user_agent = f"DiscordBot ({project_url}, 1.0)"
 
     for message in messages:

@@ -4,10 +4,7 @@ set -euo pipefail
 STATE_BRANCH="${STATE_BRANCH:-watcher-state}"
 STATE_FILE="${STATE_FILE:-data/state.json}"
 
-: "${GITLAB_STATE_PUSH_TOKEN:?Missing GITLAB_STATE_PUSH_TOKEN}"
-: "${CI_SERVER_HOST:?Missing CI_SERVER_HOST}"
-: "${CI_PROJECT_PATH:?Missing CI_PROJECT_PATH}"
-: "${CI_COMMIT_SHA:?Missing CI_COMMIT_SHA}"
+SOURCE_SHA="${GITHUB_SHA:-HEAD}"
 
 if [[ ! -s "$STATE_FILE" ]]; then
   echo "State file $STATE_FILE is missing or empty." >&2
@@ -27,7 +24,7 @@ if git ls-remote --exit-code --heads origin "$STATE_BRANCH" >/dev/null 2>&1; the
   git fetch --quiet --depth=1 origin "$STATE_BRANCH"
   git worktree add --detach "$STATE_WORKTREE" FETCH_HEAD
 else
-  git worktree add --detach "$STATE_WORKTREE" "$CI_COMMIT_SHA"
+  git worktree add --detach "$STATE_WORKTREE" "$SOURCE_SHA"
   git -C "$STATE_WORKTREE" switch --orphan "$STATE_BRANCH"
   git -C "$STATE_WORKTREE" rm -rf . >/dev/null 2>&1 || true
 fi
@@ -45,7 +42,5 @@ if git -C "$STATE_WORKTREE" diff --cached --quiet; then
 fi
 
 git -C "$STATE_WORKTREE" commit -m "Update Sabatini draft snapshot [skip ci]"
-
-PUSH_URL="https://oauth2:${GITLAB_STATE_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
-git -C "$STATE_WORKTREE" push "$PUSH_URL" "HEAD:refs/heads/$STATE_BRANCH"
+git -C "$STATE_WORKTREE" push origin "HEAD:refs/heads/$STATE_BRANCH"
 echo "Saved $STATE_FILE to $STATE_BRANCH."
