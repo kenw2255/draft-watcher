@@ -40,9 +40,9 @@ The workflow runs hourly at 30 minutes past the hour and can also be started man
 
 ### Post the full menu manually
 
-The separate **Post full Sabatini draft list** workflow runs only when started from the GitHub Actions page. It posts the entire menu currently shown by Untappd.
+The separate **Post full Sabatini draft list** workflow runs only when started from the GitHub Actions page. It loads `data/state.json` from `watcher-state` and posts every beer in that saved snapshot.
 
-This manual workflow does not read from or write to `watcher-state`. The snapshot created by `watch.py` exists only on the temporary GitHub runner and is discarded when the run finishes, so the regular hourly workflow continues from its existing saved state.
+This manual workflow does not check the Untappd website and does not write anything back to `watcher-state`, so the regular hourly workflow continues from the same saved state.
 
 The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only genuinely removed and added beer lines, with no unchanged menu items included. Moving an existing beer to another draft position is not treated as a removal and addition, although the latest website order is still saved in JSON. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
 
