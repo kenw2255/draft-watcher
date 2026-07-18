@@ -34,17 +34,16 @@ jobs:
         if: steps.configuration.outputs.ready == 'true'
         uses: actions/checkout@v4
 
-      - name: Install Python dependencies
+      - name: Load saved snapshot
         if: steps.configuration.outputs.ready == 'true'
-        run: python -m pip install --disable-pip-version-check -r requirements.txt
+        env:
+          STATE_BRANCH: watcher-state
+          STATE_FILE: data/state.json
+        run: bash ci/load-state.sh
 
-      - name: Start with an empty local snapshot
-        if: steps.configuration.outputs.ready == 'true'
-        run: rm -f data/state.json
-
-      - name: Post the full current menu
+      - name: Post the full saved snapshot
         if: steps.configuration.outputs.ready == 'true'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           STATE_FILE: data/state.json
-        run: python watch.py
+        run: python watch.py --post-saved-snapshot
