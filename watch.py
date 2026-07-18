@@ -12,6 +12,8 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
+from bs4 import BeautifulSoup
+
 MENU_SCRIPT_URL = "https://business.untappd.com/locations/139/themes/340/js"
 MAX_DISCORD_BLOCK_LENGTH = 1850
 PARSE_FAILURE_EXIT_CODE = 78
@@ -259,8 +261,6 @@ def extract_menu_html(script):
 
 
 def parse_menu_html(html, source_url):
-    from bs4 import BeautifulSoup
-
     soup = BeautifulSoup(html, "html.parser")
     beers = [parse_beer(node) for node in soup.select(".menu-item")]
     beers = [beer for beer in beers if beer.name]

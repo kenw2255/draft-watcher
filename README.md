@@ -42,6 +42,8 @@ The workflow runs hourly at 30 minutes past the hour and can also be started man
 30 * * * *
 ```
 
+Both workflows use the `python3` runtime already installed on GitHub's `ubuntu-latest` runner. Python dependencies are installed into the runner's temporary directory for that job, leaving Ubuntu's system-managed Python environment unchanged.
+
 ### Post the full menu manually
 
 The separate **Post full Sabatini draft list** workflow runs only when started from the GitHub Actions page. It loads `data/state.json` from `watcher-state` and posts every beer in that saved snapshot.
@@ -71,5 +73,7 @@ The workflow helpers handle this automatically:
 1. `ci/load-state.sh` loads `data/state.json` from `watcher-state` before the watcher runs.
 2. `watch.py` checks the current menu and updates the local state when needed.
 3. `ci/save-state.sh` creates the orphan branch if necessary and commits only `data/state.json` to it.
+
+The workflow compares the state file before and after the menu check. When the snapshot is unchanged, it skips the additional state-branch fetch and temporary worktree used by the save helper.
 
 The workflow uses a concurrency group so two runs cannot update the state branch at the same time.

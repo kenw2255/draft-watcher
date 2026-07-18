@@ -37,35 +37,57 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        if: steps.configuration.outputs.ready == 'true'
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
       - name: Install Python dependencies
         if: steps.configuration.outputs.ready == 'true'
-        run: python -m pip install --disable-pip-version-check -r requirements.txt
+        run: |
+          python3 -m pip install \
+            --disable-pip-version-check \
+            --target "$RUNNER_TEMP/python-packages" \
+            -r requirements.txt
+          echo "PYTHONPATH=$RUNNER_TEMP/python-packages" >> "$GITHUB_ENV"
 
       - name: Load previous state
+        id: previous_state
         if: steps.configuration.outputs.ready == 'true'
         env:
           STATE_BRANCH: watcher-state
           STATE_FILE: data/state.json
-        run: bash ci/load-state.sh
+        run: |
+          bash ci/load-state.sh
+          if [[ -s "$STATE_FILE" ]]; then
+            state_hash="$(sha256sum "$STATE_FILE" | cut -d ' ' -f 1)"
+          else
+            state_hash="missing"
+          fi
+          echo "hash=$state_hash" >> "$GITHUB_OUTPUT"
 
       - name: Check draft menu
         id: check
         if: steps.configuration.outputs.ready == 'true'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PREVIOUS_STATE_HASH: ${{ steps.previous_state.outputs.hash }}
           STATE_FILE: data/state.json
         run: |
           set +e
-          python watch.py
+          python3 watch.py
           status=$?
           if [[ $status -eq 78 ]]; then
             echo "parse_failure=true" >> "$GITHUB_OUTPUT"
+          fi
+          if [[ $status -eq 0 ]]; then
+            if [[ -s "$STATE_FILE" ]]; then
+              current_state_hash="$(sha256sum "$STATE_FILE" | cut -d ' ' -f 1)"
+            else
+              current_state_hash="missing"
+            fi
+            if [[ "$current_state_hash" != "$PREVIOUS_STATE_HASH" ]]; then
+              echo "state_changed=true" >> "$GITHUB_OUTPUT"
+              echo "State snapshot changed; the save step will run."
+            else
+              echo "state_changed=false" >> "$GITHUB_OUTPUT"
+              echo "State snapshot is unchanged; skipping the save step."
+            fi
           fi
           exit "$status"
 
@@ -82,7 +104,7 @@ jobs:
           echo "Hourly checks paused. Re-enable this workflow after fixing the parser."
 
       - name: Save current state
-        if: steps.configuration.outputs.ready == 'true'
+        if: success() && steps.check.outputs.state_changed == 'true'
         env:
           STATE_BRANCH: watcher-state
           STATE_FILE: data/state.json
