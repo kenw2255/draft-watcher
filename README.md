@@ -28,19 +28,14 @@ These settings affect only the normalized `lines` used for Discord messages. Eve
 
 ## GitHub Actions
 
-Configure the repository with:
-
-- a repository secret named `DISCORD_WEBHOOK_URL`
-- optional repository variable `UNTAPPD_EMBED_URL`
-
-Add the webhook under **Settings > Secrets and variables > Actions > Secrets > New repository secret**. Paste the Discord webhook URL as the value and use `DISCORD_WEBHOOK_URL` as the name. The optional Untappd override belongs on the **Variables** tab, but the correct Sabatini URL is already the default in `watch.py`.
+Add a repository secret named `DISCORD_WEBHOOK_URL` under **Settings > Secrets and variables > Actions > Secrets > New repository secret**. Paste the Discord webhook URL as its value. The Sabatini Untappd URL is defined directly in `watch.py`, so no Untappd secret or repository variable is needed.
 
 The workflow requests `contents: write` permission so GitHub's built-in Actions token can update `watcher-state`. No personal access token is needed for state commits. If the Discord secret has not been added yet, scheduled and manual runs finish successfully with a warning and do not check the menu.
 
-The workflow runs hourly at 17 minutes past the hour and can also be started manually:
+The workflow runs hourly at 30 minutes past the hour and can also be started manually:
 
 ```cron
-17 * * * *
+30 * * * *
 ```
 
 The first run always posts the full menu and saves it to `data/state.json`. Every later run posts only genuinely removed and added beer lines, with no unchanged menu items included. Moving an existing beer to another draft position is not treated as a removal and addition, although the latest website order is still saved in JSON. A missing, blank, empty, or manually deleted state file counts as a first run, even when the `watcher-state` branch already exists.
@@ -56,6 +51,8 @@ Webhook requests use Discord's required `DiscordBot (URL, version)` User-Agent f
 ## Separate state branch
 
 Code lives on `main`. Snapshot commits live on the orphan `watcher-state` branch, which is used as storage and is never merged into `main`.
+
+`data/state.json` remains in `.gitignore` on `main` because the workflow loads a temporary copy into its checkout. The save helper explicitly commits that file from a separate `watcher-state` worktree.
 
 The workflow helpers handle this automatically:
 
