@@ -14,8 +14,6 @@ jobs:
   post-full-menu:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    container:
-      image: mcr.microsoft.com/playwright/python:v1.54.0-noble
 
     steps:
       - name: Check configuration
@@ -33,6 +31,12 @@ jobs:
       - name: Check out repository
         if: steps.configuration.outputs.ready == 'true'
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
 
       - name: Load saved snapshot
         if: steps.configuration.outputs.ready == 'true'
