@@ -32,9 +32,12 @@ Configure the repository with:
 
 - a repository secret named `DISCORD_WEBHOOK_URL`
 - optional repository variable `UNTAPPD_EMBED_URL`
-- `contents: write` permission so the built-in Actions token can update `watcher-state`
 
-No personal access token is needed for state commits. The workflow runs hourly at 17 minutes past the hour and can also be started manually:
+Add the webhook under **Settings > Secrets and variables > Actions > Secrets > New repository secret**. Paste the Discord webhook URL as the value and use `DISCORD_WEBHOOK_URL` as the name. The optional Untappd override belongs on the **Variables** tab, but the correct Sabatini URL is already the default in `watch.py`.
+
+The workflow requests `contents: write` permission so GitHub's built-in Actions token can update `watcher-state`. No personal access token is needed for state commits. If the Discord secret has not been added yet, scheduled and manual runs finish successfully with a warning and do not check the menu.
+
+The workflow runs hourly at 17 minutes past the hour and can also be started manually:
 
 ```cron
 17 * * * *
