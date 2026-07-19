@@ -2,11 +2,8 @@ name: Check Sabatini drafts
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 * * * *"
 
 permissions:
-  actions: write
   contents: write
 
 concurrency:
@@ -90,18 +87,6 @@ jobs:
             fi
           fi
           exit "$status"
-
-      - name: Pause hourly checks after parse failure
-        if: failure() && steps.check.outputs.parse_failure == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          curl --fail --silent --show-error --request PUT \
-            --header "Accept: application/vnd.github+json" \
-            --header "Authorization: Bearer $GH_TOKEN" \
-            --header "X-GitHub-Api-Version: 2026-03-10" \
-            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/check-drafts.yml/disable"
-          echo "Hourly checks paused. Re-enable this workflow after fixing the parser."
 
       - name: Save current state
         if: success() && steps.check.outputs.state_changed == 'true'
