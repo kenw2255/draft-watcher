@@ -1,11 +1,24 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-19T02:18:33.482053+00:00",
+  "fetchedAt": "2026-07-19T21:26:40.520974+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 17, 4:20 PM EDT",
+  "updatedAt": "Jul 19, 4:50 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6a0b897c6bfe5053582d385787a254e29dd3aea8912c8ba1067a8825ab083d4a",
+  "rawHtmlHash": "d8ae00d407c06a96366234a4e06e46f3ffabf14e72b4c9ff1a5fb118a503cd2d",
   "items": [
+    {
+      "name": "Mellow Little Thing",
+      "style": "IPA - Session New England",
+      "abv": "4.5% ABV",
+      "ibu": "",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
+      ]
+    },
     {
       "name": "Calumet Queen",
       "style": "Kölsch",
@@ -163,19 +176,6 @@
       ]
     },
     {
-      "name": "Congress Street",
-      "style": "IPA - New England",
-      "abv": "7.2% ABV",
-      "ibu": "",
-      "brewery": "Trillium Brewing Company",
-      "location": "Canton, MA",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
-    },
-    {
       "name": "Bourbon Barrel-Aged Framinghammer",
       "style": "Porter - Imperial",
       "abv": "10% ABV",
@@ -223,6 +223,7 @@
       "location": "Rebecq, Région Wallonne",
       "serving_options": [
         "4oz Draft $3.00",
+        "10oz Draft $4.95",
         "16oz Draft $5.95"
       ]
     },
@@ -235,6 +236,7 @@
       "location": "Rebecq, Région Wallonne",
       "serving_options": [
         "4oz Draft $3.00",
+        "10oz Draft $4.95",
         "16oz Draft $5.95"
       ]
     },
@@ -397,6 +399,7 @@
     }
   ],
   "lines": [
+    "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
@@ -409,7 +412,6 @@
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Spiced | 4.5% ABV | Trillium Brewing Company | Canton, MA",
-    "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
     "Bourbon Barrel-Aged Framinghammer | Porter - Imperial | 10% ABV | 45 IBU | Jack’s Abby Craft Lagers | Framingham, MA",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
@@ -429,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "c57fd2af7bc095b0722df2fd3c54af56dfa2b5fb2789ef2fbe74de6e5aa1326d",
-  "dataHash": "86cb8979b8586e5d722fcd97621c8243a7ceb6785ba82b3a83c78114714fbac2"
+  "hash": "147716812ec3884878b5226dc78c86e21383c4837f66b2dc640ebef0a287b020",
+  "dataHash": "b7507ccee2c4f4704e0df8a1b83bfedeaf7db850e67a258f82a2d92da19b7860"
 }
