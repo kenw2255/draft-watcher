@@ -1,0 +1,79 @@
+name: Check Sabatini drafts with scanner
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sabatini-draft-watcher
+  cancel-in-progress: false
+
+jobs:
+  check-drafts-scanner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check configuration
+        id: configuration
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [[ -n "$DISCORD_WEBHOOK_URL" ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::DISCORD_WEBHOOK_URL is not configured; skipping this run."
+          fi
+
+      - name: Check out repository
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Load previous state
+        id: previous_state
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          STATE_BRANCH: watcher-state
+          STATE_FILE: data/state.json
+        run: |
+          bash ci/load-state.sh
+          if [[ -s "$STATE_FILE" ]]; then
+            state_hash="$(sha256sum "$STATE_FILE" | cut -d ' ' -f 1)"
+          else
+            state_hash="missing"
+          fi
+          echo "hash=$state_hash" >> "$GITHUB_OUTPUT"
+
+      - name: Check draft menu with dependency-free scanner
+        id: check
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PREVIOUS_STATE_HASH: ${{ steps.previous_state.outputs.hash }}
+          STATE_FILE: data/state.json
+        run: |
+          python3 scanner.py
+          if [[ -s "$STATE_FILE" ]]; then
+            current_state_hash="$(sha256sum "$STATE_FILE" | cut -d ' ' -f 1)"
+          else
+            current_state_hash="missing"
+          fi
+          if [[ "$current_state_hash" != "$PREVIOUS_STATE_HASH" ]]; then
+            echo "state_changed=true" >> "$GITHUB_OUTPUT"
+            echo "State snapshot changed; the save step will run."
+          else
+            echo "state_changed=false" >> "$GITHUB_OUTPUT"
+            echo "State snapshot is unchanged; skipping the save step."
+          fi
+
+      - name: Save current state
+        if: success() && steps.check.outputs.state_changed == 'true'
+        env:
+          STATE_BRANCH: watcher-state
+          STATE_FILE: data/state.json
+        run: bash ci/save-state.sh

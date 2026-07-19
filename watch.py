@@ -31,6 +31,9 @@ SHOW_BREWERY = True
 SHOW_LOCATION = True
 SHOW_SIZES_AND_PRICES = False
 
+# Experimental: set to True to skip parsing when the decoded HTML is unchanged.
+SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = False
+
 
 @dataclass(frozen=True)
 class Settings:
@@ -92,6 +95,7 @@ class MenuSnapshot:
     updated_at: str
     section_name: str
     beers: list[DraftBeer]
+    raw_html_hash: str
 
     @property
     def lines(self):
@@ -113,6 +117,7 @@ class MenuSnapshot:
             "title": self.title,
             "updatedAt": self.updated_at,
             "sectionName": self.section_name,
+            "rawHtmlHash": self.raw_html_hash,
             "items": [asdict(beer) for beer in self.beers],
         }
         encoded = json.dumps(full_menu_data, sort_keys=True).encode()
@@ -125,6 +130,7 @@ class MenuSnapshot:
             "title": self.title,
             "updatedAt": self.updated_at,
             "sectionName": self.section_name,
+            "rawHtmlHash": self.raw_html_hash,
             "items": [asdict(beer) for beer in self.beers],
             "lines": self.lines,
             "hash": self.display_digest,
@@ -146,13 +152,16 @@ def main():
         post_saved_snapshot(settings)
         return
 
+    previous = load_state(settings.state_file)
+
     try:
-        current = read_current_menu(settings.menu_url)
+        current = read_current_menu(settings.menu_url, previous)
     except MenuParseError as error:
         notify_parse_failure(settings.discord_webhook_url, error)
         raise
 
-    previous = load_state(settings.state_file)
+    if current is None:
+        return
 
     if previous is None:
         messages = build_initial_messages(current)
@@ -170,7 +179,9 @@ def main():
         full_data_changed = previous.get("dataHash") != current.data_digest
         display_hash_changed = previous.get("hash") != current.display_digest
 
-        if full_data_changed or display_hash_changed:
+        raw_hash_changed = previous.get("rawHtmlHash") != current.raw_html_hash
+
+        if full_data_changed or display_hash_changed or raw_hash_changed:
             save_state(settings.state_file, current)
             print("Updated the full state snapshot without notifying Discord.")
             return
@@ -198,12 +209,23 @@ def post_saved_snapshot(settings):
     print(f"Posted saved snapshot with {len(snapshot['lines'])} drafts.")
 
 
-def read_current_menu(source_url):
+def read_current_menu(source_url, previous=None):
     total_started = time.perf_counter()
     html = fetch_menu_html(source_url)
+    raw_html_hash = hashlib.sha256(html.encode()).hexdigest()
+
+    if (
+        globals().get("SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED", False)
+        and previous
+        and previous.get("rawHtmlHash") == raw_html_hash
+    ):
+        total_ms = round((time.perf_counter() - total_started) * 1000)
+        print("Raw menu HTML is unchanged; skipped parsing.")
+        print(f"{total_ms} ms total to read menu")
+        return None
 
     parse_started = time.perf_counter()
-    snapshot = parse_menu_html(html, source_url)
+    snapshot = parse_menu_html(html, source_url, raw_html_hash)
     parse_ms = round((time.perf_counter() - parse_started) * 1000)
     total_ms = round((time.perf_counter() - total_started) * 1000)
     print(f"{parse_ms} ms to parse menu")
@@ -276,7 +298,7 @@ def extract_menu_html(script):
     return re.sub(r"\\(.)", replace_escape, escaped_html, flags=re.DOTALL)
 
 
-def parse_menu_html(html, source_url):
+def parse_menu_html(html, source_url, raw_html_hash=""):
     soup = BeautifulSoup(html, "html.parser")
     beers = [parse_beer(node) for node in soup.select(".menu-item")]
     beers = [beer for beer in beers if beer.name]
@@ -291,6 +313,7 @@ def parse_menu_html(html, source_url):
         updated_at=text_of(soup, ".date-time time"),
         section_name=text_of(soup, ".section-name"),
         beers=beers,
+        raw_html_hash=raw_html_hash,
     )
 
 

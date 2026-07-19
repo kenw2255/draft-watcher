@@ -77,3 +77,25 @@ The workflow helpers handle this automatically:
 The workflow compares the state file before and after the menu check. When the snapshot is unchanged, it skips the additional state-branch fetch and temporary worktree used by the save helper.
 
 The workflow uses a concurrency group so two runs cannot update the state branch at the same time.
+
+## Dependency-free scanner experiment
+
+`scanner.py` is a separate standard-library implementation that scans Untappd's known HTML markers instead of building a Beautiful Soup parse tree. It preserves the same complete snapshot fields and Discord formatting as `watch.py`, including serving sizes and prices even when they are hidden from Discord.
+
+The **Check Sabatini drafts with scanner** workflow is manual-only. It loads and updates the same `watcher-state` snapshot as the hourly watcher, but it does not install any Python packages. The shared concurrency group prevents the manual scanner and hourly workflow from updating state simultaneously.
+
+This is intentionally an experiment rather than the hourly default. Marker scanning starts faster and parses less HTML, but it is more tightly coupled to Untappd's current markup. A zero-item parse posts a scanner error and leaves the saved snapshot unchanged; unlike the scheduled workflow, it does not disable hourly Beautiful Soup checks.
+
+## Optional raw HTML hash shortcut
+
+Both Python implementations store a SHA-256 hash of the decoded raw menu HTML as `rawHtmlHash`. Near the output settings in each script is an experimental switch that is disabled by default:
+
+```python
+SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = False
+```
+
+Changing it to `True` makes the watcher compare the raw hash immediately after downloading and decoding the menu. When it matches the saved snapshot, the script skips Beautiful Soup parsing or marker scanning and exits without posting or saving.
+
+The shortcut is currently disabled so every run performs its parsing method and records a real parse or scan duration in the Actions log. This keeps Beautiful Soup and scanner timing results directly comparable while the experiment is underway. Hashing still does not avoid the network request.
+
+The first run after this addition parses normally and saves `rawHtmlHash` into the existing snapshot. No manual JSON edit is required.
