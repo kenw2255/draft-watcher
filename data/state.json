@@ -1,9 +1,10 @@
 {
-  "sourceUrl": "https://www-sabatinis-com.filesusr.com/html/78ef16_e5a731e6668aa7c1284a2b632b9ae06e.html",
-  "fetchedAt": "2026-07-17T21:04:40.732192+00:00",
+  "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
+  "fetchedAt": "2026-07-19T02:18:33.482053+00:00",
   "title": "Beers on Draft",
   "updatedAt": "Jul 17, 4:20 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
+  "rawHtmlHash": "6a0b897c6bfe5053582d385787a254e29dd3aea8912c8ba1067a8825ab083d4a",
   "items": [
     {
       "name": "Calumet Queen",
@@ -429,5 +430,5 @@
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
   "hash": "c57fd2af7bc095b0722df2fd3c54af56dfa2b5fb2789ef2fbe74de6e5aa1326d",
-  "dataHash": "6563a9672e4c291c60402094137e9fa869a230eb2798614ed1ba4ce93525d8c1"
+  "dataHash": "86cb8979b8586e5d722fcd97621c8243a7ceb6785ba82b3a83c78114714fbac2"
 }
