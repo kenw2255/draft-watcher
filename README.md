@@ -35,7 +35,7 @@ Add a repository secret named `DISCORD_WEBHOOK_URL` under **Settings > Secrets a
 
 The workflow requests `contents: write` permission so GitHub's built-in Actions token can update `watcher-state`. No personal access token is needed for state commits. If the Discord secret has not been added yet, scheduled and manual runs finish successfully with a warning and do not check the menu.
 
-The workflow runs hourly at the top of the hour and can also be started manually.
+The workflow runs hourly at the top of the hour from 10 AM through 2 AM EST (bar hours) and can also be started manually.
 
 Both workflows use the `python3` runtime already installed on GitHub's `ubuntu-latest` runner and have no package-install step.
 
