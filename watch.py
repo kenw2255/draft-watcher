@@ -1,6 +1,7 @@
 import argparse
 import gzip
 import hashlib
+import html as html_tools
 import json
 import os
 import re
@@ -13,8 +14,6 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-from bs4 import BeautifulSoup
-
 MENU_SCRIPT_URL = "https://business.untappd.com/locations/139/themes/340/js"
 MAX_DISCORD_BLOCK_LENGTH = 1850
 PARSE_FAILURE_EXIT_CODE = 78
@@ -22,6 +21,22 @@ EMBED_HTML_PATTERN = re.compile(
     r'container\.innerHTML\s*=\s*("(?:\\.|[^"\\])*")\s*;',
     re.DOTALL,
 )
+ITEM_PATTERN = re.compile(
+    r'<div\b[^>]*\bclass\s*=\s*(["\'])[^"\']*\bmenu-item\b[^"\']*\1[^>]*>',
+    re.IGNORECASE,
+)
+LINK_PATTERN = re.compile(r"<a\b[^>]*>(.*?)</a\s*>", re.IGNORECASE | re.DOTALL)
+TIME_PATTERN = re.compile(r"<time\b[^>]*>(.*?)</time\s*>", re.IGNORECASE | re.DOTALL)
+PRICE_PATTERN = re.compile(
+    r"<span\b[^>]*\bclass\s*=\s*([\"'])"
+    r"(?:[^\"']*\s)?price(?:\s[^\"']*)?\1[^>]*>\s*"
+    r"<span\b[^>]*\bclass\s*=\s*([\"'])"
+    r"(?:[^\"']*\s)?currency-hideable(?:\s[^\"']*)?\2[^>]*>"
+    r"(.*?)</span\s*>\s*([^<]*?)</span\s*>",
+    re.IGNORECASE | re.DOTALL,
+)
+TAG_PATTERN = re.compile(r"<[^>]*>")
+COMMENT_PATTERN = re.compile(r"<!--.*?-->", re.DOTALL)
 
 # Discord output settings. The beer name is always included.
 SHOW_STYLE = True
@@ -31,8 +46,31 @@ SHOW_BREWERY = True
 SHOW_LOCATION = True
 SHOW_SIZES_AND_PRICES = False
 
-# Experimental: set to True to skip parsing when the decoded HTML is unchanged.
-SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = False
+# Skip scanning when the decoded HTML is unchanged from the saved snapshot.
+SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = True
+
+
+def class_element_pattern(class_name, tag=r"[a-z][\w:-]*"):
+    return re.compile(
+        rf"<({tag})\b[^>]*\bclass\s*=\s*([\"'])"
+        rf"(?:[^\"']*\s)?{re.escape(class_name)}(?:\s[^\"']*)?\2"
+        rf"[^>]*>(.*?)</\1\s*>",
+        re.IGNORECASE | re.DOTALL,
+    )
+
+
+CLASS_PATTERNS = {
+    "menu_title": class_element_pattern("menu-title"),
+    "date_time": class_element_pattern("date-time", "div"),
+    "section_name": class_element_pattern("section-name"),
+    "item_name": class_element_pattern("item-name", "h4"),
+    "style": class_element_pattern("item-category"),
+    "abv": class_element_pattern("item-abv"),
+    "ibu": class_element_pattern("item-ibu"),
+    "brewery": class_element_pattern("brewery"),
+    "location": class_element_pattern("item-brewery-location"),
+    "serving_type": class_element_pattern("type"),
+}
 
 
 @dataclass(frozen=True)
@@ -220,7 +258,7 @@ def read_current_menu(source_url, previous=None):
         and previous.get("rawHtmlHash") == raw_html_hash
     ):
         total_ms = round((time.perf_counter() - total_started) * 1000)
-        print("Raw menu HTML is unchanged; skipped parsing.")
+        print("Raw menu HTML is unchanged; skipped scanning.")
         print(f"{total_ms} ms total to read menu")
         return None
 
@@ -228,7 +266,7 @@ def read_current_menu(source_url, previous=None):
     snapshot = parse_menu_html(html, source_url, raw_html_hash)
     parse_ms = round((time.perf_counter() - parse_started) * 1000)
     total_ms = round((time.perf_counter() - total_started) * 1000)
-    print(f"{parse_ms} ms to parse menu")
+    print(f"{parse_ms} ms to scan menu")
     print(f"{total_ms} ms total to read menu")
     return snapshot
 
@@ -299,49 +337,76 @@ def extract_menu_html(script):
 
 
 def parse_menu_html(html, source_url, raw_html_hash=""):
-    soup = BeautifulSoup(html, "html.parser")
-    beers = [parse_beer(node) for node in soup.select(".menu-item")]
-    beers = [beer for beer in beers if beer.name]
+    item_starts = list(ITEM_PATTERN.finditer(html))
+    pagination_start = html.find('<div class="pagination-container">')
+    beers = []
+
+    for index, item_match in enumerate(item_starts):
+        start = item_match.start()
+        fallback_end = pagination_start if pagination_start > start else len(html)
+        end = item_starts[index + 1].start() if index + 1 < len(item_starts) else fallback_end
+        block = html[start:end]
+        name_container = extract_inner(block, CLASS_PATTERNS["item_name"])
+        name_match = LINK_PATTERN.search(name_container)
+        serving_types = extract_all_text(block, CLASS_PATTERNS["serving_type"])
+        prices = extract_prices(block)
+        serving_options = [
+            " ".join(part for part in pair if part)
+            for pair in zip(serving_types, prices)
+            if any(pair)
+        ]
+        beer = DraftBeer(
+            name=html_text(name_match.group(1) if name_match else ""),
+            style=extract_text(block, CLASS_PATTERNS["style"]),
+            abv=extract_text(block, CLASS_PATTERNS["abv"]),
+            ibu=extract_text(block, CLASS_PATTERNS["ibu"]),
+            brewery=extract_text(block, CLASS_PATTERNS["brewery"]),
+            location=extract_text(block, CLASS_PATTERNS["location"]),
+            serving_options=serving_options,
+        )
+        if beer.name:
+            beers.append(beer)
 
     if not beers:
         raise MenuParseError("Parsed 0 draft items from Untappd's embed response.")
 
+    date_container = extract_inner(html, CLASS_PATTERNS["date_time"])
+    time_match = TIME_PATTERN.search(date_container)
     return MenuSnapshot(
         source_url=source_url,
         fetched_at=datetime.now(timezone.utc).isoformat(),
-        title=text_of(soup, ".menu-title") or "Beers on Draft",
-        updated_at=text_of(soup, ".date-time time"),
-        section_name=text_of(soup, ".section-name"),
+        title=extract_text(html, CLASS_PATTERNS["menu_title"]) or "Beers on Draft",
+        updated_at=html_text(time_match.group(1) if time_match else ""),
+        section_name=extract_text(html, CLASS_PATTERNS["section_name"]),
         beers=beers,
         raw_html_hash=raw_html_hash,
     )
 
 
-def parse_beer(node):
-    serving_options = []
-    for row in node.select(".container-row"):
-        serving_type = text_of(row, ".type")
-        price = "".join(text_of(row, ".price").split())
-        description = " ".join(part for part in [serving_type, price] if part)
-        if description:
-            serving_options.append(description)
-
-    return DraftBeer(
-        name=text_of(node, ".item-name a span") or text_of(node, ".item-name a"),
-        style=text_of(node, ".item-style .item-category"),
-        abv=text_of(node, ".item-abv"),
-        ibu=text_of(node, ".item-ibu"),
-        brewery=text_of(node, ".brewery a") or text_of(node, ".brewery"),
-        location=text_of(node, ".item-brewery-location"),
-        serving_options=serving_options,
-    )
+def extract_inner(source, pattern):
+    match = pattern.search(source)
+    return match.group(3) if match else ""
 
 
-def text_of(root, selector):
-    element = root.select_one(selector)
-    if element is None:
-        return ""
-    return " ".join(element.get_text(" ", strip=True).split())
+def extract_text(source, pattern):
+    return html_text(extract_inner(source, pattern))
+
+
+def extract_all_text(source, pattern):
+    return [html_text(match.group(3)) for match in pattern.finditer(source)]
+
+
+def extract_prices(source):
+    return [
+        "".join((html_text(match.group(3)) + html_text(match.group(4))).split())
+        for match in PRICE_PATTERN.finditer(source)
+    ]
+
+
+def html_text(value):
+    value = COMMENT_PATTERN.sub("", value)
+    value = TAG_PATTERN.sub("", value)
+    return " ".join(html_tools.unescape(value).split())
 
 
 def load_state(path):

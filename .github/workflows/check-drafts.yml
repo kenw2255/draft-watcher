@@ -34,15 +34,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Python dependencies
-        if: steps.configuration.outputs.ready == 'true'
-        run: |
-          python3 -m pip install \
-            --disable-pip-version-check \
-            --target "$RUNNER_TEMP/python-packages" \
-            -r requirements.txt
-          echo "PYTHONPATH=$RUNNER_TEMP/python-packages" >> "$GITHUB_ENV"
-
       - name: Load previous state
         id: previous_state
         if: steps.configuration.outputs.ready == 'true'

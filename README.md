@@ -1,12 +1,11 @@
-# Sabatini Python Draft Watcher
+# Sabatini Draft Watcher
 
-A small, readable GitHub Actions watcher for Sabatini's rotating draft menu. It fetches Untappd's public embed script, extracts and parses the menu with Beautiful Soup, compares it with `data/state.json`, and posts a `diff` code block to Discord when the draft list changes.
+A GitHub Actions watcher for Sabatini's rotating draft menu. The scheduled check fetches Untappd's public embed script, scans its known menu markers with Python's standard library, compares the result with `data/state.json`, and posts a `diff` code block to Discord when the draft list changes.
 
-The code is intentionally kept in one file, `watch.py`, but is divided into a few clear pieces:
+`watch.py` is a dependency-free marker scanner tailored to Untappd's generated menu markup.
 
-- `Settings`, `DraftBeer`, and `MenuSnapshot` describe the data.
 - `fetch_menu_html` loads the complete menu without launching a browser.
-- `parse_menu_html` and `parse_beer` turn the HTML into Python objects.
+- `parse_menu_html` scans the current Untappd markup into Python objects.
 - The state, diff, and Discord functions handle the notification workflow.
 
 The Untappd embed endpoint returns the complete rendered menu inside a JavaScript string. The watcher requests the response with gzip compression, then decodes that string directly, so it does not need Playwright, Chromium, or a browser-rendering service. If the endpoint returns an uncompressed response, the same parsing path continues normally.
@@ -38,7 +37,7 @@ The workflow requests `contents: write` permission so GitHub's built-in Actions 
 
 The workflow runs hourly at the top of the hour and can also be started manually.
 
-Both workflows use the `python3` runtime already installed on GitHub's `ubuntu-latest` runner. Python dependencies are installed into the runner's temporary directory for that job, leaving Ubuntu's system-managed Python environment unchanged.
+Both workflows use the `python3` runtime already installed on GitHub's `ubuntu-latest` runner and have no package-install step.
 
 ### Post the full menu manually
 
@@ -50,7 +49,7 @@ The first run always posts the full menu and saves it to `data/state.json`. Ever
 
 The website's `Updated` timestamp can also trigger a notification. It appears once as a plain `Updated:` line and is not included in the beer addition or removal totals. If Untappd changes only that timestamp, Discord receives a small `+0`/`-0` notification with no beer lines.
 
-If Untappd's response contains no parseable beers, the watcher posts an error to Discord, leaves the previous snapshot unchanged, and fails with a dedicated parse-error status. The failed run then disables the **Check Sabatini drafts** workflow so the hourly schedule does not repeat the same alert. After fixing or verifying the embed, re-enable the workflow from its GitHub Actions page and run it manually once.
+If Untappd's response contains no parseable beers, the watcher posts an error to Discord, leaves the previous snapshot unchanged, and fails with a dedicated parse-error status. The Cloudflare dispatcher remains enabled, so fix or verify the embed before the next scheduled run.
 
 Discord messages include the menu title and current website timestamp, but omit the fixed source URL. The URL remains stored in `data/state.json`.
 
@@ -74,24 +73,16 @@ The workflow compares the state file before and after the menu check. When the s
 
 The workflow uses a concurrency group so two runs cannot update the state branch at the same time.
 
-## Dependency-free scanner experiment
+## Raw HTML hash shortcut
 
-`scanner.py` is a separate standard-library implementation that scans Untappd's known HTML markers instead of building a Beautiful Soup parse tree. It preserves the same complete snapshot fields and Discord formatting as `watch.py`, including serving sizes and prices even when they are hidden from Discord.
-
-The **Check Sabatini drafts with scanner** workflow is manual-only. It loads and updates the same `watcher-state` snapshot as the hourly watcher, but it does not install any Python packages. The shared concurrency group prevents the manual scanner and hourly workflow from updating state simultaneously.
-
-This is intentionally an experiment rather than the hourly default. Marker scanning starts faster and parses less HTML, but it is more tightly coupled to Untappd's current markup. A zero-item parse posts a scanner error and leaves the saved snapshot unchanged; unlike the scheduled workflow, it does not disable hourly Beautiful Soup checks.
-
-## Optional raw HTML hash shortcut
-
-Both Python implementations store a SHA-256 hash of the decoded raw menu HTML as `rawHtmlHash`. Near the output settings in each script is an experimental switch that is disabled by default:
+`watch.py` stores a SHA-256 hash of the decoded raw menu HTML as `rawHtmlHash` and enables this shortcut:
 
 ```python
-SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = False
+SKIP_PARSE_WHEN_RAW_HTML_UNCHANGED = True
 ```
 
-Changing it to `True` makes the watcher compare the raw hash immediately after downloading and decoding the menu. When it matches the saved snapshot, the script skips Beautiful Soup parsing or marker scanning and exits without posting or saving.
+When the raw hash matches the saved snapshot, the watcher skips its marker scan and exits without posting or saving.
 
-The shortcut is currently disabled so every run performs its parsing method and records a real parse or scan duration in the Actions log. This keeps Beautiful Soup and scanner timing results directly comparable while the experiment is underway. Hashing still does not avoid the network request.
+Hashing does not avoid the network request or HTML decoding, but it avoids the normal menu scan when the response is unchanged.
 
 The first run after this addition parses normally and saves `rawHtmlHash` into the existing snapshot. No manual JSON edit is required.
