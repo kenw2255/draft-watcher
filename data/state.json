@@ -1,11 +1,37 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-19T21:26:40.520974+00:00",
+  "fetchedAt": "2026-07-23T22:00:18.828828+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 19, 4:50 PM EDT",
+  "updatedAt": "Jul 23, 5:42 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d8ae00d407c06a96366234a4e06e46f3ffabf14e72b4c9ff1a5fb118a503cd2d",
+  "rawHtmlHash": "6963f3b4f7aefe4bac6c34a5ffcb2dd056d947883dc4a62e6d75f7aca2940887",
   "items": [
+    {
+      "name": "West Coast Sue",
+      "style": "IPA - American",
+      "abv": "6.5% ABV",
+      "ibu": "",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
+      "serving_options": [
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
+      ]
+    },
+    {
+      "name": "Double Rainbow BeeR-NeRdz",
+      "style": "Sour - Fruited",
+      "abv": "9% ABV",
+      "ibu": "",
+      "brewery": "Rotunda Brewing Company",
+      "location": "Annville, PA",
+      "serving_options": [
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
+      ]
+    },
     {
       "name": "Mellow Little Thing",
       "style": "IPA - Session New England",
@@ -98,19 +124,6 @@
       ]
     },
     {
-      "name": "An Alien Named Sue",
-      "style": "IPA - New England",
-      "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
-      ]
-    },
-    {
       "name": "Icelandic Arctic Berry Ale",
       "style": "Wheat Beer - Fruited",
       "abv": "5.2% ABV",
@@ -173,19 +186,6 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
-      ]
-    },
-    {
-      "name": "Bourbon Barrel-Aged Framinghammer",
-      "style": "Porter - Imperial",
-      "abv": "10% ABV",
-      "ibu": "45 IBU",
-      "brewery": "Jack’s Abby Craft Lagers",
-      "location": "Framingham, MA",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
       ]
     },
     {
@@ -399,6 +399,8 @@
     }
   ],
   "lines": [
+    "West Coast Sue | IPA - American | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
+    "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
@@ -406,13 +408,11 @@
     "Milkshake IPA (Orange Creamsicle) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "PUNGE | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
-    "An Alien Named Sue | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Spiced | 4.5% ABV | Trillium Brewing Company | Canton, MA",
-    "Bourbon Barrel-Aged Framinghammer | Porter - Imperial | 10% ABV | 45 IBU | Jack’s Abby Craft Lagers | Framingham, MA",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "147716812ec3884878b5226dc78c86e21383c4837f66b2dc640ebef0a287b020",
-  "dataHash": "b7507ccee2c4f4704e0df8a1b83bfedeaf7db850e67a258f82a2d92da19b7860"
+  "hash": "b691df94744f6e771329a4f94e904a5bc43ebca1a089f708353106903a09e1d9",
+  "dataHash": "60577a6b76f3eca749fca85c8ea9b827821e2c947a45030a323dae5157b41d79"
 }
