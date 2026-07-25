@@ -1,37 +1,11 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-25T00:00:12.642217+00:00",
+  "fetchedAt": "2026-07-25T15:00:13.446300+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 24, 7:34 PM EDT",
+  "updatedAt": "Jul 25, 10:55 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "b36e1a5a14b146a306a09b4884f72fabf4c10dc30dab11c42d60d3cf67887b16",
+  "rawHtmlHash": "b87842fe1cf8ff5b58299dbc4300e280cdd3d7dd8b54de30a65506306cfea8d8",
   "items": [
-    {
-      "name": "West Coast Sue",
-      "style": "IPA - American",
-      "abv": "6.5% ABV",
-      "ibu": "",
-      "brewery": "Toppling Goliath Brewing Co.",
-      "location": "Decorah, IA",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
-    },
-    {
-      "name": "Double Rainbow BeeR-NeRdz",
-      "style": "Sour - Fruited",
-      "abv": "9% ABV",
-      "ibu": "",
-      "brewery": "Rotunda Brewing Company",
-      "location": "Annville, PA",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
-    },
     {
       "name": "Calumet Queen",
       "style": "Kölsch",
@@ -98,12 +72,25 @@
       ]
     },
     {
-      "name": "PUNGE",
-      "style": "IPA - Imperial",
-      "abv": "8.3% ABV",
+      "name": "Juice Scrum",
+      "style": "IPA - New England",
+      "abv": "6.5% ABV",
       "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "brewery": "Other Half Brewing Co.",
+      "location": "Brooklyn, NY",
+      "serving_options": [
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
+      ]
+    },
+    {
+      "name": "West Coast Sue",
+      "style": "IPA - American",
+      "abv": "6.5% ABV",
+      "ibu": "",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
         "4oz Draft $3.50",
         "10oz Draft $5.95",
@@ -186,6 +173,19 @@
         "4oz Draft $2.50",
         "10oz Draft $3.75",
         "16oz Draft $4.95"
+      ]
+    },
+    {
+      "name": "Double Rainbow BeeR-NeRdz",
+      "style": "Sour - Fruited",
+      "abv": "9% ABV",
+      "ibu": "",
+      "brewery": "Rotunda Brewing Company",
+      "location": "Annville, PA",
+      "serving_options": [
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -399,20 +399,20 @@
     }
   ],
   "lines": [
-    "West Coast Sue | IPA - American | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
     "Milkshake IPA (Orange Creamsicle) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
-    "PUNGE | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "West Coast Sue | IPA - American | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | von Trapp Brewing | Stowe, VT",
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
+    "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3f0ba14f5f386f2eafc8cbcac88c2ccd0af51f5b4fe186a2fafc7cf837d5daa5",
-  "dataHash": "cb2f63d410fc3ca1e1e80f826185d21b0aedab3c0de70e12c90213d81f088c11"
+  "hash": "f7831187f19c08f82d61950de9d49a21282db54f369a95abff13f579c62d03be",
+  "dataHash": "5280b7f4ac19967e38eafc8a928904855307889c97992a68be5ab589566bcfc9"
 }
