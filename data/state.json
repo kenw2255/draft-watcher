@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-25T15:00:13.446300+00:00",
+  "fetchedAt": "2026-07-25T22:00:13.151668+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 25, 10:55 AM EDT",
+  "updatedAt": "Jul 25, 5:34 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "b87842fe1cf8ff5b58299dbc4300e280cdd3d7dd8b54de30a65506306cfea8d8",
+  "rawHtmlHash": "56c438268e56802e5483bd96aa2528ac376f5b9b1417678f53436c68b3d39137",
   "items": [
     {
       "name": "Calumet Queen",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Milkshake IPA (Orange Creamsicle)",
-      "style": "IPA - Milkshake",
-      "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "name": "Perni-Haze",
+      "style": "IPA - New England",
+      "abv": "6.9% ABV",
+      "ibu": "40 IBU",
+      "brewery": "Wicked Weed Brewing",
+      "location": "Asheville, NC",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -402,7 +402,7 @@
     "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
-    "Milkshake IPA (Orange Creamsicle) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Perni-Haze | IPA - New England | 6.9% ABV | 40 IBU | Wicked Weed Brewing | Asheville, NC",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "West Coast Sue | IPA - American | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f7831187f19c08f82d61950de9d49a21282db54f369a95abff13f579c62d03be",
-  "dataHash": "5280b7f4ac19967e38eafc8a928904855307889c97992a68be5ab589566bcfc9"
+  "hash": "d7b04314382b8e5310f9f055a18f893f65eb1af1bac6e4c0b3919d3c74dfe35a",
+  "dataHash": "0be904e64fc27d08dcc21c87880714fbdf93511730601f301fdbf0ea54cfa789"
 }
