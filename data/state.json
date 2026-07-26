@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-25T22:00:13.151668+00:00",
+  "fetchedAt": "2026-07-26T15:01:09.203601+00:00",
   "title": "Beers on Draft",
   "updatedAt": "Jul 25, 5:34 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "56c438268e56802e5483bd96aa2528ac376f5b9b1417678f53436c68b3d39137",
+  "rawHtmlHash": "fcd705a320fc9927a8e4e6d4c9c63165a2ccf974b7fc2a5b5a2f97bb6722f6a4",
   "items": [
     {
       "name": "Calumet Queen",
@@ -153,7 +153,7 @@
       "name": "Summer Ale",
       "style": "Wheat Beer - Witbier",
       "abv": "5% ABV",
-      "ibu": "",
+      "ibu": "15 IBU",
       "brewery": "von Trapp Brewing",
       "location": "Stowe, VT",
       "serving_options": [
@@ -410,7 +410,7 @@
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Supa' Sue-Mo | IPA - Imperial | 8.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
-    "Summer Ale | Wheat Beer - Witbier | 5% ABV | von Trapp Brewing | Stowe, VT",
+    "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "d7b04314382b8e5310f9f055a18f893f65eb1af1bac6e4c0b3919d3c74dfe35a",
-  "dataHash": "0be904e64fc27d08dcc21c87880714fbdf93511730601f301fdbf0ea54cfa789"
+  "hash": "32ab997bcb6bd7de509809bb5ebe7c437d9cb897c1261cd8a58b189233aff1bc",
+  "dataHash": "58c4e5ec8916557b73eb64afa4e84f0e9b71b7ae004cc9444b9b6eaedbbc365a"
 }
