@@ -1,18 +1,18 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-07-30T00:01:15.486320+00:00",
+  "fetchedAt": "2026-08-05T15:00:42.271957+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Jul 29, 7:02 PM EDT",
+  "updatedAt": "Aug 5, 10:31 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "3bf61bb299d68b4e820db93f2762042d345a538095e1b25162f6c9c79b58d4ee",
+  "rawHtmlHash": "20bd9059f3c61bf067a665daacdb2bbfcad7e22765cab58a880eff7a382ca978",
   "items": [
     {
-      "name": "Calumet Queen",
-      "style": "Kölsch",
-      "abv": "5% ABV",
-      "ibu": "20 IBU",
-      "brewery": "3 Floyds Brewing",
-      "location": "Munster, IN",
+      "name": "Broken Lustra",
+      "style": "IPA - New England",
+      "abv": "6.3% ABV",
+      "ibu": "",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -395,7 +395,7 @@
     }
   ],
   "lines": [
-    "Calumet Queen | Kölsch | 5% ABV | 20 IBU | 3 Floyds Brewing | Munster, IN",
+    "Broken Lustra | IPA - New England | 6.3% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Barrel-Aged Guilty Pleasures Espresso Cheesecake | Stout - Imperial | 12.2% ABV | Wicked Weed Brewing | Asheville, NC",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
     "Perni-Haze | IPA - New England | 6.9% ABV | 40 IBU | Wicked Weed Brewing | Asheville, NC",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "42fc271db39fbf322a7345945e984c0a619fd5fb3236cfdc84e0a6a01ad5d2ab",
-  "dataHash": "4ab9f0b871f17bd142d271a7bf21ba9f0bc33012c6b9540056982eb3ad4ac4e7"
+  "hash": "e9e99417766d3e53e768d8e8d051a83cc4b8e9a6cd3324675d67266a7173fcc6",
+  "dataHash": "ef1648f30665f879a241e44a29bb96d423cb9ace925a775b0b874a0e933215c8"
 }
