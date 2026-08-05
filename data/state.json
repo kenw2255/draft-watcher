@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-05T15:00:42.271957+00:00",
+  "fetchedAt": "2026-08-05T22:00:33.228936+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 5, 10:31 AM EDT",
+  "updatedAt": "Aug 5, 6:00 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "20bd9059f3c61bf067a665daacdb2bbfcad7e22765cab58a880eff7a382ca978",
+  "rawHtmlHash": "e252a128faeb3650482ec64a61294bd38f8dfb1e8481daf076d916eb563b2036",
   "items": [
     {
       "name": "Broken Lustra",
@@ -133,9 +133,9 @@
       ]
     },
     {
-      "name": "Barrel-Aged Xenia",
+      "name": "Bloom'd",
       "style": "Farmhouse Ale - Saison",
-      "abv": "6.3% ABV",
+      "abv": "6.1% ABV",
       "ibu": "",
       "brewery": "Fox Farm Brewery",
       "location": "Salem, CT",
@@ -405,7 +405,7 @@
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
-    "Barrel-Aged Xenia | Farmhouse Ale - Saison | 6.3% ABV | Fox Farm Brewery | Salem, CT",
+    "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "e9e99417766d3e53e768d8e8d051a83cc4b8e9a6cd3324675d67266a7173fcc6",
-  "dataHash": "ef1648f30665f879a241e44a29bb96d423cb9ace925a775b0b874a0e933215c8"
+  "hash": "60e34e2590e95124ef529849856269d0668bc12b45a8f6923901665abae5fc38",
+  "dataHash": "a2f35b37667fbf14024ce94bc83a43ff4e6dfc67d74f8649e50264219931ec97"
 }
