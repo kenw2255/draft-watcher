@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-06T19:00:26.114456+00:00",
+  "fetchedAt": "2026-08-06T21:00:25.867418+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 6, 1:20 PM EDT",
+  "updatedAt": "Aug 6, 3:50 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "64c98204370382bf260bbbd396df99d9570378d33bd7ebeb62df1b4be3156fb9",
+  "rawHtmlHash": "7ba164ed86f4dbf2fc9ece539ca10bd272c1086002afa29c55550366a168cd1c",
   "items": [
     {
       "name": "Broken Lustra",
@@ -163,16 +163,16 @@
       ]
     },
     {
-      "name": "Mellow Little Thing",
-      "style": "IPA - Session New England",
-      "abv": "4.5% ABV",
+      "name": "Broken Heels",
+      "style": "IPA - New England",
+      "abv": "7% ABV",
       "ibu": "",
-      "brewery": "Sierra Nevada Brewing Co.",
-      "location": "Chico, CA",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -411,7 +411,7 @@
     "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
-    "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
+    "Broken Heels | IPA - New England | 7% ABV | New Trail Brewing Co. | Williamsport, PA",
     "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "e8ea906fbd71a5a80327a8219d2b5f11f1b091d7dd7413d8e1fa2f4058d0a456",
-  "dataHash": "6ee2c9c6de0798ff54799f2706e2214f22888968aa31755ff8b41e7208f9aff1"
+  "hash": "228d539e5c14e8896ab4dd544951858e6b53031f51053efa1691a49eb1654b83",
+  "dataHash": "24beac73d682eaec601152dc9cdb81b4d933db1a345d178ffa13fea1606204fb"
 }
