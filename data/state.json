@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-05T22:00:33.228936+00:00",
+  "fetchedAt": "2026-08-06T19:00:26.114456+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 5, 6:00 PM EDT",
+  "updatedAt": "Aug 6, 1:20 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "e252a128faeb3650482ec64a61294bd38f8dfb1e8481daf076d916eb563b2036",
+  "rawHtmlHash": "64c98204370382bf260bbbd396df99d9570378d33bd7ebeb62df1b4be3156fb9",
   "items": [
     {
       "name": "Broken Lustra",
@@ -85,13 +85,17 @@
       ]
     },
     {
-      "name": "Society & Solitude #7",
-      "style": "IPA - Imperial",
-      "abv": "8% ABV",
+      "name": "Broken Amplitude",
+      "style": "IPA - New England",
+      "abv": "6.8% ABV",
       "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
-      "serving_options": []
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
+      ]
     },
     {
       "name": "Icelandic Arctic Berry Ale",
@@ -401,7 +405,7 @@
     "Perni-Haze | IPA - New England | 6.9% ABV | 40 IBU | Wicked Weed Brewing | Asheville, NC",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Society & Solitude #7 | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
+    "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Double Rainbow BeeR-NeRdz | Sour - Fruited | 9% ABV | Rotunda Brewing Company | Annville, PA",
@@ -427,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "60e34e2590e95124ef529849856269d0668bc12b45a8f6923901665abae5fc38",
-  "dataHash": "a2f35b37667fbf14024ce94bc83a43ff4e6dfc67d74f8649e50264219931ec97"
+  "hash": "e8ea906fbd71a5a80327a8219d2b5f11f1b091d7dd7413d8e1fa2f4058d0a456",
+  "dataHash": "6ee2c9c6de0798ff54799f2706e2214f22888968aa31755ff8b41e7208f9aff1"
 }
