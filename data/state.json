@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-06T21:00:25.867418+00:00",
+  "fetchedAt": "2026-08-06T23:00:24.180328+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 6, 3:50 PM EDT",
+  "updatedAt": "Aug 6, 6:41 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "7ba164ed86f4dbf2fc9ece539ca10bd272c1086002afa29c55550366a168cd1c",
+  "rawHtmlHash": "586f19baf30e747576079538d9947644f15aff0d9240f15056f30949065cf986",
   "items": [
     {
       "name": "Broken Lustra",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Perni-Haze",
-      "style": "IPA - New England",
-      "abv": "6.9% ABV",
-      "ibu": "40 IBU",
-      "brewery": "Wicked Weed Brewing",
-      "location": "Asheville, NC",
+      "name": "Cryo Triple Broken Heels",
+      "style": "IPA - Triple New England",
+      "abv": "11.5% ABV",
+      "ibu": "",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -72,16 +72,16 @@
       ]
     },
     {
-      "name": "Juice Scrum",
-      "style": "IPA - New England",
-      "abv": "6.5% ABV",
+      "name": "Anchovy Double Broken Heels",
+      "style": "IPA - Imperial",
+      "abv": "9.2% ABV",
       "ibu": "",
-      "brewery": "Other Half Brewing Co.",
-      "location": "Brooklyn, NY",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -402,9 +402,9 @@
     "Broken Lustra | IPA - New England | 6.3% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Barrel-Aged Guilty Pleasures Espresso Cheesecake | Stout - Imperial | 12.2% ABV | Wicked Weed Brewing | Asheville, NC",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
-    "Perni-Haze | IPA - New England | 6.9% ABV | 40 IBU | Wicked Weed Brewing | Asheville, NC",
+    "Cryo Triple Broken Heels | IPA - Triple New England | 11.5% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
-    "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Anchovy Double Broken Heels | IPA - Imperial | 9.2% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "228d539e5c14e8896ab4dd544951858e6b53031f51053efa1691a49eb1654b83",
-  "dataHash": "24beac73d682eaec601152dc9cdb81b4d933db1a345d178ffa13fea1606204fb"
+  "hash": "f2adffbaf702f81f7c06778502d9c2746a41e897e0ab6073475ef741e5c5d8a9",
+  "dataHash": "0db5279b79147bdedad99e1b0ef5b0b3d7f7baa062e30df7acca73e01855d91a"
 }
