@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-07T15:00:26.933969+00:00",
+  "fetchedAt": "2026-08-07T22:00:28.514299+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 7, 10:27 AM EDT",
+  "updatedAt": "Aug 7, 5:20 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "4ca5eed74fd0ce7e5556e2f8e94ea5b05d074b7c6173d63c738ad5a1e00bd036",
+  "rawHtmlHash": "c0d865ef81afaead5c154801e8c00ee2e2942a11e2168d17b7c6eab2fd3f172e",
   "items": [
     {
       "name": "Broken Lustra",
@@ -309,12 +309,12 @@
       ]
     },
     {
-      "name": "Weihenstephaner Hefeweissbier Dunkel",
+      "name": "Dunkles Hefe Weizen",
       "style": "Wheat Beer - Dunkelweizen",
-      "abv": "5.3% ABV",
-      "ibu": "14 IBU",
-      "brewery": "Bayerische Staatsbrauerei Weihenstephan",
-      "location": "Freising, Bayern",
+      "abv": "5.2% ABV",
+      "ibu": "13 IBU",
+      "brewery": "Tucher Bräu",
+      "location": "Fürth, Bayern",
       "serving_options": [
         "4oz Draft $3.00",
         "16oz Draft $5.95"
@@ -419,7 +419,7 @@
     "Chimay Première (Red) | Belgian Dubbel | 7% ABV | 19 IBU | Bières de Chimay | Chimay, Région Wallonne",
     "Weihenstephaner Kristallweissbier | Wheat Beer - Kristallweizen | 5.4% ABV | 16 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
     "Weihenstephaner Hefeweissbier | Wheat Beer - Hefeweizen | 5.4% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
-    "Weihenstephaner Hefeweissbier Dunkel | Wheat Beer - Dunkelweizen | 5.3% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
+    "Dunkles Hefe Weizen | Wheat Beer - Dunkelweizen | 5.2% ABV | 13 IBU | Tucher Bräu | Fürth, Bayern",
     "Rothaus Pils / Tannen Zäpfle | Pilsner - German | 5.1% ABV | 32 IBU | Badische Staatsbrauerei Rothaus | Grafenhausen, Baden-Württemberg",
     "Gaffel Kölsch | Kölsch | 4.8% ABV | 20 IBU | Privatbrauerei Gaffel Becker | Köln, Nordrhein-Westfalen",
     "Abt 12 Nitro | Belgian Quadrupel | 10% ABV | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "258cf535a25422b71c7984483f63cf21dbb7edd2fff05656ebfd0575747ded19",
-  "dataHash": "de80d8d3ee267b144987836a4fd4d601fc5bf68895ba1f38a6c26fbf9eed0839"
+  "hash": "6af8158a9eab77dae721947afa965cbe24f8d059534da02dae1b14b8c97f9be9",
+  "dataHash": "e1187f8f598e8e74cd7902ba00c816947d64fb602a5c584099ed7d070c40fb6d"
 }
