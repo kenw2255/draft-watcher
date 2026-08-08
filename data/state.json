@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-07T22:00:28.514299+00:00",
+  "fetchedAt": "2026-08-08T22:01:20.952035+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 7, 5:20 PM EDT",
+  "updatedAt": "Aug 8, 5:32 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "c0d865ef81afaead5c154801e8c00ee2e2942a11e2168d17b7c6eab2fd3f172e",
+  "rawHtmlHash": "d1b89b5c41c1aedde257c5f963d54420c577dd666966575f658e3dd4aea17060",
   "items": [
     {
       "name": "Broken Lustra",
@@ -72,16 +72,16 @@
       ]
     },
     {
-      "name": "Anchovy Double Broken Heels",
-      "style": "IPA - Imperial",
-      "abv": "9.2% ABV",
+      "name": "Juice Scrum",
+      "style": "IPA - New England",
+      "abv": "6.5% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Other Half Brewing Co.",
+      "location": "Brooklyn, NY",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $6.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -400,7 +400,7 @@
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
     "Cryo Triple Broken Heels | IPA - Triple New England | 11.5% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
-    "Anchovy Double Broken Heels | IPA - Imperial | 9.2% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "6af8158a9eab77dae721947afa965cbe24f8d059534da02dae1b14b8c97f9be9",
-  "dataHash": "e1187f8f598e8e74cd7902ba00c816947d64fb602a5c584099ed7d070c40fb6d"
+  "hash": "8ab72220f9a23ddcf9544e12d398e9fb59016698263d1e99fbe1adcf67c72dc9",
+  "dataHash": "3ba7034163f7e40459d91c2d75e7022402a2921e3d27eccf2ac28d2447b5f3f5"
 }
