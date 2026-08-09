@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-08T22:01:20.952035+00:00",
+  "fetchedAt": "2026-08-09T16:00:20.382495+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 8, 5:32 PM EDT",
+  "updatedAt": "Aug 9, 11:09 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d1b89b5c41c1aedde257c5f963d54420c577dd666966575f658e3dd4aea17060",
+  "rawHtmlHash": "1b4ecfbb3a757f6de0f8dda09b7ef6515682f5531c1ad6516ac8caaa0f8368e2",
   "items": [
     {
-      "name": "Broken Lustra",
-      "style": "IPA - New England",
-      "abv": "6.3% ABV",
+      "name": "Mellow Little Thing",
+      "style": "IPA - Session New England",
+      "abv": "4.5% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -395,7 +395,7 @@
     }
   ],
   "lines": [
-    "Broken Lustra | IPA - New England | 6.3% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
     "Cryo Triple Broken Heels | IPA - Triple New England | 11.5% ABV | New Trail Brewing Co. | Williamsport, PA",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8ab72220f9a23ddcf9544e12d398e9fb59016698263d1e99fbe1adcf67c72dc9",
-  "dataHash": "3ba7034163f7e40459d91c2d75e7022402a2921e3d27eccf2ac28d2447b5f3f5"
+  "hash": "43986f8bb1481ea1ebbb6c7c5c5dd7a42f123cacc2f434fb27ca3f9ed4937fe8",
+  "dataHash": "0f4915ecf053fbdf7e22d35c01aabd78b008d582b953617fdb70802ff24b8c83"
 }
