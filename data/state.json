@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-09T16:00:20.382495+00:00",
+  "fetchedAt": "2026-08-09T19:00:19.549712+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 9, 11:09 AM EDT",
+  "updatedAt": "Aug 9, 2:40 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "1b4ecfbb3a757f6de0f8dda09b7ef6515682f5531c1ad6516ac8caaa0f8368e2",
+  "rawHtmlHash": "dfcf4063fedc9fdf823488e125eeca66f4242bd4a7129710e975185e19d460f1",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Cryo Triple Broken Heels",
-      "style": "IPA - Triple New England",
-      "abv": "11.5% ABV",
+      "name": "Double Nelson",
+      "style": "IPA - Imperial",
+      "abv": "8% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $4.00",
+        "10oz Draft $7.95",
+        "16oz Draft $9.95"
       ]
     },
     {
@@ -398,7 +398,7 @@
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
-    "Cryo Triple Broken Heels | IPA - Triple New England | 11.5% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Double Nelson | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "43986f8bb1481ea1ebbb6c7c5c5dd7a42f123cacc2f434fb27ca3f9ed4937fe8",
-  "dataHash": "0f4915ecf053fbdf7e22d35c01aabd78b008d582b953617fdb70802ff24b8c83"
+  "hash": "8ddd15a43406b266a9a0ded0e1975901f657e6bab253a7755c4a76966a67aa2f",
+  "dataHash": "fc9048f29084e1c13af608f388c969d52b061469760fb9073bee06475106ed21"
 }
