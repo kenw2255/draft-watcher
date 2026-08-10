@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-09T19:00:19.549712+00:00",
+  "fetchedAt": "2026-08-10T18:00:22.082892+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 9, 2:40 PM EDT",
+  "updatedAt": "Aug 10, 1:03 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "dfcf4063fedc9fdf823488e125eeca66f4242bd4a7129710e975185e19d460f1",
+  "rawHtmlHash": "c94bc8b8d98da5b59cc56f897296227b07e995ea960b9755a9e65db4a746be20",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -91,19 +91,6 @@
       "ibu": "",
       "brewery": "New Trail Brewing Co.",
       "location": "Williamsport, PA",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
-      ]
-    },
-    {
-      "name": "Icelandic Arctic Berry Ale",
-      "style": "Wheat Beer - Fruited",
-      "abv": "5.2% ABV",
-      "ibu": "",
-      "brewery": "Einstök Ölgerð",
-      "location": "Akureyri, Akureyrarbær",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -402,7 +389,6 @@
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
-    "Icelandic Arctic Berry Ale | Wheat Beer - Fruited | 5.2% ABV | Einstök Ölgerð | Akureyri, Akureyrarbær",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
@@ -427,6 +413,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8ddd15a43406b266a9a0ded0e1975901f657e6bab253a7755c4a76966a67aa2f",
-  "dataHash": "fc9048f29084e1c13af608f388c969d52b061469760fb9073bee06475106ed21"
+  "hash": "0abdeab1fbc3ca3cf1156ca718978df498cc833191e79573e47a65e67c1cd36c",
+  "dataHash": "7d38b7fb787879faa2b7e31129146d34f871a7919f78471ff4ae451957ca4a3e"
 }
