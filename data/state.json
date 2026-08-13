@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-13T17:00:16.288032+00:00",
+  "fetchedAt": "2026-08-13T21:00:19.946077+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 13, 12:52 PM EDT",
+  "updatedAt": "Aug 13, 4:19 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "3f8213cd6fdf5d3ae45ee183e8f3a4bac8c2575070aba3923aa201c228cf167c",
+  "rawHtmlHash": "db85ce163f535af7c329dcbb6e794fe46c74581bcbaed26d5e98bd7d5468b9a1",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -124,13 +124,17 @@
       ]
     },
     {
-      "name": "Singha",
-      "style": "Lager - Pale",
-      "abv": "5% ABV",
-      "ibu": "20 IBU",
-      "brewery": "Boon Rawd Brewery",
-      "location": "Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
-      "serving_options": []
+      "name": "Green State Lager",
+      "style": "Pilsner - American",
+      "abv": "4.9% ABV",
+      "ibu": "25 IBU",
+      "brewery": "Zero Gravity Beer",
+      "location": "Burlington, VT",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
+      ]
     },
     {
       "name": "Bloom'd",
@@ -404,7 +408,7 @@
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
-    "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
+    "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
     "Broken Heels | IPA - New England | 7% ABV | New Trail Brewing Co. | Williamsport, PA",
@@ -427,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "0a8ca3c542105dd0fa3cd52f487b9358dc6e7d824fd768e3dfa87a93910418db",
-  "dataHash": "cb7efa549d7f7e4070bb2f34f39c1c36bf769fb1d36e2e0929dc7abb33ab6f54"
+  "hash": "1a90c641b2df17769f8f91f676405ff71262aeab28e92af59016dc08b62d8d59",
+  "dataHash": "6a08b0b856a42df3e10fe7798057dbc179ef507d825a8c7c6aceda5a7e361f8a"
 }
