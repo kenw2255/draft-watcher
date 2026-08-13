@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-10T18:00:22.082892+00:00",
+  "fetchedAt": "2026-08-13T00:00:15.573259+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 10, 1:03 PM EDT",
+  "updatedAt": "Aug 12, 7:54 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "c94bc8b8d98da5b59cc56f897296227b07e995ea960b9755a9e65db4a746be20",
+  "rawHtmlHash": "4266f94b1ea9bb30181a08089aaccf0592238cf127f363729a4fcc421207e619",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -72,16 +72,16 @@
       ]
     },
     {
-      "name": "Juice Scrum",
-      "style": "IPA - New England",
-      "abv": "6.5% ABV",
-      "ibu": "",
-      "brewery": "Other Half Brewing Co.",
-      "location": "Brooklyn, NY",
+      "name": "Double Dry Hop King Sue",
+      "style": "IPA - Imperial",
+      "abv": "7.8% ABV",
+      "ibu": "50 IBU",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -95,6 +95,19 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
+      ]
+    },
+    {
+      "name": "Crisp Cucumber Cream Ale",
+      "style": "Cream Ale",
+      "abv": "4.5% ABV",
+      "ibu": "12 IBU",
+      "brewery": "Wallenpaupack Brewing Company",
+      "location": "Hawley, PA",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -387,8 +400,9 @@
     "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
     "Double Nelson | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
-    "Juice Scrum | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Singha | Lager - Pale | 5% ABV | 20 IBU | Boon Rawd Brewery | Krung Thep Maha Nakhon, Krung Thep Maha Nakhon",
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
@@ -413,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "0abdeab1fbc3ca3cf1156ca718978df498cc833191e79573e47a65e67c1cd36c",
-  "dataHash": "7d38b7fb787879faa2b7e31129146d34f871a7919f78471ff4ae451957ca4a3e"
+  "hash": "8f3a22ad50b6245830347c1af74c3fc53cacd03591ef1281cbcaa8e6e7a3a641",
+  "dataHash": "f3574b9364cee2d033260ec0b423a0620ff448f4d9927a2468f1df65ecfda96b"
 }
