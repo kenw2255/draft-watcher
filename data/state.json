@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-13T00:00:15.573259+00:00",
+  "fetchedAt": "2026-08-13T01:00:17.623022+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 12, 7:54 PM EDT",
+  "updatedAt": "Aug 12, 8:13 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "4266f94b1ea9bb30181a08089aaccf0592238cf127f363729a4fcc421207e619",
+  "rawHtmlHash": "cd7053c4cf5ac7b29f141d5896d249c951733fd8f32ed36b3dcbbbbe4a82bbb6",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -33,16 +33,16 @@
       ]
     },
     {
-      "name": "Poperings Hommelbier",
-      "style": "Belgian Strong Golden Ale",
-      "abv": "7.5% ABV",
-      "ibu": "35 IBU",
-      "brewery": "Leroy Breweries",
-      "location": "Ieper, Vlaams Gewest",
+      "name": "Tripel Karmeliet",
+      "style": "Belgian Tripel",
+      "abv": "8.4% ABV",
+      "ibu": "16 IBU",
+      "brewery": "Brouwerij Bosteels",
+      "location": "Buggenhout, Vlaams Gewest",
       "serving_options": [
-        "4oz Draft $4.50",
-        "10oz Draft $8.95",
-        "16oz Draft $10.95"
+        "4oz Draft $5.50",
+        "10oz Draft $12.95",
+        "16oz Draft $14.95"
       ]
     },
     {
@@ -397,7 +397,7 @@
   "lines": [
     "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
     "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
-    "Poperings Hommelbier | Belgian Strong Golden Ale | 7.5% ABV | 35 IBU | Leroy Breweries | Ieper, Vlaams Gewest",
+    "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Double Nelson | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8f3a22ad50b6245830347c1af74c3fc53cacd03591ef1281cbcaa8e6e7a3a641",
-  "dataHash": "f3574b9364cee2d033260ec0b423a0620ff448f4d9927a2468f1df65ecfda96b"
+  "hash": "6e9e39da5d674e74a127d4448f97950d1a3d08c406e8632f37a6a9311a48668e",
+  "dataHash": "7aa2e8476bb8c3ef22bcab4c77233cd45610832faa247b8be63c4d225662b83c"
 }
