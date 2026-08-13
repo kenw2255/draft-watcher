@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-13T01:00:17.623022+00:00",
+  "fetchedAt": "2026-08-13T17:00:16.288032+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 12, 8:13 PM EDT",
+  "updatedAt": "Aug 13, 12:52 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "cd7053c4cf5ac7b29f141d5896d249c951733fd8f32ed36b3dcbbbbe4a82bbb6",
+  "rawHtmlHash": "3f8213cd6fdf5d3ae45ee183e8f3a4bac8c2575070aba3923aa201c228cf167c",
   "items": [
     {
       "name": "Mellow Little Thing",
@@ -198,16 +198,16 @@
       ]
     },
     {
-      "name": "Flamingo Dreams Nitro",
-      "style": "Blonde",
-      "abv": "4.7% ABV",
-      "ibu": "11 IBU",
-      "brewery": "Left Hand Brewing Company",
-      "location": "Longmont, CO",
+      "name": "Wee So Bougie - Laphroaig Barrel Aged",
+      "style": "Scotch Ale",
+      "abv": "8% ABV",
+      "ibu": "",
+      "brewery": "Groove Brewing",
+      "location": "Scranton, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -410,7 +410,7 @@
     "Broken Heels | IPA - New England | 7% ABV | New Trail Brewing Co. | Williamsport, PA",
     "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
-    "Flamingo Dreams Nitro | Blonde | 4.7% ABV | 11 IBU | Left Hand Brewing Company | Longmont, CO",
+    "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "6e9e39da5d674e74a127d4448f97950d1a3d08c406e8632f37a6a9311a48668e",
-  "dataHash": "7aa2e8476bb8c3ef22bcab4c77233cd45610832faa247b8be63c4d225662b83c"
+  "hash": "0a8ca3c542105dd0fa3cd52f487b9358dc6e7d824fd768e3dfa87a93910418db",
+  "dataHash": "cb7efa549d7f7e4070bb2f34f39c1c36bf769fb1d36e2e0929dc7abb33ab6f54"
 }
