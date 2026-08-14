@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-13T21:00:19.946077+00:00",
+  "fetchedAt": "2026-08-14T21:00:16.086355+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 13, 4:19 PM EDT",
+  "updatedAt": "Aug 14, 4:24 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "db85ce163f535af7c329dcbb6e794fe46c74581bcbaed26d5e98bd7d5468b9a1",
+  "rawHtmlHash": "44329006e7e11b0cefcad5d3e55547f3d01bc84d348dd540d1b16efc870be03e",
   "items": [
     {
-      "name": "Mellow Little Thing",
-      "style": "IPA - Session New England",
-      "abv": "4.5% ABV",
+      "name": "Hop Showers",
+      "style": "IPA - New England",
+      "abv": "7.4% ABV",
       "ibu": "",
-      "brewery": "Sierra Nevada Brewing Co.",
-      "location": "Chico, CA",
+      "brewery": "Other Half Brewing Co.",
+      "location": "Brooklyn, NY",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -163,12 +163,12 @@
       ]
     },
     {
-      "name": "Broken Heels",
-      "style": "IPA - New England",
-      "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "name": "Stone IPA",
+      "style": "IPA - American",
+      "abv": "6.9% ABV",
+      "ibu": "71 IBU",
+      "brewery": "Stone Brewing",
+      "location": "Escondido, CA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -399,7 +399,7 @@
     }
   ],
   "lines": [
-    "Mellow Little Thing | IPA - Session New England | 4.5% ABV | Sierra Nevada Brewing Co. | Chico, CA",
+    "Hop Showers | IPA - New England | 7.4% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Double Nelson | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
@@ -411,7 +411,7 @@
     "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
-    "Broken Heels | IPA - New England | 7% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
     "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
     "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
     "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "1a90c641b2df17769f8f91f676405ff71262aeab28e92af59016dc08b62d8d59",
-  "dataHash": "6a08b0b856a42df3e10fe7798057dbc179ef507d825a8c7c6aceda5a7e361f8a"
+  "hash": "e9fdf1dae623066199bd65f4e503c301b8d211314b66b78f018b222628114028",
+  "dataHash": "17e7bb1983ba1cdd2ae772f0b2543ffb4fc8bba1f41343743bf400f7e460946f"
 }
