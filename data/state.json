@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-15T22:01:09.561115+00:00",
+  "fetchedAt": "2026-08-15T23:01:11.395874+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 15, 5:58 PM EDT",
+  "updatedAt": "Aug 15, 6:53 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "af5e680ad7fff1302cdb1372929c15f699936f3187521535171d3e83f225420a",
+  "rawHtmlHash": "de24935c7f330e0006f28ca090cffa5117d7233cca02990283addd825c380247",
   "items": [
     {
       "name": "Hop Showers",
@@ -189,16 +189,16 @@
       ]
     },
     {
-      "name": "PB Cup",
-      "style": "Porter - Other",
-      "abv": "5.5% ABV",
-      "ibu": "15 IBU",
-      "brewery": "Stevens Point Brewery",
-      "location": "Stevens Point, WI",
+      "name": "Maximilian",
+      "style": "Bock - Doppelbock",
+      "abv": "7.8% ABV",
+      "ibu": "",
+      "brewery": "Hofbräuhaus Traunstein",
+      "location": "Traunstein, Bayern",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -413,7 +413,7 @@
     "Summer Ale | Wheat Beer - Witbier | 5% ABV | 15 IBU | von Trapp Brewing | Stowe, VT",
     "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
     "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
-    "PB Cup | Porter - Other | 5.5% ABV | 15 IBU | Stevens Point Brewery | Stevens Point, WI",
+    "Maximilian | Bock - Doppelbock | 7.8% ABV | Hofbräuhaus Traunstein | Traunstein, Bayern",
     "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3db0a8484711147bd81bb9ec56d0ce96f56e24f452c66790520ad7f4a41c113d",
-  "dataHash": "8b128f7f5dd047a831296478e54a1e3f1e2793d698e29ac82c5b2281e8e137e5"
+  "hash": "bf757e2fe4c23b1313a8f3fa736034d4609fba22d24893c33ce628f0fddae882",
+  "dataHash": "4946b5a621e349de97f134df3436254ec2f2db6a2fcad44d5613e98936d29ed1"
 }
