@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-16T19:01:15.912452+00:00",
+  "fetchedAt": "2026-08-19T21:50:25.670541+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 16, 2:22 PM EDT",
+  "updatedAt": "Aug 19, 10:56 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6e9a2d96d05ea9ef305d1457c3dd710390bd87d6e4034fb3b852666c6c5bcda3",
+  "rawHtmlHash": "662f5f0ef68e1660207498adf8f843d4434d2f63e4d800d40e773a813254a5c1",
   "items": [
     {
       "name": "Hop Showers",
@@ -85,16 +85,16 @@
       ]
     },
     {
-      "name": "Broken Amplitude",
-      "style": "IPA - New England",
-      "abv": "6.8% ABV",
+      "name": "Lovely Day",
+      "style": "IPA - Imperial",
+      "abv": "10% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Little Log Cabin Brewing Co.",
+      "location": "Ardmore, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -405,7 +405,7 @@
     "Mosaic Single Hop IPA | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Broken Amplitude | IPA - New England | 6.8% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Lovely Day | IPA - Imperial | 10% ABV | Little Log Cabin Brewing Co. | Ardmore, PA",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3ce1f4bb7e3fd7d76d594d052ddfe46900cbfc7b5504ca2e8c359f966d4b5ac4",
-  "dataHash": "523ec6b2c1a3f73c97f73e59a618de5041d9c7ac5bd4796cac3246d1cf87ac5c"
+  "hash": "a0612787de1ae3c54f05d72c9177612ab9ce7d523fb617e18561b56726caae91",
+  "dataHash": "9094c8739a275d41bbbd1d1bb0e455b879da94e05793ad2414e2567f3f362c16"
 }
