@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-21T22:01:09.253906+00:00",
+  "fetchedAt": "2026-08-21T23:01:10.088110+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 21, 5:45 PM EDT",
+  "updatedAt": "Aug 21, 6:59 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9ae37e85ff0975b9de523b5abd0f5729baa21f81b1f95a55f80dc0e2256065e1",
+  "rawHtmlHash": "51348246c0f19a4873ae8d2b06ed6325100856cad08755ed657339a281295e13",
   "items": [
     {
       "name": "Hop Showers",
@@ -20,16 +20,16 @@
       ]
     },
     {
-      "name": "Black Colossus",
-      "style": "Stout - Imperial",
-      "abv": "14.1% ABV",
-      "ibu": "",
-      "brewery": "3 Floyds Brewing",
-      "location": "Munster, IN",
+      "name": "Parabola (2014)",
+      "style": "Stout - Russian Imperial",
+      "abv": "14% ABV",
+      "ibu": "82 IBU",
+      "brewery": "Firestone Walker Brewing Company",
+      "location": "Paso Robles, CA",
       "serving_options": [
-        "4oz Draft $6.00",
-        "10oz Draft $12.95",
-        "16oz Draft $16.95"
+        "4oz Draft $5.00",
+        "10oz Draft $10.95",
+        "16oz Draft $14.95"
       ]
     },
     {
@@ -400,7 +400,7 @@
   ],
   "lines": [
     "Hop Showers | IPA - New England | 7.4% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
+    "Parabola (2014) | Stout - Russian Imperial | 14% ABV | 82 IBU | Firestone Walker Brewing Company | Paso Robles, CA",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "22dbcde39af8d32a672a548e2bfd0e6b4b1621eaea28632bb592e8c070745596",
-  "dataHash": "16335bf8957c94a6c87b9a4d77d623330fa8a9fbb09f9e47b86e91d8b453948a"
+  "hash": "33a545945a00dd2674faa158b5d5d066a3a9c92babdd8e029fa231dcc93a5f76",
+  "dataHash": "0b3faea3c89d0fac6bfbb8845b07d962177b1e7e9acffc65991ca6b823f2f3c5"
 }
