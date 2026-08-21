@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-19T21:50:25.670541+00:00",
+  "fetchedAt": "2026-08-21T22:01:09.253906+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 19, 10:56 AM EDT",
+  "updatedAt": "Aug 21, 5:45 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "662f5f0ef68e1660207498adf8f843d4434d2f63e4d800d40e773a813254a5c1",
+  "rawHtmlHash": "9ae37e85ff0975b9de523b5abd0f5729baa21f81b1f95a55f80dc0e2256065e1",
   "items": [
     {
       "name": "Hop Showers",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Mosaic Single Hop IPA",
-      "style": "IPA - American",
-      "abv": "6% ABV",
-      "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
+      "name": "Swish",
+      "style": "IPA - Imperial",
+      "abv": "8% ABV",
+      "ibu": "80 IBU",
+      "brewery": "Bissell Brothers Brewing Company",
+      "location": "Portland, ME",
       "serving_options": [
         "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "10oz Draft $7.95",
+        "16oz Draft $9.95"
       ]
     },
     {
@@ -402,7 +402,7 @@
     "Hop Showers | IPA - New England | 7.4% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Black Colossus | Stout - Imperial | 14.1% ABV | 3 Floyds Brewing | Munster, IN",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
-    "Mosaic Single Hop IPA | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
+    "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
     "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Lovely Day | IPA - Imperial | 10% ABV | Little Log Cabin Brewing Co. | Ardmore, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "a0612787de1ae3c54f05d72c9177612ab9ce7d523fb617e18561b56726caae91",
-  "dataHash": "9094c8739a275d41bbbd1d1bb0e455b879da94e05793ad2414e2567f3f362c16"
+  "hash": "22dbcde39af8d32a672a548e2bfd0e6b4b1621eaea28632bb592e8c070745596",
+  "dataHash": "16335bf8957c94a6c87b9a4d77d623330fa8a9fbb09f9e47b86e91d8b453948a"
 }
