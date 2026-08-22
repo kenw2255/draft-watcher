@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-21T23:01:10.088110+00:00",
+  "fetchedAt": "2026-08-22T21:01:08.269075+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 21, 6:59 PM EDT",
+  "updatedAt": "Aug 22, 4:53 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "51348246c0f19a4873ae8d2b06ed6325100856cad08755ed657339a281295e13",
+  "rawHtmlHash": "badd0e307bac5624710e779d6e617add4f1b347e444fcffef7cd30c5defa0cd3",
   "items": [
     {
       "name": "Hop Showers",
@@ -59,16 +59,16 @@
       ]
     },
     {
-      "name": "Sick Cider",
-      "style": "Cider - Dry",
-      "abv": "6.5% ABV",
+      "name": "Blackberry",
+      "style": "Cider - Other Fruit",
+      "abv": "5% ABV",
       "ibu": "",
-      "brewery": "Dogfish Head Craft Brewery",
-      "location": "Milton, DE",
+      "brewery": "Downeast Cider House",
+      "location": "Boston, MA",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -176,16 +176,16 @@
       ]
     },
     {
-      "name": "White Angel",
-      "style": "Sour - Other",
-      "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "Wicked Weed Brewing",
-      "location": "Asheville, NC",
+      "name": "Honey Orange Tripel",
+      "style": "Belgian Tripel",
+      "abv": "10% ABV",
+      "ibu": "25 IBU",
+      "brewery": "New Belgium Brewing Company",
+      "location": "Fort Collins, CO",
       "serving_options": [
-        "4oz Draft $10.50",
-        "10oz Draft $17.95",
-        "16oz Draft $23.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -403,7 +403,7 @@
     "Parabola (2014) | Stout - Russian Imperial | 14% ABV | 82 IBU | Firestone Walker Brewing Company | Paso Robles, CA",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
-    "Sick Cider | Cider - Dry | 6.5% ABV | Dogfish Head Craft Brewery | Milton, DE",
+    "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Lovely Day | IPA - Imperial | 10% ABV | Little Log Cabin Brewing Co. | Ardmore, PA",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
@@ -412,7 +412,7 @@
     "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
     "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
     "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
-    "White Angel | Sour - Other | 7% ABV | Wicked Weed Brewing | Asheville, NC",
+    "Honey Orange Tripel | Belgian Tripel | 10% ABV | 25 IBU | New Belgium Brewing Company | Fort Collins, CO",
     "Maximilian | Bock - Doppelbock | 7.8% ABV | Hofbräuhaus Traunstein | Traunstein, Bayern",
     "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "33a545945a00dd2674faa158b5d5d066a3a9c92babdd8e029fa231dcc93a5f76",
-  "dataHash": "0b3faea3c89d0fac6bfbb8845b07d962177b1e7e9acffc65991ca6b823f2f3c5"
+  "hash": "72c9d483a50df4bef716afdb1ba350f9602613437b7b831a754e682b3b4c7563",
+  "dataHash": "2de2c7fa79d688c41efbff5db8a9b6247e6b472c48d2b0e67659871805398376"
 }
