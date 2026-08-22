@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-22T21:01:08.269075+00:00",
+  "fetchedAt": "2026-08-22T21:45:20.341650+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 22, 4:53 PM EDT",
+  "updatedAt": "Aug 22, 5:32 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "badd0e307bac5624710e779d6e617add4f1b347e444fcffef7cd30c5defa0cd3",
+  "rawHtmlHash": "b1200e88ac71fee5fcf670074bce380b4d8a9b2d946842942b5bad8632dc24eb",
   "items": [
     {
       "name": "Hop Showers",
@@ -137,9 +137,9 @@
       ]
     },
     {
-      "name": "Bloom'd",
-      "style": "Farmhouse Ale - Saison",
-      "abv": "6.1% ABV",
+      "name": "Menuet",
+      "style": "Wild Ale - American",
+      "abv": "3.8% ABV",
       "ibu": "",
       "brewery": "Fox Farm Brewery",
       "location": "Salem, CT",
@@ -409,7 +409,7 @@
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
-    "Bloom'd | Farmhouse Ale - Saison | 6.1% ABV | Fox Farm Brewery | Salem, CT",
+    "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
     "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
     "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
     "Honey Orange Tripel | Belgian Tripel | 10% ABV | 25 IBU | New Belgium Brewing Company | Fort Collins, CO",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "72c9d483a50df4bef716afdb1ba350f9602613437b7b831a754e682b3b4c7563",
-  "dataHash": "2de2c7fa79d688c41efbff5db8a9b6247e6b472c48d2b0e67659871805398376"
+  "hash": "ab8c93ee69c50857676d73074c77ca80eb0e7fa3cc4b6315bf6250fdbb99fff5",
+  "dataHash": "4386f64798ae87a913cf5affac132bc4f9bff10c7cb04c40a2cdcfb58a75ca16"
 }
