@@ -1,18 +1,18 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-22T21:45:20.341650+00:00",
+  "fetchedAt": "2026-08-27T18:01:17.876950+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 22, 5:32 PM EDT",
+  "updatedAt": "Aug 27, 1:19 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "b1200e88ac71fee5fcf670074bce380b4d8a9b2d946842942b5bad8632dc24eb",
+  "rawHtmlHash": "53adea40a9002d4fbd1af14e86258ffc9f2ba859a5a0d0e803b16e06c4464e5d",
   "items": [
     {
-      "name": "Hop Showers",
-      "style": "IPA - New England",
-      "abv": "7.4% ABV",
-      "ibu": "",
-      "brewery": "Other Half Brewing Co.",
-      "location": "Brooklyn, NY",
+      "name": "Edward",
+      "style": "Pale Ale - American",
+      "abv": "5.2% ABV",
+      "ibu": "65 IBU",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
       "serving_options": [
         "4oz Draft $3.50",
         "10oz Draft $5.95",
@@ -399,7 +399,7 @@
     }
   ],
   "lines": [
-    "Hop Showers | IPA - New England | 7.4% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Edward | Pale Ale - American | 5.2% ABV | 65 IBU | Hill Farmstead Brewery | Greensboro, VT",
     "Parabola (2014) | Stout - Russian Imperial | 14% ABV | 82 IBU | Firestone Walker Brewing Company | Paso Robles, CA",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "ab8c93ee69c50857676d73074c77ca80eb0e7fa3cc4b6315bf6250fdbb99fff5",
-  "dataHash": "4386f64798ae87a913cf5affac132bc4f9bff10c7cb04c40a2cdcfb58a75ca16"
+  "hash": "3200db715df15ecf7afc7ec72e60cd400a08ed1e0f7a4b00cb70803fbde398b6",
+  "dataHash": "f1024366f2d709c2d71e5ca75a412c1f94a087e5ac261eb4874e2384528c15ef"
 }
