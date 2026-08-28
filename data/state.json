@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-27T18:01:17.876950+00:00",
+  "fetchedAt": "2026-08-28T16:01:18.582391+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 27, 1:19 PM EDT",
+  "updatedAt": "Aug 28, 11:39 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "53adea40a9002d4fbd1af14e86258ffc9f2ba859a5a0d0e803b16e06c4464e5d",
+  "rawHtmlHash": "21f58e8863126d35e779db7c27d6d6323d2addd2b19c52b0c3cb57bde08f8552",
   "items": [
     {
       "name": "Edward",
@@ -85,16 +85,16 @@
       ]
     },
     {
-      "name": "Lovely Day",
-      "style": "IPA - Imperial",
-      "abv": "10% ABV",
+      "name": "DDH Alien Church",
+      "style": "IPA - New England",
+      "abv": "7% ABV",
       "ibu": "",
-      "brewery": "Little Log Cabin Brewing Co.",
+      "brewery": "Tired Hands Brewing Company",
       "location": "Ardmore, PA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -313,12 +313,12 @@
       ]
     },
     {
-      "name": "Dunkles Hefe Weizen",
+      "name": "Weihenstephaner Hefeweissbier Dunkel",
       "style": "Wheat Beer - Dunkelweizen",
-      "abv": "5.2% ABV",
-      "ibu": "13 IBU",
-      "brewery": "Tucher Bräu",
-      "location": "Fürth, Bayern",
+      "abv": "5.3% ABV",
+      "ibu": "14 IBU",
+      "brewery": "Bayerische Staatsbrauerei Weihenstephan",
+      "location": "Freising, Bayern",
       "serving_options": [
         "4oz Draft $3.00",
         "16oz Draft $5.95"
@@ -405,7 +405,7 @@
     "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Lovely Day | IPA - Imperial | 10% ABV | Little Log Cabin Brewing Co. | Ardmore, PA",
+    "DDH Alien Church | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
@@ -423,7 +423,7 @@
     "Chimay Première (Red) | Belgian Dubbel | 7% ABV | 19 IBU | Bières de Chimay | Chimay, Région Wallonne",
     "Weihenstephaner Kristallweissbier | Wheat Beer - Kristallweizen | 5.4% ABV | 16 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
     "Weihenstephaner Hefeweissbier | Wheat Beer - Hefeweizen | 5.4% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
-    "Dunkles Hefe Weizen | Wheat Beer - Dunkelweizen | 5.2% ABV | 13 IBU | Tucher Bräu | Fürth, Bayern",
+    "Weihenstephaner Hefeweissbier Dunkel | Wheat Beer - Dunkelweizen | 5.3% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
     "Rothaus Pils / Tannen Zäpfle | Pilsner - German | 5.1% ABV | 32 IBU | Badische Staatsbrauerei Rothaus | Grafenhausen, Baden-Württemberg",
     "Gaffel Kölsch | Kölsch | 4.8% ABV | 20 IBU | Privatbrauerei Gaffel Becker | Köln, Nordrhein-Westfalen",
     "Abt 12 Nitro | Belgian Quadrupel | 10% ABV | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3200db715df15ecf7afc7ec72e60cd400a08ed1e0f7a4b00cb70803fbde398b6",
-  "dataHash": "f1024366f2d709c2d71e5ca75a412c1f94a087e5ac261eb4874e2384528c15ef"
+  "hash": "fdd152730d1e0c1f8ba7ea41dbedf7fcee3e37212fcd32673037f183b6066353",
+  "dataHash": "f81bed73039c90b7c5b0e87f34218ab79ffa2aed8bbd5450ddf9e305e4791fb1"
 }
