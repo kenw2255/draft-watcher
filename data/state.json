@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-28T16:01:18.582391+00:00",
+  "fetchedAt": "2026-08-28T23:01:15.006253+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 28, 11:39 AM EDT",
+  "updatedAt": "Aug 28, 6:14 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "21f58e8863126d35e779db7c27d6d6323d2addd2b19c52b0c3cb57bde08f8552",
+  "rawHtmlHash": "3c50279460cf0be28407684c2c66c6b68e1878845065ea3a843900ae16b59657",
   "items": [
     {
       "name": "Edward",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Swish",
+      "name": "Tusk",
       "style": "IPA - Imperial",
       "abv": "8% ABV",
-      "ibu": "80 IBU",
-      "brewery": "Bissell Brothers Brewing Company",
-      "location": "Portland, ME",
+      "ibu": "",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $7.95",
-        "16oz Draft $9.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -402,7 +402,7 @@
     "Edward | Pale Ale - American | 5.2% ABV | 65 IBU | Hill Farmstead Brewery | Greensboro, VT",
     "Parabola (2014) | Stout - Russian Imperial | 14% ABV | 82 IBU | Firestone Walker Brewing Company | Paso Robles, CA",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
-    "Swish | IPA - Imperial | 8% ABV | 80 IBU | Bissell Brothers Brewing Company | Portland, ME",
+    "Tusk | IPA - Imperial | 8% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Double Dry Hop King Sue | IPA - Imperial | 7.8% ABV | 50 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "DDH Alien Church | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "fdd152730d1e0c1f8ba7ea41dbedf7fcee3e37212fcd32673037f183b6066353",
-  "dataHash": "f81bed73039c90b7c5b0e87f34218ab79ffa2aed8bbd5450ddf9e305e4791fb1"
+  "hash": "37e5468c20eb69267cbe55ae5362d5149ee205c61b7599e38bd3871a707315cb",
+  "dataHash": "ab3495397951a253052dfe7ccfa6025876a944ee48a1d7faa979bfa97983a951"
 }
