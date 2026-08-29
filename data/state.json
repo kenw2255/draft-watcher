@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-28T23:01:15.006253+00:00",
+  "fetchedAt": "2026-08-29T00:01:10.861588+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 28, 6:14 PM EDT",
+  "updatedAt": "Aug 28, 7:53 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "3c50279460cf0be28407684c2c66c6b68e1878845065ea3a843900ae16b59657",
+  "rawHtmlHash": "0fa6b883bde56d27c00fdb4c415175f87bccf28a5a66ba682b2a0289e99c4a05",
   "items": [
     {
       "name": "Edward",
@@ -124,16 +124,16 @@
       ]
     },
     {
-      "name": "Green State Lager",
-      "style": "Pilsner - American",
-      "abv": "4.9% ABV",
-      "ibu": "25 IBU",
-      "brewery": "Zero Gravity Beer",
-      "location": "Burlington, VT",
+      "name": "Juan Ricardo",
+      "style": "Lager - Pale",
+      "abv": "4.7% ABV",
+      "ibu": "",
+      "brewery": "Fiddlehead Brewing Company",
+      "location": "Shelburne, VT",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -408,7 +408,7 @@
     "DDH Alien Church | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
-    "Green State Lager | Pilsner - American | 4.9% ABV | 25 IBU | Zero Gravity Beer | Burlington, VT",
+    "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
     "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
     "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
     "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "37e5468c20eb69267cbe55ae5362d5149ee205c61b7599e38bd3871a707315cb",
-  "dataHash": "ab3495397951a253052dfe7ccfa6025876a944ee48a1d7faa979bfa97983a951"
+  "hash": "f1261d911db134a5e4ad24feb283aeea6174c2708f686952364e83d3b6da97dd",
+  "dataHash": "e5026eef31cc705a21a9a29babdcc295adf83ee16c04a2c4f74fe17cc2d1c16d"
 }
