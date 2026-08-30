@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-08-29T15:01:17.330443+00:00",
+  "fetchedAt": "2026-08-30T21:01:12.420339+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Aug 29, 10:42 AM EDT",
+  "updatedAt": "Aug 30, 4:39 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6600a2cf4bef6fbbafe4a8f2ee486679108464ced085a4138e0885a55534c64b",
+  "rawHtmlHash": "3c72a2cc67e5be41e445ce6159083f8deacc9846d5e044cd0d2f183ee1e2048f",
   "items": [
     {
       "name": "Edward",
@@ -176,16 +176,16 @@
       ]
     },
     {
-      "name": "Honey Orange Tripel",
-      "style": "Belgian Tripel",
-      "abv": "10% ABV",
-      "ibu": "25 IBU",
-      "brewery": "New Belgium Brewing Company",
-      "location": "Fort Collins, CO",
+      "name": "Oktoberfest",
+      "style": "Märzen",
+      "abv": "5.2% ABV",
+      "ibu": "",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -412,7 +412,7 @@
     "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
     "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
     "Stone IPA | IPA - American | 6.9% ABV | 71 IBU | Stone Brewing | Escondido, CA",
-    "Honey Orange Tripel | Belgian Tripel | 10% ABV | 25 IBU | New Belgium Brewing Company | Fort Collins, CO",
+    "Oktoberfest | Märzen | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Maximilian | Bock - Doppelbock | 7.8% ABV | Hofbräuhaus Traunstein | Traunstein, Bayern",
     "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8ddff87e9cfad1e54aaca1efb278c65749e9dd0011a2c6f4fcaf3020182ed9c6",
-  "dataHash": "cab183045a2828900351baece3d2c1aef527f0e17244560ad87ba5a0fa472568"
+  "hash": "9421076a8454259de8f90f4775c5abf8bc824edad09564148306a5358bdf5143",
+  "dataHash": "a98103feaddd88e8f819fd3386f63b72c39775b5749f4fcae4c1a1c6cdd2eb16"
 }
