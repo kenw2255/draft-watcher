@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-05T21:35:57.672853+00:00",
+  "fetchedAt": "2026-09-05T23:00:41.022667+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 5, 5:05 PM EDT",
+  "updatedAt": "Sep 5, 6:01 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "eb7b092c85e31a3052920d174286b843cfa1a27a3b4ecb0da30e856c5cee4faf",
+  "rawHtmlHash": "e5e29cf3c5f7b44a37a9be3ab8c80b0d949a9ee18ea55a6d749eeba8d9156901",
   "items": [
     {
       "name": "Edward",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Tusk",
+      "name": "Dino Break",
       "style": "IPA - Imperial",
-      "abv": "8% ABV",
+      "abv": "8.5% ABV",
       "ibu": "",
-      "brewery": "Ever Grain Brewing Co.",
-      "location": "Camp Hill, PA",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -402,7 +402,7 @@
     "Edward | Pale Ale - American | 5.2% ABV | 65 IBU | Hill Farmstead Brewery | Greensboro, VT",
     "Bourbon County Brand Chocolate Praline Stout (2025) | Stout - Imperial | 14.6% ABV | Goose Island Beer Co. | Chicago, IL",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
-    "Tusk | IPA - Imperial | 8% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
+    "Dino Break | IPA - Imperial | 8.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Citrus Sue | Belgian Blonde | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "DDH Alien Church | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "5e4be87e53af1ddec6903a3627b9a3512f9ebffda23cdf2d472435221ea1549d",
-  "dataHash": "fb109c63ddc67f9534737da5be1592e62123fee6cb0bf24144ff4aaca0322e65"
+  "hash": "463b13aeb5ccd1bd1f765ec444ef31bbb947515bb10b542facdb48ddf03669e0",
+  "dataHash": "3183b1871b3efab335ee6270e7dc768f40ee97bbb78d162f35d9faade89cd152"
 }
