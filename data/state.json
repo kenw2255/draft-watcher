@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-05T23:00:41.022667+00:00",
+  "fetchedAt": "2026-09-09T14:36:28.608030+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 5, 6:01 PM EDT",
+  "updatedAt": "Sep 9, 10:16 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "e5e29cf3c5f7b44a37a9be3ab8c80b0d949a9ee18ea55a6d749eeba8d9156901",
+  "rawHtmlHash": "f94add0c54af7eee19dee2785c755a2bd5b2b00f2dd0ea763728cb1e72cafff1",
   "items": [
     {
       "name": "Edward",
@@ -85,16 +85,16 @@
       ]
     },
     {
-      "name": "DDH Alien Church",
-      "style": "IPA - New England",
-      "abv": "7% ABV",
+      "name": "Abner",
+      "style": "IPA - Imperial",
+      "abv": "8.2% ABV",
       "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $6.95"
+        "4oz Draft $4.00",
+        "10oz Draft $7.95",
+        "16oz Draft $9.95"
       ]
     },
     {
@@ -405,7 +405,7 @@
     "Dino Break | IPA - Imperial | 8.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Citrus Sue | Belgian Blonde | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
-    "DDH Alien Church | IPA - New England | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Abner | IPA - Imperial | 8.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "463b13aeb5ccd1bd1f765ec444ef31bbb947515bb10b542facdb48ddf03669e0",
-  "dataHash": "3183b1871b3efab335ee6270e7dc768f40ee97bbb78d162f35d9faade89cd152"
+  "hash": "71d7619622a86ee47d83b2d4c33c9c6cad739e692cb25a36fb8f31f2195c5ca4",
+  "dataHash": "52d3e5851c0c8a00e5b42c55f7a253fc2bef4bdbd43a5ab41dec009aac479966"
 }
