@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-09T14:36:28.608030+00:00",
+  "fetchedAt": "2026-09-10T22:56:21.736386+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 9, 10:16 AM EDT",
+  "updatedAt": "Sep 10, 6:38 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "f94add0c54af7eee19dee2785c755a2bd5b2b00f2dd0ea763728cb1e72cafff1",
+  "rawHtmlHash": "f26c75a1378441ea835e134d8276e1da5dc3404150e499e6df07e760db5ef655",
   "items": [
     {
       "name": "Edward",
@@ -98,12 +98,12 @@
       ]
     },
     {
-      "name": "Crisp Cucumber Cream Ale",
-      "style": "Cream Ale",
-      "abv": "4.5% ABV",
-      "ibu": "12 IBU",
-      "brewery": "Wallenpaupack Brewing Company",
-      "location": "Hawley, PA",
+      "name": "Pumpkin Ale",
+      "style": "Pumpkin",
+      "abv": "7% ABV",
+      "ibu": "",
+      "brewery": "Block House Brewing",
+      "location": "Pittsburgh, PA",
       "serving_options": [
         "4oz Draft $2.50",
         "10oz Draft $3.75",
@@ -406,7 +406,7 @@
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Citrus Sue | Belgian Blonde | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Abner | IPA - Imperial | 8.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
-    "Crisp Cucumber Cream Ale | Cream Ale | 4.5% ABV | 12 IBU | Wallenpaupack Brewing Company | Hawley, PA",
+    "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
     "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "71d7619622a86ee47d83b2d4c33c9c6cad739e692cb25a36fb8f31f2195c5ca4",
-  "dataHash": "52d3e5851c0c8a00e5b42c55f7a253fc2bef4bdbd43a5ab41dec009aac479966"
+  "hash": "5cd829aa34c3d6c8d35b16b3136c8d6c6e0fcc3488d017ab3aba1f5e025b3ecf",
+  "dataHash": "9f5eae53fac363ade09419637b2559315c91572c17a2c480d65100658605e268"
 }
