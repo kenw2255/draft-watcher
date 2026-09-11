@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-10T22:56:21.736386+00:00",
+  "fetchedAt": "2026-09-11T21:01:35.337628+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 10, 6:38 PM EDT",
+  "updatedAt": "Sep 11, 4:49 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "f26c75a1378441ea835e134d8276e1da5dc3404150e499e6df07e760db5ef655",
+  "rawHtmlHash": "d8787712698852d8b9a0bc2e925fb620dfd81ea4eac0dce2900e76360f3821c1",
   "items": [
     {
-      "name": "Edward",
+      "name": "DDH HopHands",
       "style": "Pale Ale - American",
-      "abv": "5.2% ABV",
-      "ibu": "65 IBU",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
+      "abv": "5.5% ABV",
+      "ibu": "",
+      "brewery": "Tired Hands Brewing Company",
+      "location": "Ardmore, PA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -399,7 +399,7 @@
     }
   ],
   "lines": [
-    "Edward | Pale Ale - American | 5.2% ABV | 65 IBU | Hill Farmstead Brewery | Greensboro, VT",
+    "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Bourbon County Brand Chocolate Praline Stout (2025) | Stout - Imperial | 14.6% ABV | Goose Island Beer Co. | Chicago, IL",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Dino Break | IPA - Imperial | 8.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "5cd829aa34c3d6c8d35b16b3136c8d6c6e0fcc3488d017ab3aba1f5e025b3ecf",
-  "dataHash": "9f5eae53fac363ade09419637b2559315c91572c17a2c480d65100658605e268"
+  "hash": "f89df2cdeafe4d642c8d5ca861ed9b900b67d8a6ada6289fe4ae30c43700699d",
+  "dataHash": "0a9469afb764900922ca3267eb7e9bd81e870573a38d5fe616b15ed94cb7a7b4"
 }
