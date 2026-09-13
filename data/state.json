@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-12T23:00:52.707573+00:00",
+  "fetchedAt": "2026-09-13T14:56:17.218171+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 12, 6:43 PM EDT",
+  "updatedAt": "Sep 13, 10:23 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "734f386f973a664de128fbb98bb54f4c70086cc06f606be241934c98cadd917a",
+  "rawHtmlHash": "3497e5ac055597c9782592d6e2d789636aaeb57527303d8e9f96df25c25d86ac",
   "items": [
     {
       "name": "DDH HopHands",
@@ -20,9 +20,9 @@
       ]
     },
     {
-      "name": "Bourbon County Brand Chocolate Praline Stout (2025)",
+      "name": "Bourbon County Brand Cherry Wood Stout (2021)",
       "style": "Stout - Imperial",
-      "abv": "14.6% ABV",
+      "abv": "14.3% ABV",
       "ibu": "",
       "brewery": "Goose Island Beer Co.",
       "location": "Chicago, IL",
@@ -400,7 +400,7 @@
   ],
   "lines": [
     "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
-    "Bourbon County Brand Chocolate Praline Stout (2025) | Stout - Imperial | 14.6% ABV | Goose Island Beer Co. | Chicago, IL",
+    "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Dino Break | IPA - Imperial | 8.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "4813c796519d6f0e5cd98bd8b94ef301294706587c1513415532fc40e953a4f2",
-  "dataHash": "03e3a6deb5ec83372b4f3ec7ecb81c72ccf57cd6ba98ed3731432a7e873f104b"
+  "hash": "38f90876aef6d201269d4329f7c491e67e3012fe8efb205e479f5789254a9efe",
+  "dataHash": "aa5d8d7e15aceae267f13a41e11a2863d62c76860263dd66fe700f812fc9255e"
 }
