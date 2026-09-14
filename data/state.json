@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-13T14:56:17.218171+00:00",
+  "fetchedAt": "2026-09-14T16:02:41.698807+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 13, 10:23 AM EDT",
+  "updatedAt": "Sep 14, 11:46 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "3497e5ac055597c9782592d6e2d789636aaeb57527303d8e9f96df25c25d86ac",
+  "rawHtmlHash": "90525e54d5559660df0757a92b88e1a68d503159730236a31643b654bc93309d",
   "items": [
     {
       "name": "DDH HopHands",
@@ -46,16 +46,16 @@
       ]
     },
     {
-      "name": "Dino Break",
-      "style": "IPA - Imperial",
-      "abv": "8.5% ABV",
+      "name": "Paper Crowns",
+      "style": "IPA - New England",
+      "abv": "6.8% ABV",
       "ibu": "",
-      "brewery": "Toppling Goliath Brewing Co.",
-      "location": "Decorah, IA",
+      "brewery": "Xül Beer Company",
+      "location": "Knoxville, TN",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -189,12 +189,12 @@
       ]
     },
     {
-      "name": "Maximilian",
-      "style": "Bock - Doppelbock",
-      "abv": "7.8% ABV",
-      "ibu": "",
-      "brewery": "Hofbräuhaus Traunstein",
-      "location": "Traunstein, Bayern",
+      "name": "(Oktober) Fest-Märzen",
+      "style": "Märzen",
+      "abv": "5.8% ABV",
+      "ibu": "25 IBU",
+      "brewery": "Ayinger Privatbrauerei",
+      "location": "Aying, Bayern",
       "serving_options": [
         "4oz Draft $3.50",
         "10oz Draft $5.95",
@@ -402,7 +402,7 @@
     "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
-    "Dino Break | IPA - Imperial | 8.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
+    "Paper Crowns | IPA - New England | 6.8% ABV | Xül Beer Company | Knoxville, TN",
     "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
     "Citrus Sue | Belgian Blonde | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Abner | IPA - Imperial | 8.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
@@ -413,7 +413,7 @@
     "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
     "Trooper IPA | IPA - American | 6.6% ABV | 55 IBU | Lagunitas Brewing Company | Petaluma, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
-    "Maximilian | Bock - Doppelbock | 7.8% ABV | Hofbräuhaus Traunstein | Traunstein, Bayern",
+    "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
     "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "38f90876aef6d201269d4329f7c491e67e3012fe8efb205e479f5789254a9efe",
-  "dataHash": "aa5d8d7e15aceae267f13a41e11a2863d62c76860263dd66fe700f812fc9255e"
+  "hash": "56dcc23ca2ff4ea9b9a100dd1bb6b709a7eaca2e29bba8d21b0fa5f63b90f183",
+  "dataHash": "7e9ced057012c27d10e2d28f63ad7bcaff6dabe2e8c252941b803c36b4531013"
 }
