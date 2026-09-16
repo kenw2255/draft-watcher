@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-15T22:41:23.310648+00:00",
+  "fetchedAt": "2026-09-16T20:51:10.330063+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 15, 6:21 PM EDT",
+  "updatedAt": "Sep 16, 4:33 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "736be4027f85da2814db3cf9a7a11317398d7fd531b804a48bb258ca98bf5bbf",
+  "rawHtmlHash": "4b5732014e66cbd25f6e259fabb27fb625ddc639fce9512f17c8bcf9b10b67ca",
   "items": [
     {
       "name": "DDH HopHands",
@@ -59,16 +59,16 @@
       ]
     },
     {
-      "name": "Blackberry",
-      "style": "Cider - Other Fruit",
-      "abv": "5% ABV",
+      "name": "Pumqueen",
+      "style": "Cider - Applewine",
+      "abv": "8.6% ABV",
       "ibu": "",
-      "brewery": "Downeast Cider House",
-      "location": "Boston, MA",
+      "brewery": "Southern Tier Brewing Company",
+      "location": "Lakewood, NY",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -403,7 +403,7 @@
     "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
     "Tripel Karmeliet | Belgian Tripel | 8.4% ABV | 16 IBU | Brouwerij Bosteels | Buggenhout, Vlaams Gewest",
     "Paper Crowns | IPA - New England | 6.8% ABV | Xül Beer Company | Knoxville, TN",
-    "Blackberry | Cider - Other Fruit | 5% ABV | Downeast Cider House | Boston, MA",
+    "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Citrus Sue | Belgian Blonde | 5.2% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Ephraim | IPA - Imperial | 9.6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "38498bf4523d2f3952cfc8ed3ab55c38005c6ba0a0ad7b1aaa42c3ce3649e0bd",
-  "dataHash": "75554b45d8fdafd02c3eb5edc068a60fe274d6ec5e404ffb68eb23bc27329609"
+  "hash": "8b83c39bed2a99a66db10aa5a6457c9c2200a3bc302aa7b4adf6000e0ae0bdca",
+  "dataHash": "d2560071c1e3c904c21c68a2480a5703380c2794ecf2fc336ddfb80da1a03783"
 }
