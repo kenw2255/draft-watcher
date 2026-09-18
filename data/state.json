@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-17T22:01:00.911911+00:00",
+  "fetchedAt": "2026-09-18T19:01:07.227596+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 17, 5:18 PM EDT",
+  "updatedAt": "Sep 18, 2:51 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "c104ea3b112cade572fcf495e190e3b5d42cfce0cb434f3c6500fbe62a0afe99",
+  "rawHtmlHash": "b26e0f9eef94c6af891f7a60372aff67121df68c083c7664caab99553f039651",
   "items": [
     {
       "name": "DDH HopHands",
@@ -80,7 +80,7 @@
       "location": "Greensboro, VT",
       "serving_options": [
         "4oz Draft $3.50",
-        "100oz Draft $5.95",
+        "10oz Draft $5.95",
         "16oz Draft $7.95"
       ]
     },
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "efb0a1603d10806c5e3fd713d73f801e7063243eaee88925b0f1acf8ee01ddc1",
-  "dataHash": "88259ff96892f33d03ee19599db23e7eb727949c20c34cda8e779883e025b1ea"
+  "hash": "53b2d2963e4cd995970c5cbaf81531f87303aaf1c6606fa5f83f8d4ee3c8e204",
+  "dataHash": "b1222a7ddde90ba84536bf0d72c3b6c0dc3a8395a43f2e5ca2186940e7070869"
 }
