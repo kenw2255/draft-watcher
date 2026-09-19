@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-18T20:00:59.973346+00:00",
+  "fetchedAt": "2026-09-19T21:00:52.749467+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 18, 3:41 PM EDT",
+  "updatedAt": "Sep 19, 4:58 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "2bfa5a7ea48bd7b05f954dcb855a26fdfcf1843db9b602240f0e91a4d357d710",
+  "rawHtmlHash": "45ff44eee7a21ed461358e8feb135720b9bc19021fa0c95e81297e688b16cef0",
   "items": [
     {
       "name": "DDH HopHands",
@@ -98,16 +98,16 @@
       ]
     },
     {
-      "name": "Pumpkin Ale",
+      "name": "Punkin Ale",
       "style": "Pumpkin",
       "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "Block House Brewing",
-      "location": "Pittsburgh, PA",
+      "ibu": "28 IBU",
+      "brewery": "Dogfish Head Craft Brewery",
+      "location": "Milton, DE",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -406,7 +406,7 @@
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Ephraim | IPA - Imperial | 9.6% ABV | Hill Farmstead Brewery | Greensboro, VT",
-    "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
+    "Punkin Ale | Pumpkin | 7% ABV | 28 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
     "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "a341534e6d685a8b8a6faede0ac2a07bb6c1fcd5b2ca5da89f51d60cc72d403c",
-  "dataHash": "a0ca6241a044ea934ac8b76b181d187e33878b0c4bd1af157a066adc52b1956a"
+  "hash": "5900837dd84350855200f96bf207560f42fb8cb992e722fb5dcd0e07c4171ee2",
+  "dataHash": "d462ab79fb5c3355a0b41d8fadc2dcaf30eaf32a3d25ce0ae50e78467181e09b"
 }
