@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-20T16:56:09.210989+00:00",
+  "fetchedAt": "2026-09-20T17:41:12.205774+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 20, 12:39 PM EDT",
+  "updatedAt": "Sep 20, 1:24 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "65874b19c0bc2abc31193b143e71a09354a342fcf282c03b84d98fe804fcd6e4",
+  "rawHtmlHash": "576136b6b24b2b252f0a1d67304215da861b378eda201277e1dd2ed00c910ac9",
   "items": [
     {
       "name": "DDH HopHands",
@@ -46,17 +46,13 @@
       ]
     },
     {
-      "name": "Paper Crowns",
-      "style": "IPA - New England",
-      "abv": "6.8% ABV",
+      "name": "Peach Ivy",
+      "style": "IPA - Imperial",
+      "abv": "8.4% ABV",
       "ibu": "",
       "brewery": "Xül Beer Company",
       "location": "Knoxville, TN",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
+      "serving_options": []
     },
     {
       "name": "Pumqueen",
@@ -402,7 +398,7 @@
     "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
     "Oktoberfest Märzen | Märzen | 5.8% ABV | Hacker-Pschorr | Munich, Bayern",
-    "Paper Crowns | IPA - New England | 6.8% ABV | Xül Beer Company | Knoxville, TN",
+    "Peach Ivy | IPA - Imperial | 8.4% ABV | Xül Beer Company | Knoxville, TN",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Ephraim | IPA - Imperial | 9.6% ABV | Hill Farmstead Brewery | Greensboro, VT",
@@ -431,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "c6d19b2b5692d2ea3df2610507c88516b5791a8f91a3b125c108c2b532115528",
-  "dataHash": "0b0d15a2d609f3c7e5c99d94ad4c3854b9234ae93873610e254c70d3497b9130"
+  "hash": "c7b79a301f01320b375760bb44b42811eabe343d1ee6181c140226374c18e224",
+  "dataHash": "2bb7512a5f8e324ecf69c18621d3b4a8df0abbd95b5cd3dd6ba11069af71526f"
 }
