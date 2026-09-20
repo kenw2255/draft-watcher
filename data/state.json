@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-19T21:00:52.749467+00:00",
+  "fetchedAt": "2026-09-20T16:56:09.210989+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 19, 4:58 PM EDT",
+  "updatedAt": "Sep 20, 12:39 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "45ff44eee7a21ed461358e8feb135720b9bc19021fa0c95e81297e688b16cef0",
+  "rawHtmlHash": "65874b19c0bc2abc31193b143e71a09354a342fcf282c03b84d98fe804fcd6e4",
   "items": [
     {
       "name": "DDH HopHands",
@@ -202,16 +202,16 @@
       ]
     },
     {
-      "name": "Wee So Bougie - Laphroaig Barrel Aged",
-      "style": "Scotch Ale",
-      "abv": "8% ABV",
+      "name": "Pumpkin Spice Latte Nitro",
+      "style": "Pumpkin",
+      "abv": "7% ABV",
       "ibu": "",
-      "brewery": "Groove Brewing",
-      "location": "Scranton, PA",
+      "brewery": "Left Hand Brewing Company",
+      "location": "Longmont, CO",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -414,7 +414,7 @@
     "Trooper IPA | IPA - American | 6.6% ABV | 55 IBU | Lagunitas Brewing Company | Petaluma, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
     "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
-    "Wee So Bougie - Laphroaig Barrel Aged | Scotch Ale | 8% ABV | Groove Brewing | Scranton, PA",
+    "Pumpkin Spice Latte Nitro | Pumpkin | 7% ABV | Left Hand Brewing Company | Longmont, CO",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "5900837dd84350855200f96bf207560f42fb8cb992e722fb5dcd0e07c4171ee2",
-  "dataHash": "d462ab79fb5c3355a0b41d8fadc2dcaf30eaf32a3d25ce0ae50e78467181e09b"
+  "hash": "c6d19b2b5692d2ea3df2610507c88516b5791a8f91a3b125c108c2b532115528",
+  "dataHash": "0b0d15a2d609f3c7e5c99d94ad4c3854b9234ae93873610e254c70d3497b9130"
 }
