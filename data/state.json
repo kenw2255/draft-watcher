@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-25T15:00:51.031942+00:00",
+  "fetchedAt": "2026-09-25T23:26:52.316661+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 25, 10:45 AM EDT",
+  "updatedAt": "Sep 25, 7:09 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "aa01e24cbd3767e2c202330cd1330c0b9bf7ce57ea8e97d4efe2e9d12a6ae71f",
+  "rawHtmlHash": "7dfee5d1eb7cd2a3962ca772922677d6d795ad588c15f2d8f7eefc728359067c",
   "items": [
     {
       "name": "DDH HopHands",
@@ -146,16 +146,16 @@
       ]
     },
     {
-      "name": "Hazelnut Brown Ale",
-      "style": "Brown Ale - American",
-      "abv": "5.6% ABV",
-      "ibu": "33 IBU",
-      "brewery": "Rogue Ales",
-      "location": "Newport, OR",
+      "name": "Tiny Umbrellas",
+      "style": "Sour - Fruited",
+      "abv": "7% ABV",
+      "ibu": "",
+      "brewery": "Xül Beer Company",
+      "location": "Knoxville, TN",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -406,7 +406,7 @@
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
     "Menuet | Wild Ale - American | 3.8% ABV | Fox Farm Brewery | Salem, CT",
-    "Hazelnut Brown Ale | Brown Ale - American | 5.6% ABV | 33 IBU | Rogue Ales | Newport, OR",
+    "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Trooper IPA | IPA - American | 6.6% ABV | 55 IBU | Lagunitas Brewing Company | Petaluma, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
     "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "29d19692929dc67b8d4dda1abdce9fc892799b600e8cafe06484ff6c0c0f231c",
-  "dataHash": "864ed6d2a71bc101d1ae64f74cb7d069e119e8eb639c6f04be5f41269ea40951"
+  "hash": "95f89dc30264164c6140591ba6f19fa4bc402a701a5dfe647201eb2d5924ae6c",
+  "dataHash": "d8f4c0318212edd909a230cb10f73a742535816f32c390d9153eeb54fbc4ed32"
 }
