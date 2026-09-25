@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-24T18:01:19.555552+00:00",
+  "fetchedAt": "2026-09-25T15:00:51.031942+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 24, 1:56 PM EDT",
+  "updatedAt": "Sep 25, 10:45 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "a65a62731ed25487e83a9cbdc284b17b30ee783c897f8dce22935aca3f3be403",
+  "rawHtmlHash": "aa01e24cbd3767e2c202330cd1330c0b9bf7ce57ea8e97d4efe2e9d12a6ae71f",
   "items": [
     {
       "name": "DDH HopHands",
@@ -358,10 +358,10 @@
       ]
     },
     {
-      "name": "Tripel",
-      "style": "Belgian Tripel",
+      "name": "Prior 8",
+      "style": "Belgian Dubbel",
       "abv": "8% ABV",
-      "ibu": "25 IBU",
+      "ibu": "20 IBU",
       "brewery": "Brouwerij St.Bernardus",
       "location": "Poperinge, Vlaams Gewest",
       "serving_options": [
@@ -423,10 +423,10 @@
     "Rothaus Pils / Tannen Zäpfle | Pilsner - German | 5.1% ABV | 32 IBU | Badische Staatsbrauerei Rothaus | Grafenhausen, Baden-Württemberg",
     "Gaffel Kölsch | Kölsch | 4.8% ABV | 20 IBU | Privatbrauerei Gaffel Becker | Köln, Nordrhein-Westfalen",
     "Abt 12 Nitro | Belgian Quadrupel | 10% ABV | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
-    "Tripel | Belgian Tripel | 8% ABV | 25 IBU | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
+    "Prior 8 | Belgian Dubbel | 8% ABV | 20 IBU | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "6ddd871991399d10e2c26958b19acfab8a4b89adc75fbfe8d917b065f3874c2f",
-  "dataHash": "c2e65581d1cfc7929a76b2caef01f446e922e5b45397c733a8002b42fc616fc5"
+  "hash": "29d19692929dc67b8d4dda1abdce9fc892799b600e8cafe06484ff6c0c0f231c",
+  "dataHash": "864ed6d2a71bc101d1ae64f74cb7d069e119e8eb639c6f04be5f41269ea40951"
 }
