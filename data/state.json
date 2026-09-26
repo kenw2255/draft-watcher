@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-25T23:26:52.316661+00:00",
+  "fetchedAt": "2026-09-26T15:00:36.539210+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 25, 7:09 PM EDT",
+  "updatedAt": "Sep 26, 10:46 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "7dfee5d1eb7cd2a3962ca772922677d6d795ad588c15f2d8f7eefc728359067c",
+  "rawHtmlHash": "0f9566630f18c8607bc543fafcff8e80f39e4ed5e9ee964a4c867769eb9333b2",
   "items": [
     {
       "name": "DDH HopHands",
@@ -33,11 +33,11 @@
       ]
     },
     {
-      "name": "Oktoberfest Märzen",
+      "name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
       "style": "Märzen",
       "abv": "5.8% ABV",
-      "ibu": "",
-      "brewery": "Hacker-Pschorr",
+      "ibu": "20 IBU",
+      "brewery": "Paulaner Brauerei",
       "location": "Munich, Bayern",
       "serving_options": [
         "4oz Draft $3.00",
@@ -397,7 +397,7 @@
   "lines": [
     "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
-    "Oktoberfest Märzen | Märzen | 5.8% ABV | Hacker-Pschorr | Munich, Bayern",
+    "Paulaner Oktoberfest Märzen / Original Münchner Märzen | Märzen | 5.8% ABV | 20 IBU | Paulaner Brauerei | Munich, Bayern",
     "Peach Ivy | IPA - Imperial | 8.4% ABV | Xül Beer Company | Knoxville, TN",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "95f89dc30264164c6140591ba6f19fa4bc402a701a5dfe647201eb2d5924ae6c",
-  "dataHash": "d8f4c0318212edd909a230cb10f73a742535816f32c390d9153eeb54fbc4ed32"
+  "hash": "9b4235ac998c76e35f7e08bda1051aebcd9a7378190a205bb045671d9e9f6073",
+  "dataHash": "ebc083b59741381a84efce5e8db7d52a90ca1e201e32c642ecc6a135ef96ff05"
 }
