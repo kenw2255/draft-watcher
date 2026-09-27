@@ -1,14 +1,14 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-26T15:00:36.539210+00:00",
+  "fetchedAt": "2026-09-27T14:00:59.646127+00:00",
   "title": "Beers on Draft",
   "updatedAt": "Sep 26, 10:46 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "0f9566630f18c8607bc543fafcff8e80f39e4ed5e9ee964a4c867769eb9333b2",
+  "rawHtmlHash": "b78cdde19a83056d1f534bdcc419a1e4c5c90e85781e2ecaf3adbed750bae081",
   "items": [
     {
       "name": "DDH HopHands",
-      "style": "Pale Ale - American",
+      "style": "Pale Ale - New England",
       "abv": "5.5% ABV",
       "ibu": "",
       "brewery": "Tired Hands Brewing Company",
@@ -395,7 +395,7 @@
     }
   ],
   "lines": [
-    "DDH HopHands | Pale Ale - American | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "DDH HopHands | Pale Ale - New England | 5.5% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
     "Paulaner Oktoberfest Märzen / Original Münchner Märzen | Märzen | 5.8% ABV | 20 IBU | Paulaner Brauerei | Munich, Bayern",
     "Peach Ivy | IPA - Imperial | 8.4% ABV | Xül Beer Company | Knoxville, TN",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "9b4235ac998c76e35f7e08bda1051aebcd9a7378190a205bb045671d9e9f6073",
-  "dataHash": "ebc083b59741381a84efce5e8db7d52a90ca1e201e32c642ecc6a135ef96ff05"
+  "hash": "419357baaf4ce93de7d22a0b32f700b0ba7e7b7e7735d7ef648c0b66d4f28977",
+  "dataHash": "039e54887c50aae169dc60cbcd80422a1cecb56f128422756291ba9cfc95a1d7"
 }
