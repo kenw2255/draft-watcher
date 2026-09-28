@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-28T15:41:34.037064+00:00",
+  "fetchedAt": "2026-09-28T20:56:56.681068+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 28, 11:23 AM EDT",
+  "updatedAt": "Sep 28, 4:35 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "293bb78d322f1e350ce093ead7b78e163a1ff424034b68d8621a1784accdf083",
+  "rawHtmlHash": "e1c53c9e604a5f9419ba9456bc0e106a869001f1af2d3e8d6ac1b4e4c356e0c4",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -20,9 +20,9 @@
       ]
     },
     {
-      "name": "Bourbon County Brand Cherry Wood Stout (2021)",
+      "name": "Bourbon County Brand Cherries Jubilee Stout (2025)",
       "style": "Stout - Imperial",
-      "abv": "14.3% ABV",
+      "abv": "14.5% ABV",
       "ibu": "",
       "brewery": "Goose Island Beer Co.",
       "location": "Chicago, IL",
@@ -396,7 +396,7 @@
   ],
   "lines": [
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Bourbon County Brand Cherry Wood Stout (2021) | Stout - Imperial | 14.3% ABV | Goose Island Beer Co. | Chicago, IL",
+    "Bourbon County Brand Cherries Jubilee Stout (2025) | Stout - Imperial | 14.5% ABV | Goose Island Beer Co. | Chicago, IL",
     "Paulaner Oktoberfest Märzen / Original Münchner Märzen | Märzen | 5.8% ABV | 20 IBU | Paulaner Brauerei | Munich, Bayern",
     "Peach Ivy | IPA - Imperial | 8.4% ABV | Xül Beer Company | Knoxville, TN",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
@@ -427,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "6804f67094d4c4a1249d74ec8c2f4667596dc2acf784df9e82b39062310b208d",
-  "dataHash": "fe61433b8ab33d3953c6c2704c883519c6119db2b5a5a5ac2f4ffdf897396627"
+  "hash": "b4a471a6e05c564752b51bd52da0fd431f6a6b21eb87a707db6bc610466a653b",
+  "dataHash": "dba0349fb55467210e256d53dc6507bf003e9fd6da9c0a9f6fb93c3284f4912e"
 }
