@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-28T20:56:56.681068+00:00",
+  "fetchedAt": "2026-09-29T22:31:53.897651+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 28, 4:35 PM EDT",
+  "updatedAt": "Sep 29, 6:10 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "e1c53c9e604a5f9419ba9456bc0e106a869001f1af2d3e8d6ac1b4e4c356e0c4",
+  "rawHtmlHash": "33f03ae73118ebe94e7e41868277080835cfd15b7119e2da16e9a2d83fee8947",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -46,13 +46,17 @@
       ]
     },
     {
-      "name": "Peach Ivy",
-      "style": "IPA - Imperial",
-      "abv": "8.4% ABV",
+      "name": "Pinkies Up - Paint the Planet Pink",
+      "style": "Wheat Beer - Witbier",
+      "abv": "5.5% ABV",
       "ibu": "",
-      "brewery": "Xül Beer Company",
-      "location": "Knoxville, TN",
-      "serving_options": []
+      "brewery": "Groove Brewing",
+      "location": "Scranton, PA",
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
+      ]
     },
     {
       "name": "Pumqueen",
@@ -398,7 +402,7 @@
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Bourbon County Brand Cherries Jubilee Stout (2025) | Stout - Imperial | 14.5% ABV | Goose Island Beer Co. | Chicago, IL",
     "Paulaner Oktoberfest Märzen / Original Münchner Märzen | Märzen | 5.8% ABV | 20 IBU | Paulaner Brauerei | Munich, Bayern",
-    "Peach Ivy | IPA - Imperial | 8.4% ABV | Xül Beer Company | Knoxville, TN",
+    "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "DDH Weedeater (2026) | IPA - Imperial | 8.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -427,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "b4a471a6e05c564752b51bd52da0fd431f6a6b21eb87a707db6bc610466a653b",
-  "dataHash": "dba0349fb55467210e256d53dc6507bf003e9fd6da9c0a9f6fb93c3284f4912e"
+  "hash": "2f2b2533c4892d4b6f8dee5174a2d914a17aef13d57ffbe74cc0fea00fa0c3de",
+  "dataHash": "da5a2f607ae7b8a8e2c2220988788c7f5ea1e396e34989fa9fbf86d289c4b4b0"
 }
