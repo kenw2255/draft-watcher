@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-09-30T14:57:26.787970+00:00",
+  "fetchedAt": "2026-10-02T19:32:16.671220+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Sep 30, 10:39 AM EDT",
+  "updatedAt": "Oct 2, 3:12 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "75a14d02998edde016352bdc3f3305f39205cf9fa15af4a919002f222d96c42c",
+  "rawHtmlHash": "32fb6159dcfb4f82bb7ee7a51fa458d862560f71c95dcc013d980a8689c395c8",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "name": "DDH Weedeater (2026)",
+      "name": "Dibs On Shotgun",
       "style": "IPA - Imperial",
-      "abv": "8.4% ABV",
+      "abv": "8% ABV",
       "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "brewery": "RaR Brewing",
+      "location": "Cambridge, MD",
       "serving_options": [
         "4oz Draft $4.00",
         "10oz Draft $6.95",
@@ -405,7 +405,7 @@
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
-    "DDH Weedeater (2026) | IPA - Imperial | 8.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Dibs On Shotgun | IPA - Imperial | 8% ABV | RaR Brewing | Cambridge, MD",
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "7a7b38b4bb2b2915f3632d1fd9a0fe200112d5f19d0361c2f578722ed11b6dfe",
-  "dataHash": "38ef41d39365a96a15a01358950a9b6589789b8f5bf744eb4d1be2f62b044c90"
+  "hash": "eeef85058a686d83b572e45aed83b1c9b24b2e829e3538b63b27ea5380ac5c57",
+  "dataHash": "954e96ad4936d546da5d96cfebdc32ddc6a6060ed4db4a2ac0423b14185cffb0"
 }
