@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-03T22:00:51.964077+00:00",
+  "fetchedAt": "2026-10-03T22:11:51.388492+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 3, 5:53 PM EDT",
+  "updatedAt": "Oct 3, 6:10 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "b71eb04b4cfc20097459633cf4976445e235565e45729ebb2909185d962dc744",
+  "rawHtmlHash": "9d25c95912c56842c4ab39c6982b3e9263b1d61d6b13b03e8dc74725e972a0dc",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -163,16 +163,16 @@
       ]
     },
     {
-      "name": "Trooper IPA",
+      "name": "West Ghost IPA",
       "style": "IPA - American",
-      "abv": "6.6% ABV",
-      "ibu": "55 IBU",
-      "brewery": "Lagunitas Brewing Company",
-      "location": "Petaluma, CA",
+      "abv": "7.2% ABV",
+      "ibu": "65 IBU",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -411,7 +411,7 @@
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
     "Milkshake IPA (Double Apple Cider Donut) | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
-    "Trooper IPA | IPA - American | 6.6% ABV | 55 IBU | Lagunitas Brewing Company | Petaluma, CA",
+    "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
     "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
     "Pumpkin Spice Latte Nitro | Pumpkin | 7% ABV | Left Hand Brewing Company | Longmont, CO",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "5cc76d7e4c0be46f2a6a661b0b01f5206fbeecc5ebc88cedf12189aab142a717",
-  "dataHash": "5e0ca5d4dec0f0b253466648e9f35a9181bb9090602515b92e6c9740764621a8"
+  "hash": "85296dfee82e1b11187a420805d4841c73f37ed4c97d3e50602917c546b41641",
+  "dataHash": "95633c066abd6302c4d099b3becb46033aeca6c79c8cf6f6b64ab18d7331421c"
 }
