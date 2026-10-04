@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-03T22:11:51.388492+00:00",
+  "fetchedAt": "2026-10-04T16:51:41.900018+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 3, 6:10 PM EDT",
+  "updatedAt": "Oct 4, 12:30 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9d25c95912c56842c4ab39c6982b3e9263b1d61d6b13b03e8dc74725e972a0dc",
+  "rawHtmlHash": "b6a584bd9dc98fe04bfa477f9f315a9b71421b16477d4db8d6779416568065d0",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -33,16 +33,16 @@
       ]
     },
     {
-      "name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+      "name": "Oktoberfest - Hoppebräu (2026)",
       "style": "Märzen",
-      "abv": "5.8% ABV",
-      "ibu": "20 IBU",
-      "brewery": "Paulaner Brauerei",
-      "location": "Munich, Bayern",
+      "abv": "6% ABV",
+      "ibu": "24 IBU",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -401,7 +401,7 @@
   "lines": [
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Bourbon County Brand Cherries Jubilee Stout (2025) | Stout - Imperial | 14.5% ABV | Goose Island Beer Co. | Chicago, IL",
-    "Paulaner Oktoberfest Märzen / Original Münchner Märzen | Märzen | 5.8% ABV | 20 IBU | Paulaner Brauerei | Munich, Bayern",
+    "Oktoberfest - Hoppebräu (2026) | Märzen | 6% ABV | 24 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Self-Reliance: Galaxy™ | IPA - Farmhouse | 5% ABV | Hill Farmstead Brewery | Greensboro, VT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "85296dfee82e1b11187a420805d4841c73f37ed4c97d3e50602917c546b41641",
-  "dataHash": "95633c066abd6302c4d099b3becb46033aeca6c79c8cf6f6b64ab18d7331421c"
+  "hash": "64f6df87e402b549109d3812387670ac958f46d58210f6c50669f51180be8cbd",
+  "dataHash": "c495640dc9e4aba77e52944093384da3a84c4d68eb5c03e7a7392e428af45414"
 }
