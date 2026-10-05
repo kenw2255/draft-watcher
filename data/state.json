@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-04T21:00:35.463353+00:00",
+  "fetchedAt": "2026-10-05T15:32:13.372933+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 4, 4:56 PM EDT",
+  "updatedAt": "Oct 5, 11:12 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9cace74741f1dbd93c0077e9a1e3e2af030b5f2c1f39df0413e3ae2f7f1caa7c",
+  "rawHtmlHash": "428866a6565f2d1147e3ad909b54abd7136d2a6aa3791838b678830e6fb9a8ac",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -46,6 +46,19 @@
       ]
     },
     {
+      "name": "Double Nelson: Southland",
+      "style": "IPA - Imperial",
+      "abv": "8% ABV",
+      "ibu": "",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
+      "serving_options": [
+        "4oz Draft $4.00",
+        "10oz Draft $7.95",
+        "16oz Draft $9.95"
+      ]
+    },
+    {
       "name": "Pinkies Up - Paint the Planet Pink",
       "style": "Wheat Beer - Witbier",
       "abv": "5.5% ABV",
@@ -69,19 +82,6 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $6.95"
-      ]
-    },
-    {
-      "name": "Double Nelson",
-      "style": "IPA - Imperial",
-      "abv": "8% ABV",
-      "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $7.95",
-        "16oz Draft $9.95"
       ]
     },
     {
@@ -402,9 +402,9 @@
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Bourbon County Brand Cherries Jubilee Stout (2025) | Stout - Imperial | 14.5% ABV | Goose Island Beer Co. | Chicago, IL",
     "Oktoberfest - Hoppebräu (2026) | Märzen | 6% ABV | 24 IBU | Sierra Nevada Brewing Co. | Chico, CA",
+    "Double Nelson: Southland | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
-    "Double Nelson | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Dibs On Shotgun | IPA - Imperial | 8% ABV | RaR Brewing | Cambridge, MD",
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "e5f72762cf1cb00ce1af7136c71ac9b9017b76c5a15c8b29024048f9ac173229",
-  "dataHash": "b5c6c0f47762942e4854b43ccca362744efedd47cd417c76afad4ea84a068cf3"
+  "hash": "b8e2eb1eb176630ef84014837985ae4c57654bc7e82fe73b0b73d4a475852eb2",
+  "dataHash": "29fbed5dbe832af8914b7df3afb513bb0705131534549af991313b16d760ae11"
 }
