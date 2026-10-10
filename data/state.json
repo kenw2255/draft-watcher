@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-05T15:32:13.372933+00:00",
+  "fetchedAt": "2026-10-10T14:51:37.586998+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 5, 11:12 AM EDT",
+  "updatedAt": "Oct 10, 10:34 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "428866a6565f2d1147e3ad909b54abd7136d2a6aa3791838b678830e6fb9a8ac",
+  "rawHtmlHash": "6f29e3cea6be798dc8051107a961537285e5421591beca5e60cab5a95309f920",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -202,12 +202,12 @@
       ]
     },
     {
-      "name": "Pumpkin Spice Latte Nitro",
+      "name": "Punkuccino Coffee Pumpkin Ale",
       "style": "Pumpkin",
-      "abv": "7% ABV",
+      "abv": "6% ABV",
       "ibu": "",
-      "brewery": "Left Hand Brewing Company",
-      "location": "Longmont, CO",
+      "brewery": "Elysian Brewing Company",
+      "location": "Seattle, WA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -414,7 +414,7 @@
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
     "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
-    "Pumpkin Spice Latte Nitro | Pumpkin | 7% ABV | Left Hand Brewing Company | Longmont, CO",
+    "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "b8e2eb1eb176630ef84014837985ae4c57654bc7e82fe73b0b73d4a475852eb2",
-  "dataHash": "29fbed5dbe832af8914b7df3afb513bb0705131534549af991313b16d760ae11"
+  "hash": "3a4161edb7e3fa58ac53c958a5225ed61b0f80afd6d4e58ee3a6cec21d304962",
+  "dataHash": "ed9df8bb02e077b8a2f4c6cc99c4d114568d6ec338ffccaf76aa0b79defc6d36"
 }
