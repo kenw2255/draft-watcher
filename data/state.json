@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-10T14:51:37.586998+00:00",
+  "fetchedAt": "2026-10-11T21:36:36.890535+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 10, 10:34 AM EDT",
+  "updatedAt": "Oct 11, 5:15 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6f29e3cea6be798dc8051107a961537285e5421591beca5e60cab5a95309f920",
+  "rawHtmlHash": "2db6511b7fa651d98f425560248e6c3fdd218c893a86fa23faed070b23f360ce",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -85,16 +85,16 @@
       ]
     },
     {
-      "name": "Dibs On Shotgun",
-      "style": "IPA - Imperial",
-      "abv": "8% ABV",
+      "name": "Foster",
+      "style": "IPA - American",
+      "abv": "6% ABV",
       "ibu": "",
-      "brewery": "RaR Brewing",
-      "location": "Cambridge, MD",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -405,7 +405,7 @@
     "Double Nelson: Southland | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
-    "Dibs On Shotgun | IPA - Imperial | 8% ABV | RaR Brewing | Cambridge, MD",
+    "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3a4161edb7e3fa58ac53c958a5225ed61b0f80afd6d4e58ee3a6cec21d304962",
-  "dataHash": "ed9df8bb02e077b8a2f4c6cc99c4d114568d6ec338ffccaf76aa0b79defc6d36"
+  "hash": "f73d3d8a01f76db51a9f3b9aca7f7beb15f7b3fc2cbb718555558ed4e22f082d",
+  "dataHash": "750b722b400d398cb019150fa5374f20244192fe42b234a9bc1fa89ae2ffd8de"
 }
