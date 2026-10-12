@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-11T21:36:36.890535+00:00",
+  "fetchedAt": "2026-10-12T18:26:39.267842+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 11, 5:15 PM EDT",
+  "updatedAt": "Oct 12, 2:10 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "2db6511b7fa651d98f425560248e6c3fdd218c893a86fa23faed070b23f360ce",
+  "rawHtmlHash": "026e1a719ae9349d7da7d0c801ac400c889930be9f1e23600c57126166d5b9bd",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -20,10 +20,10 @@
       ]
     },
     {
-      "name": "Bourbon County Brand Cherries Jubilee Stout (2025)",
+      "name": "Bourbon County Brand Stout (2023) 14.6%",
       "style": "Stout - Imperial",
-      "abv": "14.5% ABV",
-      "ibu": "",
+      "abv": "14.6% ABV",
+      "ibu": "60 IBU",
       "brewery": "Goose Island Beer Co.",
       "location": "Chicago, IL",
       "serving_options": [
@@ -400,7 +400,7 @@
   ],
   "lines": [
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
-    "Bourbon County Brand Cherries Jubilee Stout (2025) | Stout - Imperial | 14.5% ABV | Goose Island Beer Co. | Chicago, IL",
+    "Bourbon County Brand Stout (2023) 14.6% | Stout - Imperial | 14.6% ABV | 60 IBU | Goose Island Beer Co. | Chicago, IL",
     "Oktoberfest - Hoppebräu (2026) | Märzen | 6% ABV | 24 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Double Nelson: Southland | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f73d3d8a01f76db51a9f3b9aca7f7beb15f7b3fc2cbb718555558ed4e22f082d",
-  "dataHash": "750b722b400d398cb019150fa5374f20244192fe42b234a9bc1fa89ae2ffd8de"
+  "hash": "80209c754c789d95ca6e5822491524811e35c10f86294da50a3a5b529c96ea63",
+  "dataHash": "d2918ef143e06426cd9fabaef6bbcc1c5229414856e72384434e7007d561a20e"
 }
