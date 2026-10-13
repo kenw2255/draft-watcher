@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-12T18:26:39.267842+00:00",
+  "fetchedAt": "2026-10-13T14:01:29.281812+00:00",
   "title": "Beers on Draft",
   "updatedAt": "Oct 12, 2:10 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "026e1a719ae9349d7da7d0c801ac400c889930be9f1e23600c57126166d5b9bd",
+  "rawHtmlHash": "7e35fc03c0cc8d69787b95cfba2c553efeccdf5b41a4d85db92ee90b57902ac4",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -432,5 +432,5 @@
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
   "hash": "80209c754c789d95ca6e5822491524811e35c10f86294da50a3a5b529c96ea63",
-  "dataHash": "d2918ef143e06426cd9fabaef6bbcc1c5229414856e72384434e7007d561a20e"
+  "dataHash": "768dae1734280ff060d98310f05984a6f7c99224bc1a1850a70a8a4030c43492"
 }
