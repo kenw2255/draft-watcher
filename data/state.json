@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-14T20:31:55.624572+00:00",
+  "fetchedAt": "2026-10-14T22:26:43.561003+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 14, 4:13 PM EDT",
+  "updatedAt": "Oct 14, 6:07 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "551a20c17c63e83ee3a1f52db8f33b125249352fda03b9ebdc899d1302d3e964",
+  "rawHtmlHash": "d79738987319f74855d68aeccbbed34e012e52a7b1a9688352a101fee68b5999",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -189,19 +189,6 @@
       ]
     },
     {
-      "name": "(Oktober) Fest-Märzen",
-      "style": "Märzen",
-      "abv": "5.8% ABV",
-      "ibu": "25 IBU",
-      "brewery": "Ayinger Privatbrauerei",
-      "location": "Aying, Bayern",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
-    },
-    {
       "name": "Punkuccino Coffee Pumpkin Ale",
       "style": "Pumpkin",
       "abv": "6% ABV",
@@ -212,6 +199,19 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
+      ]
+    },
+    {
+      "name": "Fall",
+      "style": "Stout - Coffee",
+      "abv": "5.6% ABV",
+      "ibu": "",
+      "brewery": "Maine Beer Company",
+      "location": "Freeport, ME",
+      "serving_options": [
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -413,8 +413,8 @@
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
-    "(Oktober) Fest-Märzen | Märzen | 5.8% ABV | 25 IBU | Ayinger Privatbrauerei | Aying, Bayern",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
+    "Fall | Stout - Coffee | 5.6% ABV | Maine Beer Company | Freeport, ME",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "156ca29bc15ad58785e7b267a0e78d6345f25e56c0af35505575c64ba6ba7c19",
-  "dataHash": "245b60d6b500aa96e7fcf39e42e6b774068bd39a514d969baeb7b79ae27e511e"
+  "hash": "e18bb303a19ba870bafd252ebaac2b62dfec28002df4534498196e4db64647b6",
+  "dataHash": "2a40120e3d1703d743abb9ceef4f4574ce8c0726e8be07238b9d8e7937209881"
 }
