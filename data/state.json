@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-13T14:01:29.281812+00:00",
+  "fetchedAt": "2026-10-14T20:31:55.624572+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 12, 2:10 PM EDT",
+  "updatedAt": "Oct 14, 4:13 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "7e35fc03c0cc8d69787b95cfba2c553efeccdf5b41a4d85db92ee90b57902ac4",
+  "rawHtmlHash": "551a20c17c63e83ee3a1f52db8f33b125249352fda03b9ebdc899d1302d3e964",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -46,19 +46,6 @@
       ]
     },
     {
-      "name": "Double Nelson: Southland",
-      "style": "IPA - Imperial",
-      "abv": "8% ABV",
-      "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $7.95",
-        "16oz Draft $9.95"
-      ]
-    },
-    {
       "name": "Pinkies Up - Paint the Planet Pink",
       "style": "Wheat Beer - Witbier",
       "abv": "5.5% ABV",
@@ -82,6 +69,19 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $6.95"
+      ]
+    },
+    {
+      "name": "Birds On Birds",
+      "style": "IPA - New England",
+      "abv": "6.5% ABV",
+      "ibu": "",
+      "brewery": "Other Half Brewing Co.",
+      "location": "Brooklyn, NY",
+      "serving_options": [
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -402,9 +402,9 @@
     "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
     "Bourbon County Brand Stout (2023) 14.6% | Stout - Imperial | 14.6% ABV | 60 IBU | Goose Island Beer Co. | Chicago, IL",
     "Oktoberfest - Hoppebräu (2026) | Märzen | 6% ABV | 24 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Double Nelson: Southland | IPA - Imperial | 8% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
+    "Birds On Birds | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "80209c754c789d95ca6e5822491524811e35c10f86294da50a3a5b529c96ea63",
-  "dataHash": "768dae1734280ff060d98310f05984a6f7c99224bc1a1850a70a8a4030c43492"
+  "hash": "156ca29bc15ad58785e7b267a0e78d6345f25e56c0af35505575c64ba6ba7c19",
+  "dataHash": "245b60d6b500aa96e7fcf39e42e6b774068bd39a514d969baeb7b79ae27e511e"
 }
