@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-15T18:01:51.257316+00:00",
+  "fetchedAt": "2026-10-15T18:42:13.333847+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 15, 1:59 PM EDT",
+  "updatedAt": "Oct 15, 2:25 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "8d4c9598666c2310b94a2f91e4520489f351d19b42e22e9946b7a7f0772350ff",
+  "rawHtmlHash": "094bca808f6585425b50c45cda0ed4ebc2d808e14e4d2d0a4fef9285b316cf36",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -124,16 +124,16 @@
       ]
     },
     {
-      "name": "Juan Ricardo",
-      "style": "Lager - Pale",
-      "abv": "4.7% ABV",
-      "ibu": "",
-      "brewery": "Fiddlehead Brewing Company",
-      "location": "Shelburne, VT",
+      "name": "Kellerweis",
+      "style": "Wheat Beer - Hefeweizen",
+      "abv": "4.8% ABV",
+      "ibu": "17 IBU",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -408,7 +408,7 @@
     "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
-    "Juan Ricardo | Lager - Pale | 4.7% ABV | Fiddlehead Brewing Company | Shelburne, VT",
+    "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Milkshake IPA (Double Apple Cider Donut) | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "fc6fac72ab6882a67926ed8f3c32704866e53009426bfb9b7985a5da722eda12",
-  "dataHash": "7818b22a979b107b02dd26daf1365f344639f3f91f556f921081f2ff3f1f4045"
+  "hash": "9c74b96fd003acc33dbb104e12baa880ca143c5978fe28006a99d708d1906789",
+  "dataHash": "40c74a0dff0fd529062c348a4043764f5af7c54998fbce9f03eb05a4d387030a"
 }
