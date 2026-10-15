@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-14T22:26:43.561003+00:00",
+  "fetchedAt": "2026-10-15T18:01:51.257316+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 14, 6:07 PM EDT",
+  "updatedAt": "Oct 15, 1:59 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d79738987319f74855d68aeccbbed34e012e52a7b1a9688352a101fee68b5999",
+  "rawHtmlHash": "8d4c9598666c2310b94a2f91e4520489f351d19b42e22e9946b7a7f0772350ff",
   "items": [
     {
       "name": "Hazy Day Sue",
@@ -176,12 +176,12 @@
       ]
     },
     {
-      "name": "Fest Bier",
-      "style": "Festbier",
-      "abv": "5.3% ABV",
-      "ibu": "20 IBU",
-      "brewery": "Lawson’s Finest Liquids",
-      "location": "Waitsfield, VT",
+      "name": "Trendler Oktoberfest (2026)",
+      "style": "Märzen",
+      "abv": "5.4% ABV",
+      "ibu": "",
+      "brewery": "Tired Hands Brewing Company",
+      "location": "Ardmore, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -412,7 +412,7 @@
     "Milkshake IPA (Double Apple Cider Donut) | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Fest Bier | Festbier | 5.3% ABV | 20 IBU | Lawson’s Finest Liquids | Waitsfield, VT",
+    "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
     "Fall | Stout - Coffee | 5.6% ABV | Maine Beer Company | Freeport, ME",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "e18bb303a19ba870bafd252ebaac2b62dfec28002df4534498196e4db64647b6",
-  "dataHash": "2a40120e3d1703d743abb9ceef4f4574ce8c0726e8be07238b9d8e7937209881"
+  "hash": "fc6fac72ab6882a67926ed8f3c32704866e53009426bfb9b7985a5da722eda12",
+  "dataHash": "7818b22a979b107b02dd26daf1365f344639f3f91f556f921081f2ff3f1f4045"
 }
