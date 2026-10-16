@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-15T18:42:13.333847+00:00",
+  "fetchedAt": "2026-10-16T15:00:28.026032+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 15, 2:25 PM EDT",
+  "updatedAt": "Oct 16, 10:55 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "094bca808f6585425b50c45cda0ed4ebc2d808e14e4d2d0a4fef9285b316cf36",
+  "rawHtmlHash": "5020b017c66d5570b4e8c16fce73be701c02e0e1b9fff3441fb543b0115317bd",
   "items": [
     {
-      "name": "Hazy Day Sue",
-      "style": "IPA - New England",
-      "abv": "6.5% ABV",
+      "name": "Pulp Zombie in \"The Robot Apocalypse\"",
+      "style": "IPA - Imperial",
+      "abv": "8.4% ABV",
       "ibu": "",
-      "brewery": "Toppling Goliath Brewing Co.",
-      "location": "Decorah, IA",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -399,7 +399,7 @@
     }
   ],
   "lines": [
-    "Hazy Day Sue | IPA - New England | 6.5% ABV | Toppling Goliath Brewing Co. | Decorah, IA",
+    "Pulp Zombie in \"The Robot Apocalypse\" | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Bourbon County Brand Stout (2023) 14.6% | Stout - Imperial | 14.6% ABV | 60 IBU | Goose Island Beer Co. | Chicago, IL",
     "Oktoberfest - Hoppebräu (2026) | Märzen | 6% ABV | 24 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "9c74b96fd003acc33dbb104e12baa880ca143c5978fe28006a99d708d1906789",
-  "dataHash": "40c74a0dff0fd529062c348a4043764f5af7c54998fbce9f03eb05a4d387030a"
+  "hash": "60e81e6b39d8e1394be8f53390fb56f8cb6982acb636a92d889759f0701fdfee",
+  "dataHash": "d4e0447c16010679b30f71a81eaeac519e5998bfbaa1d5bf0b5fd1044f239ae2"
 }
