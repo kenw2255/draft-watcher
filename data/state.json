@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-16T19:52:05.728661+00:00",
+  "fetchedAt": "2026-10-16T22:31:42.372437+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 16, 3:30 PM EDT",
+  "updatedAt": "Oct 16, 6:13 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "810700fa5394df4455b00b1a8fd3c0791ddd0a0d1b5cbfaa3047b867a9f3bbde",
+  "rawHtmlHash": "9b7eb1c11b14e4b82bdcbd088ed43d0ad9f1b25840f3d74d8415725ada7ef9ce",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -137,9 +137,9 @@
       ]
     },
     {
-      "name": "Milkshake IPA (Double Apple Cider Donut)",
-      "style": "IPA - Imperial",
-      "abv": "8.3% ABV",
+      "name": "Rose Panna Cotta Milkshake IPA (2026)",
+      "style": "IPA - Milkshake",
+      "abv": "7% ABV",
       "ibu": "",
       "brewery": "Tired Hands Brewing Company",
       "location": "Ardmore, PA",
@@ -409,7 +409,7 @@
     "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Milkshake IPA (Double Apple Cider Donut) | IPA - Imperial | 8.3% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Rose Panna Cotta Milkshake IPA (2026) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "2318ee4f91fc6134aaf7ac6ade51cf1d9342b3b400304fd9677069d282726c1e",
-  "dataHash": "8b17e9094f069d7cd9a875746bb32d3e0a83fe1aef9087f48926c57f139e0a23"
+  "hash": "8599c10b5a59b3aa870d9070971746cfcc82f74360f4015971d99d33a309c7f6",
+  "dataHash": "3bfc541eb2d3f77b739b4e0b8b0758a38e128e07a3a53b75964b5119674c5102"
 }
