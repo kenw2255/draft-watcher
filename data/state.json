@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-16T22:31:42.372437+00:00",
+  "fetchedAt": "2026-10-17T17:00:45.332797+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 16, 6:13 PM EDT",
+  "updatedAt": "Oct 17, 12:50 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9b7eb1c11b14e4b82bdcbd088ed43d0ad9f1b25840f3d74d8415725ada7ef9ce",
+  "rawHtmlHash": "50f2ab7f5b524fb56a0956c720306d3cc8e925251a64fa316db0526b7ede7e7c",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -98,12 +98,12 @@
       ]
     },
     {
-      "name": "Midnight Mercenary Pumpkin Pie Ale",
+      "name": "Master of Pumpkins",
       "style": "Pumpkin",
-      "abv": "6% ABV",
-      "ibu": "",
-      "brewery": "Rotunda Brewing Company",
-      "location": "Annville, PA",
+      "abv": "7.5% ABV",
+      "ibu": "30 IBU",
+      "brewery": "Tröegs Independent Brewing",
+      "location": "Hershey, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -406,7 +406,7 @@
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Birds On Birds | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
-    "Midnight Mercenary Pumpkin Pie Ale | Pumpkin | 6% ABV | Rotunda Brewing Company | Annville, PA",
+    "Master of Pumpkins | Pumpkin | 7.5% ABV | 30 IBU | Tröegs Independent Brewing | Hershey, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Rose Panna Cotta Milkshake IPA (2026) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8599c10b5a59b3aa870d9070971746cfcc82f74360f4015971d99d33a309c7f6",
-  "dataHash": "3bfc541eb2d3f77b739b4e0b8b0758a38e128e07a3a53b75964b5119674c5102"
+  "hash": "71be2d6f016df0221252ee1e8f520d1de507215b7091437a6dcf6856a1b3b9e3",
+  "dataHash": "0aa1bd7b6e57880ad1371ef4c4582d2e82922b6425ac62c0b0333b17bbc8c1f5"
 }
