@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-17T17:00:45.332797+00:00",
+  "fetchedAt": "2026-10-18T00:41:43.285168+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 17, 12:50 PM EDT",
+  "updatedAt": "Oct 17, 8:21 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "50f2ab7f5b524fb56a0956c720306d3cc8e925251a64fa316db0526b7ede7e7c",
+  "rawHtmlHash": "bf50cddfa8ac36a6ab00bc70c4f91d6a384316675fafe6364e5a95425ec94ee1",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -150,16 +150,16 @@
       ]
     },
     {
-      "name": "Tiny Umbrellas",
+      "name": "Orange Creamsicle",
       "style": "Sour - Fruited",
-      "abv": "7% ABV",
+      "abv": "4.2% ABV",
       "ibu": "",
-      "brewery": "Xül Beer Company",
-      "location": "Knoxville, TN",
+      "brewery": "WeldWerks Brewing Co.",
+      "location": "Greeley, CO",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -410,7 +410,7 @@
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Rose Panna Cotta Milkshake IPA (2026) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
-    "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
+    "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "71be2d6f016df0221252ee1e8f520d1de507215b7091437a6dcf6856a1b3b9e3",
-  "dataHash": "0aa1bd7b6e57880ad1371ef4c4582d2e82922b6425ac62c0b0333b17bbc8c1f5"
+  "hash": "d3ec8d4f00019891e425043af4b3790aeeb32ca66ea70e9cd1329d9694f2c3a6",
+  "dataHash": "27b2086bb6484d03dadb6119d1aa788e345bd088869e3f57d174995a2d9aae30"
 }
