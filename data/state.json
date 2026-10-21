@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-18T00:41:43.285168+00:00",
+  "fetchedAt": "2026-10-21T20:31:45.937028+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 17, 8:21 PM EDT",
+  "updatedAt": "Oct 21, 4:13 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "bf50cddfa8ac36a6ab00bc70c4f91d6a384316675fafe6364e5a95425ec94ee1",
+  "rawHtmlHash": "f743b9e209b7f418451a50d5661286b0c70740327655acdb6f4e7faf63c29c6c",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -33,16 +33,16 @@
       ]
     },
     {
-      "name": "Rotunda Oktoberfest",
-      "style": "Märzen",
+      "name": "Anna: Foudre (2025)",
+      "style": "Farmhouse Ale - Saison",
       "abv": "6.2% ABV",
       "ibu": "",
-      "brewery": "Rotunda Brewing Company",
-      "location": "Annville, PA",
+      "brewery": "Hill Farmstead Brewery",
+      "location": "Greensboro, VT",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -401,7 +401,7 @@
   "lines": [
     "Pulp Zombie in \"The Robot Apocalypse\" | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Bourbon County Brand Stout (2023) 14.6% | Stout - Imperial | 14.6% ABV | 60 IBU | Goose Island Beer Co. | Chicago, IL",
-    "Rotunda Oktoberfest | Märzen | 6.2% ABV | Rotunda Brewing Company | Annville, PA",
+    "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Pumqueen | Cider - Applewine | 8.6% ABV | Southern Tier Brewing Company | Lakewood, NY",
     "Birds On Birds | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "d3ec8d4f00019891e425043af4b3790aeeb32ca66ea70e9cd1329d9694f2c3a6",
-  "dataHash": "27b2086bb6484d03dadb6119d1aa788e345bd088869e3f57d174995a2d9aae30"
+  "hash": "6b7a2d870a2e47daf71ea5dd94b09ccc8cbc79a0b3aeed761ffe9a25c7b1c825",
+  "dataHash": "3b278a39b8e69baef0c8cf1559d1673221150d79d989ee8846c0f04f193f4a94"
 }
