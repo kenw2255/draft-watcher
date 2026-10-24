@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-23T15:47:03.184997+00:00",
+  "fetchedAt": "2026-10-24T17:00:59.927909+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 23, 11:37 AM EDT",
+  "updatedAt": "Oct 24, 12:56 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "5a5d64af56d5074746bf9dd8bcd7dd7e82fc2424e0a05295ef2d1e29e1ec490a",
+  "rawHtmlHash": "67e498f825826ba14ccc2c2ec720472bd3ebf90d2fe56c63b0471fa97ddb88ea",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -163,16 +163,16 @@
       ]
     },
     {
-      "name": "West Ghost IPA",
-      "style": "IPA - American",
-      "abv": "7.2% ABV",
-      "ibu": "65 IBU",
-      "brewery": "Sierra Nevada Brewing Co.",
-      "location": "Chico, CA",
+      "name": "CheerTeam",
+      "style": "IPA - Imperial",
+      "abv": "7.7% ABV",
+      "ibu": "62 IBU",
+      "brewery": "3 Floyds Brewing",
+      "location": "Munster, IN",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -411,7 +411,7 @@
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Rose Panna Cotta Milkshake IPA (2026) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
-    "West Ghost IPA | IPA - American | 7.2% ABV | 65 IBU | Sierra Nevada Brewing Co. | Chico, CA",
+    "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
     "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
     "Fall | Stout - Coffee | 5.6% ABV | Maine Beer Company | Freeport, ME",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "c2110ec7ca43e156e34e2167dd456d8316218f9549f048542e3e67e5091e96a4",
-  "dataHash": "d98dc7c26c1723250e698fd475be42f252f32416ec8a5e37a4f3a62be207ce01"
+  "hash": "216486ffaa28615b53f9e0651dfa8759b751e15cfa5d5cb11dd41c76d1f45330",
+  "dataHash": "2f0cd4fc2478024607601dc56824cd4d88d0c94460e600075ea41e6b311ead16"
 }
