@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-24T17:00:59.927909+00:00",
+  "fetchedAt": "2026-10-24T21:56:35.509166+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 24, 12:56 PM EDT",
+  "updatedAt": "Oct 24, 5:39 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "67e498f825826ba14ccc2c2ec720472bd3ebf90d2fe56c63b0471fa97ddb88ea",
+  "rawHtmlHash": "34a70ab03131066a84767f71a55b91b5fe0ef94762043f490686671ba644dfa5",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -189,6 +189,19 @@
       ]
     },
     {
+      "name": "Nitro Gunner's Daughter",
+      "style": "Stout - American",
+      "abv": "5.5% ABV",
+      "ibu": "",
+      "brewery": "Mast Landing Brewing Co.",
+      "location": "Westbrook, ME",
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
+      ]
+    },
+    {
       "name": "Punkuccino Coffee Pumpkin Ale",
       "style": "Pumpkin",
       "abv": "6% ABV",
@@ -199,19 +212,6 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
-      ]
-    },
-    {
-      "name": "Fall",
-      "style": "Stout - Coffee",
-      "abv": "5.6% ABV",
-      "ibu": "",
-      "brewery": "Maine Beer Company",
-      "location": "Freeport, ME",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
       ]
     },
     {
@@ -413,8 +413,8 @@
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
     "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Nitro Gunner's Daughter | Stout - American | 5.5% ABV | Mast Landing Brewing Co. | Westbrook, ME",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
-    "Fall | Stout - Coffee | 5.6% ABV | Maine Beer Company | Freeport, ME",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "216486ffaa28615b53f9e0651dfa8759b751e15cfa5d5cb11dd41c76d1f45330",
-  "dataHash": "2f0cd4fc2478024607601dc56824cd4d88d0c94460e600075ea41e6b311ead16"
+  "hash": "0a993f05dc9c4f45e95a8c8a439c627b0ccd93c8a1bad2666e24a21bbb7e5c66",
+  "dataHash": "9070f5fc9e85968941835cf3e9f4c1493d1181e0097ed8b4177c8f5ccb3a0666"
 }
