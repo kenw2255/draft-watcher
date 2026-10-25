@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-25T15:31:31.643591+00:00",
+  "fetchedAt": "2026-10-25T21:31:39.041855+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 25, 11:15 AM EDT",
+  "updatedAt": "Oct 25, 5:15 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6500ba466a41c0708200413daf8c95f441c3ca0b54ad9112182c834bfa030179",
+  "rawHtmlHash": "34bec5b7379879c94abec3bb2b2f63ead773d9a327f9bc162cced93aa253a44d",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -137,17 +137,13 @@
       ]
     },
     {
-      "name": "Rose Panna Cotta Milkshake IPA (2026)",
-      "style": "IPA - Milkshake",
-      "abv": "7% ABV",
-      "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
+      "name": "Flannel Friday",
+      "style": "American Amber",
+      "abv": "5.7% ABV",
+      "ibu": "35 IBU",
+      "brewery": "Harpoon Brewery",
+      "location": "Boston, MA",
+      "serving_options": []
     },
     {
       "name": "Orange Creamsicle",
@@ -409,7 +405,7 @@
     "Master of Pumpkins | Pumpkin | 7.5% ABV | 30 IBU | Tröegs Independent Brewing | Hershey, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Rose Panna Cotta Milkshake IPA (2026) | IPA - Milkshake | 7% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Flannel Friday | American Amber | 5.7% ABV | 35 IBU | Harpoon Brewery | Boston, MA",
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
     "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
@@ -431,6 +427,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "361c4ef06f163607c3ff44f0b807508ad3a8e4adda6689bb0abbf9cb0b6646e0",
-  "dataHash": "9386eeb1518721d0e3eccc8d04248aeea97777520b2f033b1df79a1a5c5cb059"
+  "hash": "391f790c2385cc9118ffa18562f0378bdb972a79e5b5402cba75026ec8f3d43b",
+  "dataHash": "c442ad3327849d4d52f59d91c5624cc759ff77452787f7d5d278abdacc224b77"
 }
