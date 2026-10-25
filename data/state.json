@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-24T21:56:35.509166+00:00",
+  "fetchedAt": "2026-10-25T15:31:31.643591+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 24, 5:39 PM EDT",
+  "updatedAt": "Oct 25, 11:15 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "34a70ab03131066a84767f71a55b91b5fe0ef94762043f490686671ba644dfa5",
+  "rawHtmlHash": "6500ba466a41c0708200413daf8c95f441c3ca0b54ad9112182c834bfa030179",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -20,16 +20,16 @@
       ]
     },
     {
-      "name": "Bourbon County Brand Stout (2023) 14.6%",
+      "name": "Dragon's Milk: Triple Mash (2026)",
       "style": "Stout - Imperial",
-      "abv": "14.6% ABV",
-      "ibu": "60 IBU",
-      "brewery": "Goose Island Beer Co.",
-      "location": "Chicago, IL",
+      "abv": "17% ABV",
+      "ibu": "",
+      "brewery": "New Holland Brewing",
+      "location": "Holland, MI",
       "serving_options": [
-        "4oz Draft $6.00",
-        "10oz Draft $12.95",
-        "16oz Draft $16.95"
+        "4oz Draft $4.50",
+        "10oz Draft $8.95",
+        "16oz Draft $10.95"
       ]
     },
     {
@@ -400,7 +400,7 @@
   ],
   "lines": [
     "Pulp Zombie in \"The Robot Apocalypse\" | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Bourbon County Brand Stout (2023) 14.6% | Stout - Imperial | 14.6% ABV | 60 IBU | Goose Island Beer Co. | Chicago, IL",
+    "Dragon's Milk: Triple Mash (2026) | Stout - Imperial | 17% ABV | New Holland Brewing | Holland, MI",
     "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "0a993f05dc9c4f45e95a8c8a439c627b0ccd93c8a1bad2666e24a21bbb7e5c66",
-  "dataHash": "9070f5fc9e85968941835cf3e9f4c1493d1181e0097ed8b4177c8f5ccb3a0666"
+  "hash": "361c4ef06f163607c3ff44f0b807508ad3a8e4adda6689bb0abbf9cb0b6646e0",
+  "dataHash": "9386eeb1518721d0e3eccc8d04248aeea97777520b2f033b1df79a1a5c5cb059"
 }
