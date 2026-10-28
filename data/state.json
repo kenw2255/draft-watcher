@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-26T15:01:03.327993+00:00",
+  "fetchedAt": "2026-10-28T16:01:14.467388+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 25, 5:15 PM EDT",
+  "updatedAt": "Oct 28, 11:49 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "4ce628d7f3aa1c6476dd939b38bd7841e40f94c2bcc1c93d1f9d937dd0d1e69e",
+  "rawHtmlHash": "6a3c2dd6a337fa2ae3f7ad365a73a19ae07197ecb478800f31317a848d7fd06f",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -143,7 +143,11 @@
       "ibu": "35 IBU",
       "brewery": "Harpoon Brewery",
       "location": "Boston, MA",
-      "serving_options": []
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
+      ]
     },
     {
       "name": "Orange Creamsicle",
@@ -427,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "391f790c2385cc9118ffa18562f0378bdb972a79e5b5402cba75026ec8f3d43b",
-  "dataHash": "4adb0cd14a4653b5b36187683b6baa68bc037737a6fe8f53993c72839beb0bec"
+  "hash": "02fd9242ca7860c18e808512dd76b339a92a4514821e02c4b3ba57fce403c626",
+  "dataHash": "8f62676dff63f5bd7d2c1974b4377bd861519b8fcfc85ebfa744f87ad5274b85"
 }
