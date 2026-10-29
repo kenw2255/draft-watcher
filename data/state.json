@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-28T16:01:14.467388+00:00",
+  "fetchedAt": "2026-10-29T15:36:12.433975+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 28, 11:49 AM EDT",
+  "updatedAt": "Oct 29, 11:22 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "6a3c2dd6a337fa2ae3f7ad365a73a19ae07197ecb478800f31317a848d7fd06f",
+  "rawHtmlHash": "27f7e30bfe640cb8c39c18e8ae1704e8de77e40c752949072d2da5c0474450bf",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -176,16 +176,16 @@
       ]
     },
     {
-      "name": "Trendler Oktoberfest (2026)",
-      "style": "Märzen",
-      "abv": "5.4% ABV",
-      "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "name": "Dead Guy Ale",
+      "style": "Bock - Hell",
+      "abv": "6.8% ABV",
+      "ibu": "40 IBU",
+      "brewery": "Rogue Ales",
+      "location": "Newport, OR",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -412,7 +412,7 @@
     "Flannel Friday | American Amber | 5.7% ABV | 35 IBU | Harpoon Brewery | Boston, MA",
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
-    "Trendler Oktoberfest (2026) | Märzen | 5.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
     "Nitro Gunner's Daughter | Stout - American | 5.5% ABV | Mast Landing Brewing Co. | Westbrook, ME",
     "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "02fd9242ca7860c18e808512dd76b339a92a4514821e02c4b3ba57fce403c626",
-  "dataHash": "8f62676dff63f5bd7d2c1974b4377bd861519b8fcfc85ebfa744f87ad5274b85"
+  "hash": "2b6e0ec02dc0e3fb26e7ee1268ba4cd5caf47d5eacc4521d81b25be1f2fdffc7",
+  "dataHash": "815ff10ba71e9bbdfa7938e010210215e98ccec607db71d7bbcf98b6c91b996a"
 }
