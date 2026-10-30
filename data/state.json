@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-29T15:36:12.433975+00:00",
+  "fetchedAt": "2026-10-30T21:41:30.808463+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 29, 11:22 AM EDT",
+  "updatedAt": "Oct 30, 5:22 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "27f7e30bfe640cb8c39c18e8ae1704e8de77e40c752949072d2da5c0474450bf",
+  "rawHtmlHash": "634286e2c2f08a3725227ca9646689efca96a62f464198527bc36fac3bf5a805",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -72,9 +72,9 @@
       ]
     },
     {
-      "name": "Birds On Birds",
+      "name": "Foreverever & Ever",
       "style": "IPA - New England",
-      "abv": "6.5% ABV",
+      "abv": "6.8% ABV",
       "ibu": "",
       "brewery": "Other Half Brewing Co.",
       "location": "Brooklyn, NY",
@@ -404,7 +404,7 @@
     "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
-    "Birds On Birds | IPA - New England | 6.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Master of Pumpkins | Pumpkin | 7.5% ABV | 30 IBU | Tröegs Independent Brewing | Hershey, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "2b6e0ec02dc0e3fb26e7ee1268ba4cd5caf47d5eacc4521d81b25be1f2fdffc7",
-  "dataHash": "815ff10ba71e9bbdfa7938e010210215e98ccec607db71d7bbcf98b6c91b996a"
+  "hash": "8fe0dbdc45594bc9317a003ac31e45d6d479acbc92d07ce6cbbbde1a81a5e577",
+  "dataHash": "d53e2d62b28dda445382e6436c152de290a7cba0732a48830302c361e74ac974"
 }
