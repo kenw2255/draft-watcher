@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-30T21:41:30.808463+00:00",
+  "fetchedAt": "2026-10-30T23:00:21.805499+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 30, 5:22 PM EDT",
+  "updatedAt": "Oct 30, 6:41 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "634286e2c2f08a3725227ca9646689efca96a62f464198527bc36fac3bf5a805",
+  "rawHtmlHash": "dbcd6a019ad8da716ea09332e55759f6b3b95e3d1dcb818bac4ff66964d93861",
   "items": [
     {
       "name": "Pulp Zombie in \"The Robot Apocalypse\"",
@@ -98,16 +98,16 @@
       ]
     },
     {
-      "name": "Master of Pumpkins",
+      "name": "Pumpkin Ale",
       "style": "Pumpkin",
-      "abv": "7.5% ABV",
-      "ibu": "30 IBU",
-      "brewery": "Tröegs Independent Brewing",
-      "location": "Hershey, PA",
+      "abv": "7% ABV",
+      "ibu": "",
+      "brewery": "Block House Brewing",
+      "location": "Pittsburgh, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -406,7 +406,7 @@
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
     "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
-    "Master of Pumpkins | Pumpkin | 7.5% ABV | 30 IBU | Tröegs Independent Brewing | Hershey, PA",
+    "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Flannel Friday | American Amber | 5.7% ABV | 35 IBU | Harpoon Brewery | Boston, MA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8fe0dbdc45594bc9317a003ac31e45d6d479acbc92d07ce6cbbbde1a81a5e577",
-  "dataHash": "d53e2d62b28dda445382e6436c152de290a7cba0732a48830302c361e74ac974"
+  "hash": "f645b4aa9e05d46767ddb3bb5ee5c0ebdd68f3ac76beb525c86fe2304ae0feee",
+  "dataHash": "5edd3575d36f5bbea474e327453fa58f8fffe3ec767b4b8b0bf3fe0e28d9121c"
 }
