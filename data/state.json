@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-30T23:00:21.805499+00:00",
+  "fetchedAt": "2026-10-31T16:00:25.581363+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 30, 6:41 PM EDT",
+  "updatedAt": "Oct 31, 11:49 AM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "dbcd6a019ad8da716ea09332e55759f6b3b95e3d1dcb818bac4ff66964d93861",
+  "rawHtmlHash": "0b17370e367d4860aee367c49481368924b1fa979e61418eeddc2fd1dccade9b",
   "items": [
     {
-      "name": "Pulp Zombie in \"The Robot Apocalypse\"",
+      "name": "DDH Weedeater (2026)",
       "style": "IPA - Imperial",
       "abv": "8.4% ABV",
       "ibu": "",
-      "brewery": "Ever Grain Brewing Co.",
-      "location": "Camp Hill, PA",
+      "brewery": "Tired Hands Brewing Company",
+      "location": "Ardmore, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $6.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -399,7 +399,7 @@
     }
   ],
   "lines": [
-    "Pulp Zombie in \"The Robot Apocalypse\" | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
+    "DDH Weedeater (2026) | IPA - Imperial | 8.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Dragon's Milk: Triple Mash (2026) | Stout - Imperial | 17% ABV | New Holland Brewing | Holland, MI",
     "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f645b4aa9e05d46767ddb3bb5ee5c0ebdd68f3ac76beb525c86fe2304ae0feee",
-  "dataHash": "5edd3575d36f5bbea474e327453fa58f8fffe3ec767b4b8b0bf3fe0e28d9121c"
+  "hash": "40e3d4f396889e0b4ced746c4fc61a626d42d796e7820273bd2140c9cea6269c",
+  "dataHash": "88630f86ce3c37e30f355d0683531ac965c4507293e38f8b2388b7f6146e4624"
 }
