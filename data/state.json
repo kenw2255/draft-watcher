@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-31T16:00:25.581363+00:00",
+  "fetchedAt": "2026-10-31T17:21:16.537040+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 31, 11:49 AM EDT",
+  "updatedAt": "Oct 31, 1:04 PM EDT",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "0b17370e367d4860aee367c49481368924b1fa979e61418eeddc2fd1dccade9b",
+  "rawHtmlHash": "872bbe3596b620d2cdc3cd15fd118cea04c4e80f2746e9a30eb052c13d914052",
   "items": [
     {
       "name": "DDH Weedeater (2026)",
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "name": "Foster",
-      "style": "IPA - American",
-      "abv": "6% ABV",
+      "name": "Vacuum Tubes",
+      "style": "IPA - New England",
+      "abv": "6.5% ABV",
       "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
+      "brewery": "Trillium Brewing Company",
+      "location": "Canton, MA",
       "serving_options": [
         "4oz Draft $3.50",
         "10oz Draft $5.95",
@@ -405,7 +405,7 @@
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
     "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Foster | IPA - American | 6% ABV | Hill Farmstead Brewery | Greensboro, VT",
+    "Vacuum Tubes | IPA - New England | 6.5% ABV | Trillium Brewing Company | Canton, MA",
     "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
@@ -431,6 +431,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "40e3d4f396889e0b4ced746c4fc61a626d42d796e7820273bd2140c9cea6269c",
-  "dataHash": "88630f86ce3c37e30f355d0683531ac965c4507293e38f8b2388b7f6146e4624"
+  "hash": "3f56d6c7281eabf2a5f14707c891c8ff574a22b6433ca608fb9fe79e530ee709",
+  "dataHash": "3f11e77cab3c3b866175dc3e02506ed650003029e14919a2273701c62a7ab274"
 }
