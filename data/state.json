@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-10-31T17:21:16.537040+00:00",
+  "fetchedAt": "2026-11-04T22:00:42.838191+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Oct 31, 1:04 PM EDT",
+  "updatedAt": "Nov 4, 4:50 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "872bbe3596b620d2cdc3cd15fd118cea04c4e80f2746e9a30eb052c13d914052",
+  "rawHtmlHash": "d8e7e1125b11aed38c0f1ff75a7577da24c084c3c74c2b6ac39d0dcc8e3855d4",
   "items": [
     {
       "name": "DDH Weedeater (2026)",
@@ -338,14 +338,15 @@
       ]
     },
     {
-      "name": "Gaffel Kölsch",
+      "name": "Reissdorf Kölsch",
       "style": "Kölsch",
       "abv": "4.8% ABV",
-      "ibu": "20 IBU",
-      "brewery": "Privatbrauerei Gaffel Becker",
-      "location": "Köln, Nordrhein-Westfalen",
+      "ibu": "21 IBU",
+      "brewery": "Privat-Brauerei Heinrich Reissdorf",
+      "location": "Cologne, Nordrhein-Westfalen",
       "serving_options": [
         "4oz Draft $3.00",
+        "10oz Draft $4.95",
         "16oz Draft $5.95"
       ]
     },
@@ -425,12 +426,12 @@
     "Weihenstephaner Hefeweissbier | Wheat Beer - Hefeweizen | 5.4% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
     "Weihenstephaner Hefeweissbier Dunkel | Wheat Beer - Dunkelweizen | 5.3% ABV | 14 IBU | Bayerische Staatsbrauerei Weihenstephan | Freising, Bayern",
     "Rothaus Pils / Tannen Zäpfle | Pilsner - German | 5.1% ABV | 32 IBU | Badische Staatsbrauerei Rothaus | Grafenhausen, Baden-Württemberg",
-    "Gaffel Kölsch | Kölsch | 4.8% ABV | 20 IBU | Privatbrauerei Gaffel Becker | Köln, Nordrhein-Westfalen",
+    "Reissdorf Kölsch | Kölsch | 4.8% ABV | 21 IBU | Privat-Brauerei Heinrich Reissdorf | Cologne, Nordrhein-Westfalen",
     "Abt 12 Nitro | Belgian Quadrupel | 10% ABV | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
     "Prior 8 | Belgian Dubbel | 8% ABV | 20 IBU | Brouwerij St.Bernardus | Poperinge, Vlaams Gewest",
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3f56d6c7281eabf2a5f14707c891c8ff574a22b6433ca608fb9fe79e530ee709",
-  "dataHash": "3f11e77cab3c3b866175dc3e02506ed650003029e14919a2273701c62a7ab274"
+  "hash": "d91dde7c60e010e2072bccfc8fafdce93d3bb8c1b7c18cf8ea6acf76e380b09c",
+  "dataHash": "6a9acb766019ad285e1187ec0a4192ae0d3e601a8ab822c2b836b37533e0c8f5"
 }
