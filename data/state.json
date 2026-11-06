@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-06T16:51:30.541488+00:00",
+  "fetchedAt": "2026-11-06T23:51:15.774822+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 6, 11:31 AM EST",
+  "updatedAt": "Nov 6, 6:31 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "91f8f2f99d09c64e6c8ec10217a0a0ab1a5efb6e295f8f079c5c9c8f48cd33fd",
+  "rawHtmlHash": "a49118c380dc6a8101ed90bd793684db2bb120f99b7c2df6e6d1c75764ad1573",
   "items": [
     {
       "name": "DDH Weedeater (2026)",
@@ -137,16 +137,16 @@
       ]
     },
     {
-      "name": "Flannel Friday",
-      "style": "American Amber",
-      "abv": "5.7% ABV",
-      "ibu": "35 IBU",
-      "brewery": "Harpoon Brewery",
-      "location": "Boston, MA",
+      "name": "Blackheart",
+      "style": "IPA - English",
+      "abv": "8.5% ABV",
+      "ibu": "78 IBU",
+      "brewery": "3 Floyds Brewing",
+      "location": "Munster, IN",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -410,7 +410,7 @@
     "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Flannel Friday | American Amber | 5.7% ABV | 35 IBU | Harpoon Brewery | Boston, MA",
+    "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "81e6c42a67af42b7091fe4874c3fdb5368a4de15672ab92af5c3641e2cb17c85",
-  "dataHash": "a7345a83a74464e08494449d9c54384043fd38d2fdfb3e72f10df19e68b50d53"
+  "hash": "f3b0d48cba9373e19ab43ed431c1989a0dae5e19e0e759db3cc6c337222c74ad",
+  "dataHash": "402b0047b0d3f09630a667a25d0515d825d7298905b8897948f4e5503ecc6002"
 }
