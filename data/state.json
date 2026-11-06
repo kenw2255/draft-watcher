@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-04T22:00:42.838191+00:00",
+  "fetchedAt": "2026-11-06T16:51:30.541488+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 4, 4:50 PM EST",
+  "updatedAt": "Nov 6, 11:31 AM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d8e7e1125b11aed38c0f1ff75a7577da24c084c3c74c2b6ac39d0dcc8e3855d4",
+  "rawHtmlHash": "91f8f2f99d09c64e6c8ec10217a0a0ab1a5efb6e295f8f079c5c9c8f48cd33fd",
   "items": [
     {
       "name": "DDH Weedeater (2026)",
@@ -20,16 +20,16 @@
       ]
     },
     {
-      "name": "Dragon's Milk: Triple Mash (2026)",
+      "name": "Night Watch: French Toast (2026)",
       "style": "Stout - Imperial",
-      "abv": "17% ABV",
+      "abv": "11.2% ABV",
       "ibu": "",
-      "brewery": "New Holland Brewing",
-      "location": "Holland, MI",
+      "brewery": "Hopping Eagle Brewing Company",
+      "location": "Hawley, PA",
       "serving_options": [
-        "4oz Draft $4.50",
-        "10oz Draft $8.95",
-        "16oz Draft $10.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -401,7 +401,7 @@
   ],
   "lines": [
     "DDH Weedeater (2026) | IPA - Imperial | 8.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
-    "Dragon's Milk: Triple Mash (2026) | Stout - Imperial | 17% ABV | New Holland Brewing | Holland, MI",
+    "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "d91dde7c60e010e2072bccfc8fafdce93d3bb8c1b7c18cf8ea6acf76e380b09c",
-  "dataHash": "6a9acb766019ad285e1187ec0a4192ae0d3e601a8ab822c2b836b37533e0c8f5"
+  "hash": "81e6c42a67af42b7091fe4874c3fdb5368a4de15672ab92af5c3641e2cb17c85",
+  "dataHash": "a7345a83a74464e08494449d9c54384043fd38d2fdfb3e72f10df19e68b50d53"
 }
