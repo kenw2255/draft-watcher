@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-06T23:51:15.774822+00:00",
+  "fetchedAt": "2026-11-07T23:56:11.608603+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 6, 6:31 PM EST",
+  "updatedAt": "Nov 7, 6:40 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "a49118c380dc6a8101ed90bd793684db2bb120f99b7c2df6e6d1c75764ad1573",
+  "rawHtmlHash": "d4d32306a38228317bfb1bf32515be74db5c1656c6581584069b7c08f057c145",
   "items": [
     {
       "name": "DDH Weedeater (2026)",
@@ -202,12 +202,12 @@
       ]
     },
     {
-      "name": "Punkuccino Coffee Pumpkin Ale",
+      "name": "Curious Gourd",
       "style": "Pumpkin",
-      "abv": "6% ABV",
+      "abv": "6.3% ABV",
       "ibu": "",
-      "brewery": "Elysian Brewing Company",
-      "location": "Seattle, WA",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -415,7 +415,7 @@
     "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
     "Nitro Gunner's Daughter | Stout - American | 5.5% ABV | Mast Landing Brewing Co. | Westbrook, ME",
-    "Punkuccino Coffee Pumpkin Ale | Pumpkin | 6% ABV | Elysian Brewing Company | Seattle, WA",
+    "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f3b0d48cba9373e19ab43ed431c1989a0dae5e19e0e759db3cc6c337222c74ad",
-  "dataHash": "402b0047b0d3f09630a667a25d0515d825d7298905b8897948f4e5503ecc6002"
+  "hash": "0e9725e83c3b183c48ab45a4a81909c49e90cb33216e3a14e3a8190317b05658",
+  "dataHash": "33f96635b8dd79a4a56ad394380c5c7f3f20571ef6cd6e1f22e4e7a807266a3e"
 }
