@@ -1,15 +1,15 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-07T23:56:11.608603+00:00",
+  "fetchedAt": "2026-11-08T00:00:50.324099+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 7, 6:40 PM EST",
+  "updatedAt": "Nov 7, 7:00 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d4d32306a38228317bfb1bf32515be74db5c1656c6581584069b7c08f057c145",
+  "rawHtmlHash": "0640d056bbe9e74fdfcda5e41f8736cd19d0082435a21c066eba1b63d3000bc8",
   "items": [
     {
-      "name": "DDH Weedeater (2026)",
+      "name": "Double Alien Church",
       "style": "IPA - Imperial",
-      "abv": "8.4% ABV",
+      "abv": "9% ABV",
       "ibu": "",
       "brewery": "Tired Hands Brewing Company",
       "location": "Ardmore, PA",
@@ -400,7 +400,7 @@
     }
   ],
   "lines": [
-    "DDH Weedeater (2026) | IPA - Imperial | 8.4% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Double Alien Church | IPA - Imperial | 9% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "0e9725e83c3b183c48ab45a4a81909c49e90cb33216e3a14e3a8190317b05658",
-  "dataHash": "33f96635b8dd79a4a56ad394380c5c7f3f20571ef6cd6e1f22e4e7a807266a3e"
+  "hash": "4fb58877fa477416d77c4dd8ff1c9ad285fd4bbb3c65a853bffc5b681d2ead92",
+  "dataHash": "834ce7ea7ac1e044d80281717fe16ea809ac35f55f3d24d2f6c028a1c2327f64"
 }
