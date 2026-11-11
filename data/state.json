@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-11T16:26:21.402531+00:00",
+  "fetchedAt": "2026-11-11T21:56:07.735588+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 11, 11:06 AM EST",
+  "updatedAt": "Nov 11, 4:39 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "35b55b086a4bd9f578c312c26ab0dcbfc3b625171c4be86d3922c1511eb7e2ae",
+  "rawHtmlHash": "ec4d60b480a155ae6e8650050980bbd9bb6429c7d3e24ddb1aceb2acc8ce2f60",
   "items": [
     {
       "name": "Double Alien Church",
@@ -163,16 +163,16 @@
       ]
     },
     {
-      "name": "CheerTeam",
+      "name": "Hopsmack!",
       "style": "IPA - Imperial",
-      "abv": "7.7% ABV",
-      "ibu": "62 IBU",
-      "brewery": "3 Floyds Brewing",
-      "location": "Munster, IN",
+      "abv": "7.8% ABV",
+      "ibu": "100 IBU",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -412,7 +412,7 @@
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
-    "CheerTeam | IPA - Imperial | 7.7% ABV | 62 IBU | 3 Floyds Brewing | Munster, IN",
+    "Hopsmack! | IPA - Imperial | 7.8% ABV | 100 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
     "Nitro Gunner's Daughter | Stout - American | 5.5% ABV | Mast Landing Brewing Co. | Westbrook, ME",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "b9ce78f47d0b7c25fb9c71369dbdacf21eca77995baf04faee63c51b381a58aa",
-  "dataHash": "d23e2e86431d13ab55f4825291fa10454f6351567b3986d52057adcc5296ec52"
+  "hash": "61b8cafb78b3a802c2b8123ae7380bd825b61302b709e70366230b96f8c4e823",
+  "dataHash": "fd8ccb7d8a2771a88f18b5d402a8f120382a7af22d3f738243f7beea6fc2e66b"
 }
