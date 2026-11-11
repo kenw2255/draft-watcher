@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-08T00:00:50.324099+00:00",
+  "fetchedAt": "2026-11-11T16:26:21.402531+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 7, 7:00 PM EST",
+  "updatedAt": "Nov 11, 11:06 AM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "0640d056bbe9e74fdfcda5e41f8736cd19d0082435a21c066eba1b63d3000bc8",
+  "rawHtmlHash": "35b55b086a4bd9f578c312c26ab0dcbfc3b625171c4be86d3922c1511eb7e2ae",
   "items": [
     {
       "name": "Double Alien Church",
@@ -33,16 +33,16 @@
       ]
     },
     {
-      "name": "Anna: Foudre (2025)",
-      "style": "Farmhouse Ale - Saison",
-      "abv": "6.2% ABV",
-      "ibu": "",
-      "brewery": "Hill Farmstead Brewery",
-      "location": "Greensboro, VT",
+      "name": "Aecht Schlenkerla Eiche – Doppelbock",
+      "style": "Rauchbier",
+      "abv": "8% ABV",
+      "ibu": "40 IBU",
+      "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+      "location": "Bamberg, Bayern",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -402,7 +402,7 @@
   "lines": [
     "Double Alien Church | IPA - Imperial | 9% ABV | Tired Hands Brewing Company | Ardmore, PA",
     "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
-    "Anna: Foudre (2025) | Farmhouse Ale - Saison | 6.2% ABV | Hill Farmstead Brewery | Greensboro, VT",
+    "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
     "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "4fb58877fa477416d77c4dd8ff1c9ad285fd4bbb3c65a853bffc5b681d2ead92",
-  "dataHash": "834ce7ea7ac1e044d80281717fe16ea809ac35f55f3d24d2f6c028a1c2327f64"
+  "hash": "b9ce78f47d0b7c25fb9c71369dbdacf21eca77995baf04faee63c51b381a58aa",
+  "dataHash": "d23e2e86431d13ab55f4825291fa10454f6351567b3986d52057adcc5296ec52"
 }
