@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-11T21:56:07.735588+00:00",
+  "fetchedAt": "2026-11-12T16:36:23.263873+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 11, 4:39 PM EST",
+  "updatedAt": "Nov 12, 11:15 AM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "ec4d60b480a155ae6e8650050980bbd9bb6429c7d3e24ddb1aceb2acc8ce2f60",
+  "rawHtmlHash": "9633a6ccc6e41ffd30845c75fe735f29c78d50472b80139cfb1263ae4f88df5b",
   "items": [
     {
-      "name": "Double Alien Church",
-      "style": "IPA - Imperial",
-      "abv": "9% ABV",
-      "ibu": "",
-      "brewery": "Tired Hands Brewing Company",
-      "location": "Ardmore, PA",
+      "name": "Covered in Nuggs",
+      "style": "IPA - American",
+      "abv": "6.7% ABV",
+      "ibu": "74 IBU",
+      "brewery": "Dogfish Head Craft Brewery",
+      "location": "Milton, DE",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -400,7 +400,7 @@
     }
   ],
   "lines": [
-    "Double Alien Church | IPA - Imperial | 9% ABV | Tired Hands Brewing Company | Ardmore, PA",
+    "Covered in Nuggs | IPA - American | 6.7% ABV | 74 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "61b8cafb78b3a802c2b8123ae7380bd825b61302b709e70366230b96f8c4e823",
-  "dataHash": "fd8ccb7d8a2771a88f18b5d402a8f120382a7af22d3f738243f7beea6fc2e66b"
+  "hash": "99d504d322bb5663307aa3e1274875f2766a9505b48298ac004d03682188aa00",
+  "dataHash": "9a00ff2f5b15a5b433c2f1dabd28b1fb38401e0b1cb9ff38ada11aab23798b55"
 }
