@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-13T00:36:19.984496+00:00",
+  "fetchedAt": "2026-11-13T20:31:21.100298+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 12, 7:20 PM EST",
+  "updatedAt": "Nov 13, 3:12 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "c50a1fa4a6c6c5f6f30cbeccf09e0b478a27bd6c940b3f10201cb5f425f4bcb6",
+  "rawHtmlHash": "0fdf6844d6a4ec0b6da86919e25f629e3fce4111fcc6a04c629b9a9f599b28da",
   "items": [
     {
       "name": "Covered in Nuggs",
@@ -72,17 +72,13 @@
       ]
     },
     {
-      "name": "Foreverever & Ever",
+      "name": "Chopped Cheese",
       "style": "IPA - New England",
-      "abv": "6.8% ABV",
+      "abv": "7.5% ABV",
       "ibu": "",
       "brewery": "Other Half Brewing Co.",
       "location": "Brooklyn, NY",
-      "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
-      ]
+      "serving_options": []
     },
     {
       "name": "Vacuum Tubes",
@@ -405,7 +401,7 @@
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
-    "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Vacuum Tubes | IPA - New England | 6.5% ABV | Trillium Brewing Company | Canton, MA",
     "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -432,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "372af403e799d24dbd7039467d81ca2fe4d3ce10d44a47f20df78ddad741821b",
-  "dataHash": "e3b9a4cce57e38782f8e411de672b7c64688755b65e699dae542c30bafd63ccb"
+  "hash": "ca1138a1f2c3251df2941f543ef0f135fa8c61f3002968331218ce9818af3d9e",
+  "dataHash": "b6d8b0a733e068cc81cf20ade6398a8b4382e7c45462755dd31332eb2105d5ed"
 }
