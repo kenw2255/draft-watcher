@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-12T16:36:23.263873+00:00",
+  "fetchedAt": "2026-11-13T00:36:19.984496+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 12, 11:15 AM EST",
+  "updatedAt": "Nov 12, 7:20 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9633a6ccc6e41ffd30845c75fe735f29c78d50472b80139cfb1263ae4f88df5b",
+  "rawHtmlHash": "c50a1fa4a6c6c5f6f30cbeccf09e0b478a27bd6c940b3f10201cb5f425f4bcb6",
   "items": [
     {
       "name": "Covered in Nuggs",
@@ -46,12 +46,12 @@
       ]
     },
     {
-      "name": "Pinkies Up - Paint the Planet Pink",
-      "style": "Wheat Beer - Witbier",
+      "name": "Boy Howdy! Cream Ale",
+      "style": "Cream Ale",
       "abv": "5.5% ABV",
-      "ibu": "",
-      "brewery": "Groove Brewing",
-      "location": "Scranton, PA",
+      "ibu": "12 IBU",
+      "brewery": "Dogfish Head Craft Brewery",
+      "location": "Milton, DE",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -189,16 +189,16 @@
       ]
     },
     {
-      "name": "Nitro Gunner's Daughter",
-      "style": "Stout - American",
-      "abv": "5.5% ABV",
+      "name": "Ralphius (2025)",
+      "style": "Stout - Imperial",
+      "abv": "15.5% ABV",
       "ibu": "",
-      "brewery": "Mast Landing Brewing Co.",
-      "location": "Westbrook, ME",
+      "brewery": "Free Will Brewing",
+      "location": "Perkasie, PA",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $6.00",
+        "10oz Draft $10.95",
+        "16oz Draft $12.95"
       ]
     },
     {
@@ -403,7 +403,7 @@
     "Covered in Nuggs | IPA - American | 6.7% ABV | 74 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
-    "Pinkies Up - Paint the Planet Pink | Wheat Beer - Witbier | 5.5% ABV | Groove Brewing | Scranton, PA",
+    "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
     "Foreverever & Ever | IPA - New England | 6.8% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Vacuum Tubes | IPA - New England | 6.5% ABV | Trillium Brewing Company | Canton, MA",
@@ -414,7 +414,7 @@
     "Orange Creamsicle | Sour - Fruited | 4.2% ABV | WeldWerks Brewing Co. | Greeley, CO",
     "Hopsmack! | IPA - Imperial | 7.8% ABV | 100 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
-    "Nitro Gunner's Daughter | Stout - American | 5.5% ABV | Mast Landing Brewing Co. | Westbrook, ME",
+    "Ralphius (2025) | Stout - Imperial | 15.5% ABV | Free Will Brewing | Perkasie, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "99d504d322bb5663307aa3e1274875f2766a9505b48298ac004d03682188aa00",
-  "dataHash": "9a00ff2f5b15a5b433c2f1dabd28b1fb38401e0b1cb9ff38ada11aab23798b55"
+  "hash": "372af403e799d24dbd7039467d81ca2fe4d3ce10d44a47f20df78ddad741821b",
+  "dataHash": "e3b9a4cce57e38782f8e411de672b7c64688755b65e699dae542c30bafd63ccb"
 }
