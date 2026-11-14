@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-13T20:31:21.100298+00:00",
+  "fetchedAt": "2026-11-14T01:31:08.932710+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 13, 3:12 PM EST",
+  "updatedAt": "Nov 13, 8:15 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "0fdf6844d6a4ec0b6da86919e25f629e3fce4111fcc6a04c629b9a9f599b28da",
+  "rawHtmlHash": "d31148c105ee3ab89e6fefc9989d9f11b1d9148fc78cd54e5bd591256b039776",
   "items": [
     {
       "name": "Covered in Nuggs",
@@ -20,17 +20,13 @@
       ]
     },
     {
-      "name": "Night Watch: French Toast (2026)",
+      "name": "Night Watch (2026)",
       "style": "Stout - Imperial",
       "abv": "11.2% ABV",
       "ibu": "",
       "brewery": "Hopping Eagle Brewing Company",
       "location": "Hawley, PA",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
-      ]
+      "serving_options": []
     },
     {
       "name": "Aecht Schlenkerla Eiche – Doppelbock",
@@ -81,9 +77,9 @@
       "serving_options": []
     },
     {
-      "name": "Vacuum Tubes",
+      "name": "Congress Street",
       "style": "IPA - New England",
-      "abv": "6.5% ABV",
+      "abv": "7.2% ABV",
       "ibu": "",
       "brewery": "Trillium Brewing Company",
       "location": "Canton, MA",
@@ -94,12 +90,12 @@
       ]
     },
     {
-      "name": "Pumpkin Ale",
-      "style": "Pumpkin",
-      "abv": "7% ABV",
+      "name": "Ridgeline",
+      "style": "Lager - Helles",
+      "abv": "4.8% ABV",
       "ibu": "",
-      "brewery": "Block House Brewing",
-      "location": "Pittsburgh, PA",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
         "4oz Draft $2.50",
         "10oz Draft $3.75",
@@ -397,13 +393,13 @@
   ],
   "lines": [
     "Covered in Nuggs | IPA - American | 6.7% ABV | 74 IBU | Dogfish Head Craft Brewery | Milton, DE",
-    "Night Watch: French Toast (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
+    "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
     "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Vacuum Tubes | IPA - New England | 6.5% ABV | Trillium Brewing Company | Canton, MA",
-    "Pumpkin Ale | Pumpkin | 7% ABV | Block House Brewing | Pittsburgh, PA",
+    "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
+    "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
@@ -428,6 +424,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "ca1138a1f2c3251df2941f543ef0f135fa8c61f3002968331218ce9818af3d9e",
-  "dataHash": "b6d8b0a733e068cc81cf20ade6398a8b4382e7c45462755dd31332eb2105d5ed"
+  "hash": "4149859c1563a7bd2fddb61593d1b4a2cb2b3ec0f67ea75d85dc27cf95a1b776",
+  "dataHash": "4ae4f10527201f9fcbab12daf6e40fbd1e01f065bfdbe0c993c4b7616702c398"
 }
