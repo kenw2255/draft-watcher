@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-14T01:31:08.932710+00:00",
+  "fetchedAt": "2026-11-14T23:21:07.938190+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 13, 8:15 PM EST",
+  "updatedAt": "Nov 14, 6:04 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d31148c105ee3ab89e6fefc9989d9f11b1d9148fc78cd54e5bd591256b039776",
+  "rawHtmlHash": "2397bcb02f8e40f7abbfa4a2092d98df8bc7129ca6714dbde9d7797f384513b7",
   "items": [
     {
       "name": "Covered in Nuggs",
@@ -55,12 +55,12 @@
       ]
     },
     {
-      "name": "Cider Donut",
-      "style": "Cider - Herbed",
-      "abv": "5.2% ABV",
+      "name": "1911 Cranberry Hard Cider",
+      "style": "Cider - Other Fruit",
+      "abv": "6.9% ABV",
       "ibu": "",
-      "brewery": "Downeast Cider House",
-      "location": "Boston, MA",
+      "brewery": "Beak & Skiff Apple Orchards",
+      "location": "Lafayette, NY",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -396,7 +396,7 @@
     "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
-    "Cider Donut | Cider - Herbed | 5.2% ABV | Downeast Cider House | Boston, MA",
+    "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
     "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
     "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
@@ -424,6 +424,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "4149859c1563a7bd2fddb61593d1b4a2cb2b3ec0f67ea75d85dc27cf95a1b776",
-  "dataHash": "4ae4f10527201f9fcbab12daf6e40fbd1e01f065bfdbe0c993c4b7616702c398"
+  "hash": "0c11ceb6f490c045b2c0bf67925a83450cd50bceed9645eddc8fcdd47a9c4cd7",
+  "dataHash": "8acd17d5f2ba2143c9ea3d020dfb9beb15b33ab9e76483d7c7173a154e81215e"
 }
