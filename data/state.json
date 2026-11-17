@@ -1,18 +1,18 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-15T00:00:17.657029+00:00",
+  "fetchedAt": "2026-11-17T22:41:12.101399+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 14, 6:53 PM EST",
+  "updatedAt": "Nov 17, 5:22 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "06134acace778968e139404ead85541ccaa526c6bd9f65f4c3498ac54dde21f8",
+  "rawHtmlHash": "b49371ae5577d3f0e9f80fca7ac235cc34600b3591332d0c4387d3ed905678a9",
   "items": [
     {
-      "name": "Covered in Nuggs",
-      "style": "IPA - American",
-      "abv": "6.7% ABV",
-      "ibu": "74 IBU",
-      "brewery": "Dogfish Head Craft Brewery",
-      "location": "Milton, DE",
+      "name": "Wildling",
+      "style": "IPA - New England",
+      "abv": "6.5% ABV",
+      "ibu": "",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "name": "Boy Howdy! Cream Ale",
-      "style": "Cream Ale",
-      "abv": "5.5% ABV",
-      "ibu": "12 IBU",
-      "brewery": "Dogfish Head Craft Brewery",
-      "location": "Milton, DE",
+      "name": "Nordic Lager - Limited Edition",
+      "style": "Lager - Strong",
+      "abv": "7.2% ABV",
+      "ibu": "",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
         "4oz Draft $3.00",
         "10oz Draft $4.95",
@@ -77,16 +77,16 @@
       "serving_options": []
     },
     {
-      "name": "Congress Street",
-      "style": "IPA - New England",
-      "abv": "7.2% ABV",
+      "name": "Tortured Minds",
+      "style": "IPA - Imperial",
+      "abv": "8.4% ABV",
       "ibu": "",
-      "brewery": "Trillium Brewing Company",
-      "location": "Canton, MA",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -116,29 +116,29 @@
       ]
     },
     {
-      "name": "Kellerweis",
-      "style": "Wheat Beer - Hefeweizen",
-      "abv": "4.8% ABV",
-      "ibu": "17 IBU",
-      "brewery": "Sierra Nevada Brewing Co.",
-      "location": "Chico, CA",
+      "name": "Brewer's Cut",
+      "style": "IPA - Imperial",
+      "abv": "8% ABV",
+      "ibu": "",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
-      "name": "Blackheart",
-      "style": "IPA - English",
-      "abv": "8.5% ABV",
-      "ibu": "78 IBU",
-      "brewery": "3 Floyds Brewing",
-      "location": "Munster, IN",
+      "name": "Squatch Sighting",
+      "style": "IPA - Imperial",
+      "abv": "8.2% ABV",
+      "ibu": "",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $6.95"
       ]
     },
     {
@@ -155,16 +155,16 @@
       ]
     },
     {
-      "name": "Hopsmack!",
-      "style": "IPA - Imperial",
-      "abv": "7.8% ABV",
-      "ibu": "100 IBU",
-      "brewery": "Toppling Goliath Brewing Co.",
-      "location": "Decorah, IA",
+      "name": "Fletch",
+      "style": "IPA - New Zealand",
+      "abv": "7.2% ABV",
+      "ibu": "",
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
       "serving_options": [
-        "4oz Draft $3.50",
-        "10oz Draft $5.95",
-        "16oz Draft $7.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -392,19 +392,19 @@
     }
   ],
   "lines": [
-    "Covered in Nuggs | IPA - American | 6.7% ABV | 74 IBU | Dogfish Head Craft Brewery | Milton, DE",
+    "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
-    "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
+    "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
     "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Congress Street | IPA - New England | 7.2% ABV | Trillium Brewing Company | Canton, MA",
+    "Tortured Minds | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
-    "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
+    "Brewer's Cut | IPA - Imperial | 8% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Squatch Sighting | IPA - Imperial | 8.2% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
-    "Hopsmack! | IPA - Imperial | 7.8% ABV | 100 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
+    "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
     "Ralphius (2025) | Stout - Imperial | 15.5% ABV | Free Will Brewing | Perkasie, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
@@ -424,6 +424,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "9ff7f5c57a3d7d87b32b4be5c72bbddbe0605b9af3bcdb8768d56b22db8a0e8a",
-  "dataHash": "d989bfdb71fe22059bbba304b71dd6140baa42e6bf4643255c50e31b9631a553"
+  "hash": "da22a48d52276f9bfc18659f56f5e314bb79d6ceb1e3350697dc97e118074cfe",
+  "dataHash": "671c3823b722c3c8ba932da43ee775b3016aa4890f975ce45241304d4423a424"
 }
