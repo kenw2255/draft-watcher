@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-18T18:46:20.171767+00:00",
+  "fetchedAt": "2026-11-18T21:51:17.282522+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 18, 1:26 PM EST",
+  "updatedAt": "Nov 18, 4:33 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "956267ca7008ba93a6f008c848f0bd00d7694cbd41d500b6ee9d7795521621dc",
+  "rawHtmlHash": "89989c7b867507eaabcdc567425160d97f73ef931d1da3789af6df36175578a5",
   "items": [
     {
       "name": "Wildling",
@@ -72,13 +72,17 @@
       ]
     },
     {
-      "name": "Chopped Cheese",
+      "name": "Multi Tool",
       "style": "IPA - New England",
-      "abv": "7.5% ABV",
+      "abv": "6.1% ABV",
       "ibu": "",
-      "brewery": "Other Half Brewing Co.",
-      "location": "Brooklyn, NY",
-      "serving_options": []
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
+      "serving_options": [
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
+      ]
     },
     {
       "name": "Tortured Minds",
@@ -401,7 +405,7 @@
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
-    "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
+    "Multi Tool | IPA - New England | 6.1% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Tortured Minds | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
@@ -428,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "3a9c3fe812e32f53ecfb58bb4b253a4451616cc379af22c100c6dd50d0129ac8",
-  "dataHash": "09b40847c65260f7643bd7af538501be4675be98907802d0576ed3cc031070a6"
+  "hash": "f7d30f6bb605d8c52ae4be6c88a81b8e387a397887613a3e338e3f48eb3789f3",
+  "dataHash": "46004232ed7150111754c5bc9637c99bf3df13cecf8a60d2a155e99c36c67e1b"
 }
