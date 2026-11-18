@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-17T22:41:12.101399+00:00",
+  "fetchedAt": "2026-11-18T18:46:20.171767+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 17, 5:22 PM EST",
+  "updatedAt": "Nov 18, 1:26 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "b49371ae5577d3f0e9f80fca7ac235cc34600b3591332d0c4387d3ed905678a9",
+  "rawHtmlHash": "956267ca7008ba93a6f008c848f0bd00d7694cbd41d500b6ee9d7795521621dc",
   "items": [
     {
       "name": "Wildling",
@@ -20,13 +20,17 @@
       ]
     },
     {
-      "name": "Night Watch (2026)",
+      "name": "Diabolus",
       "style": "Stout - Imperial",
-      "abv": "11.2% ABV",
+      "abv": "15.2% ABV",
       "ibu": "",
-      "brewery": "Hopping Eagle Brewing Company",
-      "location": "Hawley, PA",
-      "serving_options": []
+      "brewery": "Ever Grain Brewing Co.",
+      "location": "Camp Hill, PA",
+      "serving_options": [
+        "4oz Draft $4.50",
+        "10oz Draft $8.95",
+        "16oz Draft $10.95"
+      ]
     },
     {
       "name": "Aecht Schlenkerla Eiche – Doppelbock",
@@ -181,16 +185,16 @@
       ]
     },
     {
-      "name": "Ralphius (2025)",
+      "name": "Double Barrel Aged Moonlit (2026)",
       "style": "Stout - Imperial",
-      "abv": "15.5% ABV",
+      "abv": "10.5% ABV",
       "ibu": "",
-      "brewery": "Free Will Brewing",
-      "location": "Perkasie, PA",
+      "brewery": "New Trail Brewing Co.",
+      "location": "Williamsport, PA",
       "serving_options": [
-        "4oz Draft $6.00",
-        "10oz Draft $10.95",
-        "16oz Draft $12.95"
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
       ]
     },
     {
@@ -393,7 +397,7 @@
   ],
   "lines": [
     "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
+    "Diabolus | Stout - Imperial | 15.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
@@ -406,7 +410,7 @@
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
-    "Ralphius (2025) | Stout - Imperial | 15.5% ABV | Free Will Brewing | Perkasie, PA",
+    "Double Barrel Aged Moonlit (2026) | Stout - Imperial | 10.5% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -424,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "da22a48d52276f9bfc18659f56f5e314bb79d6ceb1e3350697dc97e118074cfe",
-  "dataHash": "671c3823b722c3c8ba932da43ee775b3016aa4890f975ce45241304d4423a424"
+  "hash": "3a9c3fe812e32f53ecfb58bb4b253a4451616cc379af22c100c6dd50d0129ac8",
+  "dataHash": "09b40847c65260f7643bd7af538501be4675be98907802d0576ed3cc031070a6"
 }
