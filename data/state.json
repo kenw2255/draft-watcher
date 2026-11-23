@@ -1,11 +1,24 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-18T21:51:17.282522+00:00",
+  "fetchedAt": "2026-11-23T00:26:09.611695+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 18, 4:33 PM EST",
+  "updatedAt": "Nov 22, 7:10 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "89989c7b867507eaabcdc567425160d97f73ef931d1da3789af6df36175578a5",
+  "rawHtmlHash": "4014d0f7d2bb932e037e19bfa92d1e49e39f93f61681a6fc7304146539c5e338",
   "items": [
+    {
+      "name": "Kellerweis",
+      "style": "Wheat Beer - Hefeweizen",
+      "abv": "4.8% ABV",
+      "ibu": "17 IBU",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
+      ]
+    },
     {
       "name": "Wildling",
       "style": "IPA - New England",
@@ -173,19 +186,6 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
-      ]
-    },
-    {
-      "name": "Dead Guy Ale",
-      "style": "Bock - Hell",
-      "abv": "6.8% ABV",
-      "ibu": "40 IBU",
-      "brewery": "Rogue Ales",
-      "location": "Newport, OR",
-      "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
       ]
     },
     {
@@ -400,6 +400,7 @@
     }
   ],
   "lines": [
+    "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Diabolus | Stout - Imperial | 15.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
@@ -413,7 +414,6 @@
     "Squatch Sighting | IPA - Imperial | 8.2% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Dead Guy Ale | Bock - Hell | 6.8% ABV | 40 IBU | Rogue Ales | Newport, OR",
     "Double Barrel Aged Moonlit (2026) | Stout - Imperial | 10.5% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f7d30f6bb605d8c52ae4be6c88a81b8e387a397887613a3e338e3f48eb3789f3",
-  "dataHash": "46004232ed7150111754c5bc9637c99bf3df13cecf8a60d2a155e99c36c67e1b"
+  "hash": "f8e62dfa72733f4bad6bc8194b75bda12c5cedf8d5ad83b8fda96c0519aff2ea",
+  "dataHash": "e6cce2c270f02c35f8c60e1b6b7db1656a74fcb7f9e75e5dddefc10cac7d2621"
 }
