@@ -1,24 +1,11 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-23T00:26:09.611695+00:00",
+  "fetchedAt": "2026-11-23T17:46:11.446743+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 22, 7:10 PM EST",
+  "updatedAt": "Nov 23, 12:26 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "4014d0f7d2bb932e037e19bfa92d1e49e39f93f61681a6fc7304146539c5e338",
+  "rawHtmlHash": "db7dcad16c40b274a0d12f11567d6a842bbd0a2ea00f9ddd927d1498f4471029",
   "items": [
-    {
-      "name": "Kellerweis",
-      "style": "Wheat Beer - Hefeweizen",
-      "abv": "4.8% ABV",
-      "ibu": "17 IBU",
-      "brewery": "Sierra Nevada Brewing Co.",
-      "location": "Chico, CA",
-      "serving_options": [
-        "4oz Draft $2.50",
-        "10oz Draft $3.75",
-        "16oz Draft $4.95"
-      ]
-    },
     {
       "name": "Wildling",
       "style": "IPA - New England",
@@ -33,16 +20,16 @@
       ]
     },
     {
-      "name": "Diabolus",
+      "name": "Ralphius (2025)",
       "style": "Stout - Imperial",
-      "abv": "15.2% ABV",
+      "abv": "15.5% ABV",
       "ibu": "",
-      "brewery": "Ever Grain Brewing Co.",
-      "location": "Camp Hill, PA",
+      "brewery": "Free Will Brewing",
+      "location": "Perkasie, PA",
       "serving_options": [
-        "4oz Draft $4.50",
-        "10oz Draft $8.95",
-        "16oz Draft $10.95"
+        "4oz Draft $6.00",
+        "10oz Draft $10.95",
+        "16oz Draft $12.95"
       ]
     },
     {
@@ -186,6 +173,19 @@
         "4oz Draft $3.00",
         "10oz Draft $4.95",
         "16oz Draft $5.95"
+      ]
+    },
+    {
+      "name": "Kellerweis",
+      "style": "Wheat Beer - Hefeweizen",
+      "abv": "4.8% ABV",
+      "ibu": "17 IBU",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "location": "Chico, CA",
+      "serving_options": [
+        "4oz Draft $2.50",
+        "10oz Draft $3.75",
+        "16oz Draft $4.95"
       ]
     },
     {
@@ -400,9 +400,8 @@
     }
   ],
   "lines": [
-    "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Diabolus | Stout - Imperial | 15.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
+    "Ralphius (2025) | Stout - Imperial | 15.5% ABV | Free Will Brewing | Perkasie, PA",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
@@ -414,6 +413,7 @@
     "Squatch Sighting | IPA - Imperial | 8.2% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
+    "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
     "Double Barrel Aged Moonlit (2026) | Stout - Imperial | 10.5% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "f8e62dfa72733f4bad6bc8194b75bda12c5cedf8d5ad83b8fda96c0519aff2ea",
-  "dataHash": "e6cce2c270f02c35f8c60e1b6b7db1656a74fcb7f9e75e5dddefc10cac7d2621"
+  "hash": "1e88d603d287e3bc991be4ab756a141e56a184251e7a1f429c7c92b1d7e3f9e9",
+  "dataHash": "a3f0df5ef031708f0caf8ddb14303bbdc6a1155606072443d7d3f1b032938dee"
 }
