@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-25T21:21:10.545316+00:00",
+  "fetchedAt": "2026-11-25T23:51:10.820968+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 25, 4:04 PM EST",
+  "updatedAt": "Nov 25, 6:33 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "bf5704a052a5d2ba5eaefbb1886b9a081f6de1293070ae3e93894deebb009522",
+  "rawHtmlHash": "87c44e3d6cc6c0bf1665ccb191dec82a9eb3da82d0e34683db93d324bf807fee",
   "items": [
     {
-      "name": "Wildling",
+      "name": "Chopped Cheese",
       "style": "IPA - New England",
-      "abv": "6.5% ABV",
+      "abv": "7.5% ABV",
       "ibu": "",
-      "brewery": "Ever Grain Brewing Co.",
-      "location": "Camp Hill, PA",
+      "brewery": "Other Half Brewing Co.",
+      "location": "Brooklyn, NY",
       "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -400,7 +400,7 @@
     }
   ],
   "lines": [
-    "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
+    "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
     "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "386d2a9895f9b5670eb0c7895ce5d9379f70f68d99a108c127ecffb7046e603c",
-  "dataHash": "9f2528f27a132e0237d7ec27f070e4585c6c73e9ab143bfa9310c39b8e059c16"
+  "hash": "e2f07263064cf32ff6da2e150cd5ab515b755abb671d511cf520c9f108f3119f",
+  "dataHash": "3080a8d82098c77e0e5fd7193822c2bbcec9faf1c70a82d12de9f37a79a66f19"
 }
