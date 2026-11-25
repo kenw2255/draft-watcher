@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-23T17:46:11.446743+00:00",
+  "fetchedAt": "2026-11-25T21:00:46.405796+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 23, 12:26 PM EST",
+  "updatedAt": "Nov 25, 4:00 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "db7dcad16c40b274a0d12f11567d6a842bbd0a2ea00f9ddd927d1498f4471029",
+  "rawHtmlHash": "daa1a22e782c9c4b24443145b9413eb65b5e1bc53db62a890e5dca19c489854e",
   "items": [
     {
       "name": "Wildling",
@@ -137,17 +137,13 @@
       ]
     },
     {
-      "name": "Squatch Sighting",
-      "style": "IPA - Imperial",
-      "abv": "8.2% ABV",
-      "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $6.95"
-      ]
+      "name": "Blackheart",
+      "style": "IPA - English",
+      "abv": "8.5% ABV",
+      "ibu": "78 IBU",
+      "brewery": "3 Floyds Brewing",
+      "location": "Munster, IN",
+      "serving_options": []
     },
     {
       "name": "Tiny Umbrellas",
@@ -410,7 +406,7 @@
     "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Brewer's Cut | IPA - Imperial | 8% ABV | New Trail Brewing Co. | Williamsport, PA",
-    "Squatch Sighting | IPA - Imperial | 8.2% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
@@ -432,6 +428,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "1e88d603d287e3bc991be4ab756a141e56a184251e7a1f429c7c92b1d7e3f9e9",
-  "dataHash": "a3f0df5ef031708f0caf8ddb14303bbdc6a1155606072443d7d3f1b032938dee"
+  "hash": "8fb6b7d5cc82435f72c369f928456279a16ccc9178fa6eeaeb9ad4f9bc7c017b",
+  "dataHash": "eff7645b6a0a95148819482ed64bf984651ba0e1b411a31a66e935f89dda5f13"
 }
