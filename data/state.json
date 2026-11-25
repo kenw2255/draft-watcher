@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-25T21:00:46.405796+00:00",
+  "fetchedAt": "2026-11-25T21:21:10.545316+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 25, 4:00 PM EST",
+  "updatedAt": "Nov 25, 4:04 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "daa1a22e782c9c4b24443145b9413eb65b5e1bc53db62a890e5dca19c489854e",
+  "rawHtmlHash": "bf5704a052a5d2ba5eaefbb1886b9a081f6de1293070ae3e93894deebb009522",
   "items": [
     {
       "name": "Wildling",
@@ -20,16 +20,16 @@
       ]
     },
     {
-      "name": "Ralphius (2025)",
-      "style": "Stout - Imperial",
-      "abv": "15.5% ABV",
-      "ibu": "",
-      "brewery": "Free Will Brewing",
-      "location": "Perkasie, PA",
+      "name": "Boy Howdy! Cream Ale",
+      "style": "Cream Ale",
+      "abv": "5.5% ABV",
+      "ibu": "12 IBU",
+      "brewery": "Dogfish Head Craft Brewery",
+      "location": "Milton, DE",
       "serving_options": [
-        "4oz Draft $6.00",
-        "10oz Draft $10.95",
-        "16oz Draft $12.95"
+        "4oz Draft $3.00",
+        "10oz Draft $4.95",
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -143,7 +143,11 @@
       "ibu": "78 IBU",
       "brewery": "3 Floyds Brewing",
       "location": "Munster, IN",
-      "serving_options": []
+      "serving_options": [
+        "4oz Draft $4.00",
+        "10oz Draft $6.95",
+        "16oz Draft $8.95"
+      ]
     },
     {
       "name": "Tiny Umbrellas",
@@ -185,12 +189,12 @@
       ]
     },
     {
-      "name": "Double Barrel Aged Moonlit (2026)",
+      "name": "Night Watch (2026)",
       "style": "Stout - Imperial",
-      "abv": "10.5% ABV",
+      "abv": "11.2% ABV",
       "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "brewery": "Hopping Eagle Brewing Company",
+      "location": "Hawley, PA",
       "serving_options": [
         "4oz Draft $4.00",
         "10oz Draft $6.95",
@@ -397,7 +401,7 @@
   ],
   "lines": [
     "Wildling | IPA - New England | 6.5% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Ralphius (2025) | Stout - Imperial | 15.5% ABV | Free Will Brewing | Perkasie, PA",
+    "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
@@ -410,7 +414,7 @@
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Double Barrel Aged Moonlit (2026) | Stout - Imperial | 10.5% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
     "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
@@ -428,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "8fb6b7d5cc82435f72c369f928456279a16ccc9178fa6eeaeb9ad4f9bc7c017b",
-  "dataHash": "eff7645b6a0a95148819482ed64bf984651ba0e1b411a31a66e935f89dda5f13"
+  "hash": "386d2a9895f9b5670eb0c7895ce5d9379f70f68d99a108c127ecffb7046e603c",
+  "dataHash": "9f2528f27a132e0237d7ec27f070e4585c6c73e9ab143bfa9310c39b8e059c16"
 }
