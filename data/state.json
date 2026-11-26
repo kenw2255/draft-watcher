@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-25T23:51:10.820968+00:00",
+  "fetchedAt": "2026-11-26T22:00:26.214046+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 25, 6:33 PM EST",
+  "updatedAt": "Nov 26, 4:40 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "87c44e3d6cc6c0bf1665ccb191dec82a9eb3da82d0e34683db93d324bf807fee",
+  "rawHtmlHash": "9634cbb9bb500b3e7b246f40bfc09fb6e7dddd4eb8d0ce9c072ed8b699f308b6",
   "items": [
     {
       "name": "Chopped Cheese",
@@ -186,32 +186,6 @@
         "4oz Draft $2.50",
         "10oz Draft $3.75",
         "16oz Draft $4.95"
-      ]
-    },
-    {
-      "name": "Night Watch (2026)",
-      "style": "Stout - Imperial",
-      "abv": "11.2% ABV",
-      "ibu": "",
-      "brewery": "Hopping Eagle Brewing Company",
-      "location": "Hawley, PA",
-      "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
-      ]
-    },
-    {
-      "name": "Curious Gourd",
-      "style": "Pumpkin",
-      "abv": "6.3% ABV",
-      "ibu": "",
-      "brewery": "Ever Grain Brewing Co.",
-      "location": "Camp Hill, PA",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
       ]
     },
     {
@@ -414,8 +388,6 @@
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
-    "Night Watch (2026) | Stout - Imperial | 11.2% ABV | Hopping Eagle Brewing Company | Hawley, PA",
-    "Curious Gourd | Pumpkin | 6.3% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Blanche de Bruxelles | Wheat Beer - Witbier | 4.5% ABV | 18 IBU | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Blanche de Bruxelles Rosée | Wheat Beer - Fruited | 4.5% ABV | Brasserie Lefebvre | Rebecq, Région Wallonne",
     "Chimay 150 (Green) | Belgian Strong Golden Ale | 10% ABV | 31 IBU | Bières de Chimay | Chimay, Région Wallonne",
@@ -432,6 +404,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "e2f07263064cf32ff6da2e150cd5ab515b755abb671d511cf520c9f108f3119f",
-  "dataHash": "3080a8d82098c77e0e5fd7193822c2bbcec9faf1c70a82d12de9f37a79a66f19"
+  "hash": "794e487fa1e71bf35b3f9a8ca4e976a3d2dbd6af1c5c62b3e81957ceabd29ff5",
+  "dataHash": "85c8f3aa0bca4cc862d7b04095b5e64c62102a1c4f4318f188ae2268f59d9efd"
 }
