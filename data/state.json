@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-26T22:00:26.214046+00:00",
+  "fetchedAt": "2026-11-26T23:00:22.795618+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 26, 4:40 PM EST",
+  "updatedAt": "Nov 26, 5:30 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "9634cbb9bb500b3e7b246f40bfc09fb6e7dddd4eb8d0ce9c072ed8b699f308b6",
+  "rawHtmlHash": "0f989794a586d8134f3fee25f47935ab0049fc640a0a3520d3e9c2b9bee1c111",
   "items": [
     {
       "name": "Chopped Cheese",
@@ -17,19 +17,6 @@
         "4oz Draft $3.50",
         "10oz Draft $5.95",
         "16oz Draft $7.95"
-      ]
-    },
-    {
-      "name": "Boy Howdy! Cream Ale",
-      "style": "Cream Ale",
-      "abv": "5.5% ABV",
-      "ibu": "12 IBU",
-      "brewery": "Dogfish Head Craft Brewery",
-      "location": "Milton, DE",
-      "serving_options": [
-        "4oz Draft $3.00",
-        "10oz Draft $4.95",
-        "16oz Draft $5.95"
       ]
     },
     {
@@ -375,7 +362,6 @@
   ],
   "lines": [
     "Chopped Cheese | IPA - New England | 7.5% ABV | Other Half Brewing Co. | Brooklyn, NY",
-    "Boy Howdy! Cream Ale | Cream Ale | 5.5% ABV | 12 IBU | Dogfish Head Craft Brewery | Milton, DE",
     "Aecht Schlenkerla Eiche – Doppelbock | Rauchbier | 8% ABV | 40 IBU | Schlenkerla (\"Heller-Bräu\" Trum) | Bamberg, Bayern",
     "Nordic Lager - Limited Edition | Lager - Strong | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
@@ -404,6 +390,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "794e487fa1e71bf35b3f9a8ca4e976a3d2dbd6af1c5c62b3e81957ceabd29ff5",
-  "dataHash": "85c8f3aa0bca4cc862d7b04095b5e64c62102a1c4f4318f188ae2268f59d9efd"
+  "hash": "8d2d9414fd5dcc26ed71f13f5df8b3726d90a6fd1714890ff387353aa836a39c",
+  "dataHash": "78d4af3f7e8e95be7a41d3485f8a898ded4108a6aed257c6e4b6e9423678f676"
 }
