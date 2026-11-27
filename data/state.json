@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-27T15:21:13.818318+00:00",
+  "fetchedAt": "2026-11-27T21:31:14.415868+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 27, 10:03 AM EST",
+  "updatedAt": "Nov 27, 4:13 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "12c3c1253a4216a380aed4230a2ec489039cc206ab35fb577699ea0ca3ff24b4",
+  "rawHtmlHash": "ac8d28adc265400dc05db4d1bcde1452fbabbff7b0a9b27edd12569abf22a3f6",
   "items": [
     {
       "name": "Chopped Cheese",
@@ -98,16 +98,16 @@
       ]
     },
     {
-      "name": "Ridgeline",
-      "style": "Lager - Helles",
-      "abv": "4.8% ABV",
-      "ibu": "",
-      "brewery": "New Trail Brewing Co.",
-      "location": "Williamsport, PA",
+      "name": "Pumpkin Ale",
+      "style": "Pumpkin",
+      "abv": "7% ABV",
+      "ibu": "38 IBU",
+      "brewery": "Whole Hog Brewery",
+      "location": "Stevens Point, WI",
       "serving_options": [
         "4oz Draft $2.50",
         "10oz Draft $3.75",
-        "16oz Draft $4.95"
+        "16oz Draft $5.95"
       ]
     },
     {
@@ -407,7 +407,7 @@
     "1911 Cranberry Hard Cider | Cider - Other Fruit | 6.9% ABV | Beak & Skiff Apple Orchards | Lafayette, NY",
     "Multi Tool | IPA - New England | 6.1% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Tortured Minds | IPA - Imperial | 8.4% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
-    "Ridgeline | Lager - Helles | 4.8% ABV | New Trail Brewing Co. | Williamsport, PA",
+    "Pumpkin Ale | Pumpkin | 7% ABV | 38 IBU | Whole Hog Brewery | Stevens Point, WI",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Brewer's Cut | IPA - Imperial | 8% ABV | New Trail Brewing Co. | Williamsport, PA",
     "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "80b9b808f203e68b3978df764780353c43f1015378ce25b02d400d86279195c0",
-  "dataHash": "f7631245c38ac1caf6da0e7f109f1b9eec2b67d02ade08a584a46e72385260b9"
+  "hash": "d949492efb250b4abc9f5c7a0635b01f55bf22a010f637a921cc93263c3fc666",
+  "dataHash": "63cf86ebddf23bc48b8ec7401f59413b111c9f59d493da9f89e27e131d841413"
 }
