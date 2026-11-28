@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://business.untappd.com/locations/139/themes/340/js",
-  "fetchedAt": "2026-11-27T22:41:11.059774+00:00",
+  "fetchedAt": "2026-11-28T01:46:15.556787+00:00",
   "title": "Beers on Draft",
-  "updatedAt": "Nov 27, 5:22 PM EST",
+  "updatedAt": "Nov 27, 8:26 PM EST",
   "sectionName": "Sabatini's Bottleshop & Bar Draft Selection",
-  "rawHtmlHash": "d638b5785236c183cec159742d0399ff08a948e92b9c5946fac70fdfa2c32268",
+  "rawHtmlHash": "e5aecf190e9059fb9ad68316d158f1499051b6ce12cd841ccfb4a5799be04d20",
   "items": [
     {
       "name": "Chopped Cheese",
@@ -137,16 +137,16 @@
       ]
     },
     {
-      "name": "Blackheart",
-      "style": "IPA - English",
-      "abv": "8.5% ABV",
-      "ibu": "78 IBU",
-      "brewery": "3 Floyds Brewing",
-      "location": "Munster, IN",
+      "name": "Hopsmack!",
+      "style": "IPA - Imperial",
+      "abv": "7.8% ABV",
+      "ibu": "100 IBU",
+      "brewery": "Toppling Goliath Brewing Co.",
+      "location": "Decorah, IA",
       "serving_options": [
-        "4oz Draft $4.00",
-        "10oz Draft $6.95",
-        "16oz Draft $8.95"
+        "4oz Draft $3.50",
+        "10oz Draft $5.95",
+        "16oz Draft $7.95"
       ]
     },
     {
@@ -410,7 +410,7 @@
     "Pumpkin Ale | Pumpkin | 7% ABV | 38 IBU | Whole Hog Brewery | Stevens Point, WI",
     "PB&J Mixtape | Sour - Fruited | 6.5% ABV | Xül Beer Company | Knoxville, TN",
     "Brewer's Cut | IPA - Imperial | 8% ABV | New Trail Brewing Co. | Williamsport, PA",
-    "Blackheart | IPA - English | 8.5% ABV | 78 IBU | 3 Floyds Brewing | Munster, IN",
+    "Hopsmack! | IPA - Imperial | 7.8% ABV | 100 IBU | Toppling Goliath Brewing Co. | Decorah, IA",
     "Tiny Umbrellas | Sour - Fruited | 7% ABV | Xül Beer Company | Knoxville, TN",
     "Fletch | IPA - New Zealand | 7.2% ABV | Ever Grain Brewing Co. | Camp Hill, PA",
     "Kellerweis | Wheat Beer - Hefeweizen | 4.8% ABV | 17 IBU | Sierra Nevada Brewing Co. | Chico, CA",
@@ -432,6 +432,6 @@
     "Delirium Tremens | Belgian Strong Golden Ale | 8.5% ABV | 24 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest",
     "Delirium Red | Fruit Beer | 8% ABV | 10 IBU | Delirium - Huyghe Brewery | Melle, Vlaams Gewest"
   ],
-  "hash": "ad769f35555ff64a66f81e555e4393e45d7361979c990930a84f805813e0adbe",
-  "dataHash": "971cf96a81003dd028491fca79a6940203240b61b70ab3f80f3f1019179503e2"
+  "hash": "c5c60de7fe41bfb47324ab1fe20515cc75ad7bed59070b54c4c55c786712ae18",
+  "dataHash": "47d65d0b7cca6a652f50dbe9437cb3e22814637cfa10744bbdf06fc1ca946990"
 }
